@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/voa-cantonese-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - VOA - Cantonese Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:18 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="yu" title="新聞音頻 - 美國之音" htmlUrl="https://www.voacantonese.com/z/3587" xmlUrl="https://www.voacantonese.com/podcast/?count=50&amp;zoneId=3587" />
+    <outline type="Podcast" version="RSS" language="yu" title="粵語新聞 晚上10-11點 - 美國之音" htmlUrl="https://www.voacantonese.com/z/4066" xmlUrl="https://www.voacantonese.com/podcast/?count=50&amp;zoneId=4066" />
+    <outline type="Podcast" version="RSS" language="yu" title="粵語新聞 晚上9-10點 - 美國之音" htmlUrl="https://www.voacantonese.com/z/4065" xmlUrl="https://www.voacantonese.com/podcast/?count=50&amp;zoneId=4065" />
+  </body>
+</opml>

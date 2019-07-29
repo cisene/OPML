@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/voa-noticias-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - VOA - Español</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:26 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="es" title="Audios - Voice of America" htmlUrl="https://www.voanoticias.com/z/454" xmlUrl="https://www.voanoticias.com/podcast/?count=20&amp;zoneId=454" />
+    <outline type="Podcast" version="RSS" language="es" title="Buenos Días América - Voice of America" htmlUrl="https://www.voanoticias.com/z/537" xmlUrl="https://www.voanoticias.com/podcast/?count=50&amp;zoneId=537" />
+    <outline type="Podcast" version="RSS" language="es" title="Deportivo Internacional - Voice of America" htmlUrl="https://www.voanoticias.com/z/540" xmlUrl="https://www.voanoticias.com/podcast/?count=50&amp;zoneId=540" />
+    <outline type="Podcast" version="RSS" language="es" title="Voice of America" htmlUrl="https://www.voanoticias.com" xmlUrl="https://www.voanoticias.com/podcast/?count=20&amp;zoneld=537" />
+  </body>
+</opml>

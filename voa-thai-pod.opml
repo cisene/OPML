@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/voa-thai-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - VOA - ไทย Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:36 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="th" title="ข่าวสดสายตรงจากวีโอเอ ภาคภาษาไทย 6:30 – 7:00 น. - วอยซ์ ออฟ อเมริกา" htmlUrl="https://www.voathai.com/z/2177" xmlUrl="https://www.voathai.com/podcast/?count=50&amp;zoneId=2177" />
+    <outline type="Podcast" version="RSS" language="th" title="ข่าวสดสายตรงจากวีโอเอ ภาคภาษาไทย 8:30–9:00 น. - วอยซ์ ออฟ อเมริกา" htmlUrl="https://www.voathai.com/z/2188" xmlUrl="https://www.voathai.com/podcast/?count=20&amp;zoneId=2188" />
+    <outline type="Podcast" version="RSS" language="th" title="ข่าวสดสายตรงจากวีโอเอ ภาคภาษาไทย 8:30–9:00 น. - วอยซ์ ออฟ อเมริกา" htmlUrl="https://www.voathai.com/z/2188" xmlUrl="https://www.voathai.com/podcast/?count=50&amp;zoneId=2188" />
+    <outline type="Podcast" version="RSS" language="th" title="รายการวิทยุ - วอยซ์ ออฟ อเมริกา" htmlUrl="https://www.voathai.com/z/1831" xmlUrl="https://www.voathai.com/podcast/?count=50&amp;zoneId=1831" />
+    <outline type="Podcast" version="RSS" language="th" title="สุดสัปดาห์กับวีโอเอ - วอยซ์ ออฟ อเมริกา" htmlUrl="https://www.voathai.com/z/2190" xmlUrl="https://www.voathai.com/podcast/?count=20&amp;zoneId=2190" />
+    <outline type="Podcast" version="RSS" language="th" title="สุดสัปดาห์กับวีโอเอ - วอยซ์ ออฟ อเมริกา" htmlUrl="https://www.voathai.com/z/2190" xmlUrl="https://www.voathai.com/podcast/?count=50&amp;zoneId=2190" />
+    <outline type="Podcast" version="RSS" language="th" title="เรียนภาษาอังกฤษกับวีโอเอไทย - วอยซ์ ออฟ อเมริกา" htmlUrl="https://www.voathai.com/z/1819" xmlUrl="https://www.voathai.com/podcast/?count=50&amp;zoneId=1819" />
+  </body>
+</opml>

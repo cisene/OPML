@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/voa-korea-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - VOA - Korea 한국어 Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:24 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="ko" title="VOA 뉴스 투데이 - Voice of America" htmlUrl="https://www.voakorea.com/z/2721" xmlUrl="https://www.voakorea.com/podcast/?count=20&amp;zoneId=2721" />
+    <outline type="Podcast" version="RSS" language="ko" title="워싱턴 뉴스 광장 - Voice of America" htmlUrl="https://www.voakorea.com/z/2722" xmlUrl="https://www.voakorea.com/podcast/?count=50&amp;zoneId=2722" />
+  </body>
+</opml>

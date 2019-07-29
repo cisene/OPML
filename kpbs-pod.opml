@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/kpbs-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - KPBS - Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:53:18 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="en" title="Cinema Junkie" htmlUrl="https://www.kpbs.org/podcasts/cinema-junkie/" xmlUrl="https://www.kpbs.org/rss/podcasts/cinema-junkie/" />
+    <outline type="Podcast" version="RSS" language="en" title="Device" htmlUrl="https://www.kpbs.org/podcasts/device/" xmlUrl="https://www.kpbs.org/rss/podcasts/device/" />
+    <outline type="Podcast" version="RSS" language="en" title="Incoming" htmlUrl="https://www.kpbs.org/podcasts/incoming/" xmlUrl="https://www.kpbs.org/rss/podcasts/incoming/" />
+    <outline type="Podcast" version="RSS" language="en" title="KPBS Midday Edition" htmlUrl="https://www.kpbs.org/podcasts/kpbs-midday-edition/" xmlUrl="https://www.kpbs.org/rss/podcasts/kpbs-midday-edition/" />
+    <outline type="Podcast" version="RSS" language="en" title="Only Here" htmlUrl="https://www.kpbs.org/podcasts/only-here/" xmlUrl="https://www.kpbs.org/rss/podcasts/only-here/" />
+    <outline type="Podcast" version="RSS" language="en" title="Rad Scientist" htmlUrl="https://www.kpbs.org/podcasts/rad-scientist/" xmlUrl="https://www.kpbs.org/rss/podcasts/rad-scientist/" />
+    <outline type="Podcast" version="RSS" language="en" title="San Diego News Matters" htmlUrl="https://www.kpbs.org/podcasts/san-diego-news-matters/" xmlUrl="https://www.kpbs.org/rss/podcasts/san-diego-news-matters/" />
+  </body>
+</opml>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/voa-cambodia-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - VOA - Khmer Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:16 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="en" title="Evening News - Voice of America" htmlUrl="https://www.voacambodia.com/z/2789" xmlUrl="https://www.voacambodia.com/podcast/?count=20&amp;zoneId=2789" />
+    <outline type="Podcast" version="RSS" language="en" title="Morning News - Voice of America" htmlUrl="https://www.voacambodia.com/z/2788" xmlUrl="https://www.voacambodia.com/podcast/?count=20&amp;zoneId=2788" />
+  </body>
+</opml>

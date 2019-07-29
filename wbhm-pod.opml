@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/wbhm-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - WBHM - Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:49 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="en" title="WBHM 90.3 Public Radio" htmlUrl="https://wbhm.org" xmlUrl="http://www.wbhm.org/Tapestry/rss.rdf" />
+  </body>
+</opml>

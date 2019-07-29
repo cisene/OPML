@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/radiohelsinki-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - RadioHelsinki.fi - Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:00 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="fi" title="Futucast" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=92517" />
+    <outline type="Podcast" version="RSS" language="fi" title="Helsinki Design Weekly" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=147894" />
+    <outline type="Podcast" version="RSS" language="fi" title="How Bad Was That with Ali and James" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=176475" />
+    <outline type="Podcast" version="RSS" language="fi" title="Kirjeitä tulevaisuudesta" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="https://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=189525" />
+    <outline type="Podcast" version="RSS" language="fi" title="Kuosissa" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=134472" />
+    <outline type="Podcast" version="RSS" language="fi" title="Omaa luokkaa" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=88678" />
+    <outline type="Podcast" version="RSS" language="fi" title="Radio Helsinki" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=17026" />
+    <outline type="Podcast" version="RSS" language="fi" title="Radio Helsinki" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=17027" />
+    <outline type="Podcast" version="RSS" language="fi" title="Radio Helsinki" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=12115" />
+    <outline type="Podcast" version="RSS" language="fi" title="Radio Helsinki" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=12335" />
+    <outline type="Podcast" version="RSS" language="fi" title="Radio Helsinki" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/" />
+    <outline type="Podcast" version="RSS" language="fi" title="Ruokatunti" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=12108" />
+    <outline type="Podcast" version="RSS" language="fi" title="Ruskeat Tytöt" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=47409" />
+    <outline type="Podcast" version="RSS" language="fi" title="Tasavalta" htmlUrl="https://www.radiohelsinki.fi" xmlUrl="http://www.radiohelsinki.fi/feed/?post_type=rh_podcast&amp;rh_program_id=12228" />
+  </body>
+</opml>

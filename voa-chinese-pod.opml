@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/voa-chinese-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - VOA - Chinese Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:20 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="zh" title="VOA卫视音频 - 美国之音" htmlUrl="https://www.voachinese.com/z/3637" xmlUrl="https://www.voachinese.com/podcast/?count=50&amp;zoneId=3637" />
+    <outline type="Podcast" version="RSS" language="zh" title="学英语音频 - 美国之音" htmlUrl="https://www.voachinese.com/z/3514" xmlUrl="https://www.voachinese.com/podcast/?count=50&amp;zoneId=3514" />
+    <outline type="Podcast" version="RSS" language="zh" title="广播 - 美国之音" htmlUrl="https://www.voachinese.com/z/1773" xmlUrl="https://www.voachinese.com/podcast/?count=50&amp;zoneId=1773" />
+    <outline type="Podcast" version="RSS" language="zh" title="新闻音频 - 美国之音" htmlUrl="https://www.voachinese.com/z/1738" xmlUrl="https://www.voachinese.com/podcast/?count=50&amp;zoneId=1738" />
+    <outline type="Podcast" version="RSS" language="zh" title="早6-7点广播节目 - 美国之音" htmlUrl="https://www.voachinese.com/z/2325" xmlUrl="https://www.voachinese.com/podcast/?count=50&amp;zoneId=2325" />
+    <outline type="Podcast" version="RSS" language="zh" title="早8-9点广播节目 - 美国之音" htmlUrl="https://www.voachinese.com/z/2376" xmlUrl="https://www.voachinese.com/podcast/?count=50&amp;zoneId=2376" />
+    <outline type="Podcast" version="RSS" language="zh" title="晚10-11点广播节目 - 美国之音" htmlUrl="https://www.voachinese.com/z/2310" xmlUrl="https://www.voachinese.com/podcast/?count=50&amp;zoneId=2310" />
+    <outline type="Podcast" version="RSS" language="zh" title="晚5-6点广播节目 - 美国之音" htmlUrl="https://www.voachinese.com/z/2370" xmlUrl="https://www.voachinese.com/podcast/?count=50&amp;zoneId=2370" />
+    <outline type="Podcast" version="RSS" language="zh" title="晚6-7点广播节目 - 美国之音" htmlUrl="https://www.voachinese.com/z/2372" xmlUrl="https://www.voachinese.com/podcast/?count=50&amp;zoneId=2372" />
+    <outline type="Podcast" version="RSS" language="zh" title="晚7-8点广播节目 - 美国之音" htmlUrl="https://www.voachinese.com/z/2373" xmlUrl="https://www.voachinese.com/podcast/?count=50&amp;zoneId=2373" />
+    <outline type="Podcast" version="RSS" language="zh" title="晚8-9点广播节目 - 美国之音" htmlUrl="https://www.voachinese.com/z/2374" xmlUrl="https://www.voachinese.com/podcast/?count=50&amp;zoneId=2374" />
+    <outline type="Podcast" version="RSS" language="zh" title="晚9-10点广播节目 - 美国之音" htmlUrl="https://www.voachinese.com/z/2375" xmlUrl="https://www.voachinese.com/podcast/?count=50&amp;zoneId=2375" />
+  </body>
+</opml>

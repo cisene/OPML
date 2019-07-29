@@ -1,297 +1,286 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Podmix/0.2-dev -->
+<!-- Created with Podmix-OPML/0.4-dev -->
 <!-- Source: http://b19.se/data/sr-pod.opml -->
 <opml version="2.0">
   <head>
-    <title>Sverigesradio.se - Podcasts</title>
-    <dateModified>Sun, 30 Jun 2019 14:36:14 +0000</dateModified>
+    <title>Podmix - SverigesRadios Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:10 +0000</dateModified>
   </head>
   <body>
-      <outline type="Podcast" version="RSS" language="sv" title="1000 modiga frågor i Barnradion" htmlUrl="https://sverigesradio.se/1000modigafragoribarnradion" xmlUrl="https://api.sr.se/api/rss/pod/19359" />
-      <outline type="Podcast" version="RSS" language="sv" title="Algoritmen" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5244" xmlUrl="https://api.sr.se/api/rss/pod/28805" />
-      <outline type="Podcast" version="RSS" language="sv" title="Alice i Underlandet" htmlUrl="https://sverigesradio.se/sida/avsnitt/1098965?programid=3171&amp;groupid=26271" xmlUrl="https://api.sr.se/api/rss/pod/27346" />
-      <outline type="Podcast" version="RSS" language="sv" title="Alice i Underlandet" htmlUrl="https://sverigesradio.se/sida/gruppsida.aspx?programid=3171&amp;grupp=26271" xmlUrl="https://api.sr.se/api/rss/pod/27353" />
-      <outline type="Podcast" version="RSS" language="sv" title="Allvarligt talat" htmlUrl="https://sverigesradio.se/allvarligttalat" xmlUrl="https://api.sr.se/api/rss/pod/5191" />
-      <outline type="Podcast" version="RSS" language="sv" title="Anna Blomberg i P4" htmlUrl="https://sverigesradio.se/annablombergip4" xmlUrl="https://api.sr.se/api/rss/pod/24021" />
-      <outline type="Podcast" version="RSS" language="sv" title="Annika Lantz i P1" htmlUrl="https://sverigesradio.se/annika-lantz-i-p1" xmlUrl="https://api.sr.se/api/rss/pod/19243" />
-      <outline type="Podcast" version="RSS" language="sv" title="App och etikett" htmlUrl="https://sverigesradio.se/appochetikett" xmlUrl="https://api.sr.se/api/rss/pod/27442" />
-      <outline type="Podcast" version="RSS" language="sv" title="Arabisk Talkshow, Talkshow بالعربي" htmlUrl="https://sverigesradio.se/arabisktalkshowtalkshow" xmlUrl="https://api.sr.se/api/rss/pod/22836" />
-      <outline type="Podcast" version="RSS" language="sv" title="Avgörande ögonblick" htmlUrl="https://sverigesradio.se/sida/avsnitt?programid=1602" xmlUrl="https://api.sr.se/api/rss/pod/3984" />
-      <outline type="Podcast" version="RSS" language="sv" title="Backstage med Marit Bergman" htmlUrl="https://sverigesradio.se/backstagemedmaritbergman" xmlUrl="https://api.sr.se/api/rss/pod/24096" />
-      <outline type="Podcast" version="RSS" language="sv" title="Barnen möter partiledarna" htmlUrl="https://sverigesradio.se/barnenmoterpartiledarna" xmlUrl="https://api.sr.se/api/rss/pod/26062" />
-      <outline type="Podcast" version="RSS" language="sv" title="Barnmorgon med Jonas" htmlUrl="https://sverigesradio.se/barnmorgonmedjonas" xmlUrl="https://api.sr.se/api/rss/pod/22669" />
-      <outline type="Podcast" version="RSS" language="sv" title="Barnradions bokpris" htmlUrl="https://sverigesradio.se/barnradionsbokpris" xmlUrl="https://api.sr.se/api/rss/pod/12065" />
-      <outline type="Podcast" version="RSS" language="sv" title="Barnradions poddpaket 3-8 år" htmlUrl="https://sverigesradio.se/barnradionspoddpaket38ar" xmlUrl="https://api.sr.se/api/rss/pod/21895" />
-      <outline type="Podcast" version="RSS" language="sv" title="Barnradions poddpaket 9-13 år" htmlUrl="https://sverigesradio.se/barnradionspoddpaket913ar" xmlUrl="https://api.sr.se/api/rss/pod/22477" />
-      <outline type="Podcast" version="RSS" language="sv" title="Båtlivet i P4" htmlUrl="https://sverigesradio.se/batlivetip4" xmlUrl="https://api.sr.se/api/rss/pod/14928" />
-      <outline type="Podcast" version="RSS" language="sv" title="Bergmanpodden" htmlUrl="https://sverigesradio.se/bergmanpodden" xmlUrl="https://api.sr.se/api/rss/pod/25657" />
-      <outline type="Podcast" version="RSS" language="sv" title="Besluten som format Sverige" htmlUrl="https://sverigesradio.se/beslutensomformatsverige" xmlUrl="https://api.sr.se/api/rss/pod/24083" />
-      <outline type="Podcast" version="RSS" language="sv" title="Bokcirkeln" htmlUrl="https://sverigesradio.se/bokcirkeln" xmlUrl="https://api.sr.se/api/rss/pod/5579" />
-      <outline type="Podcast" version="RSS" language="sv" title="Bota mig!" htmlUrl="https://sverigesradio.se/botamig" xmlUrl="https://api.sr.se/api/rss/pod/28745" />
-      <outline type="Podcast" version="RSS" language="sv" title="City Sisu" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/24442" />
-      <outline type="Podcast" version="RSS" language="sv" title="Creepypodden i P3" htmlUrl="https://sverigesradio.se/creepypoddenmedjackwerner" xmlUrl="https://api.sr.se/api/rss/pod/22209" />
-      <outline type="Podcast" version="RSS" language="sv" title="Cykla i P1" htmlUrl="https://sverigesradio.se/cyklaip1" xmlUrl="https://api.sr.se/api/rss/pod/19424" />
-      <outline type="Podcast" version="RSS" language="sv" title="Dagens dikt" htmlUrl="https://sverigesradio.se/dagensdikt" xmlUrl="https://api.sr.se/api/rss/pod/22005" />
-      <outline type="Podcast" version="RSS" language="sv" title="De fyra elementen i barnradion" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5240" xmlUrl="https://api.sr.se/api/rss/pod/28804" />
-      <outline type="Podcast" version="RSS" language="sv" title="Den gömda koden" htmlUrl="https://sverigesradio.se/dengomdakoden" xmlUrl="https://api.sr.se/api/rss/pod/21612" />
-      <outline type="Podcast" version="RSS" language="sv" title="Det politiska spelet" htmlUrl="https://sverigesradio.se/detpolitiskaspelet" xmlUrl="https://api.sr.se/api/rss/pod/21597" />
-      <outline type="Podcast" version="RSS" language="sv" title="Di farkishefte pishke - sagor på jiddisch" htmlUrl="https://sverigesradio.se/difarkisheftepishkesagorpajiddisch" xmlUrl="https://api.sr.se/api/rss/pod/4914" />
-      <outline type="Podcast" version="RSS" language="sv" title="Dialekt i P1" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5216" xmlUrl="https://api.sr.se/api/rss/pod/26312" />
-      <outline type="Podcast" version="RSS" language="sv" title="Digitala insatsstyrkans blogg" htmlUrl="https://sverigesradio.se/digitalainsatsstyrkan" xmlUrl="https://api.sr.se/api/rss/pod/27493" />
-      <outline type="Podcast" version="RSS" language="sv" title="Drama för unga" htmlUrl="https://sverigesradio.se/dramaforunga" xmlUrl="https://api.sr.se/api/rss/pod/14989" />
-      <outline type="Podcast" version="RSS" language="sv" title="Drama-arkivet i P1" htmlUrl="https://sverigesradio.se/dramaarkivetip1" xmlUrl="https://api.sr.se/api/rss/pod/18825" />
-      <outline type="Podcast" version="RSS" language="sv" title="Eftermiddag i P4 Kalmar" htmlUrl="https://sverigesradio.se/eftermiddagip4kalmar" xmlUrl="https://api.sr.se/api/rss/pod/24448" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ekonomi" htmlUrl="https://sverigesradio.se/ekonomi" xmlUrl="https://api.sr.se/api/rss/pod/25562" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ekonomiekot" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=178" xmlUrl="https://api.sr.se/api/rss/pod/3821" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ekonomiekot" htmlUrl="https://sverigesradio.se/sida/avsnitt?programid=178" xmlUrl="https://api.sr.se/api/rss/pod/24333" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ekonomiekot Extra" htmlUrl="https://sverigesradio.se/ekonomiekotextra" xmlUrl="https://api.sr.se/api/rss/pod/8749" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ekonyheter" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=4540" xmlUrl="https://api.sr.se/api/rss/pod/24334" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ekot" htmlUrl="https://sverigesradio.se/ekot" xmlUrl="https://api.sr.se/api/rss/pod/3795" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ekot granskar" htmlUrl="https://sverigesradio.se/ekotgranskar" xmlUrl="https://api.sr.se/api/rss/pod/19303" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ekot Special" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5251" xmlUrl="https://api.sr.se/api/rss/pod/30920" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ekots lördagsintervju" htmlUrl="https://sverigesradio.se/ekotslordagsintervju" xmlUrl="https://api.sr.se/api/rss/pod/3953" />
-      <outline type="Podcast" version="RSS" language="sv" title="En ö i havet" htmlUrl="https://sverigesradio.se/sida/gruppsida.aspx?programid=3171&amp;grupp=26269" xmlUrl="https://api.sr.se/api/rss/pod/27349" />
-      <outline type="Podcast" version="RSS" language="sv" title="Etelä-Ruotsin Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/24444" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ett nytt Sverige" htmlUrl="https://sverigesradio.se/ettnyttsverige" xmlUrl="https://api.sr.se/api/rss/pod/22891" />
-      <outline type="Podcast" version="RSS" language="sv" title="EU-valet 2019" htmlUrl="https://sverigesradio.se/euvalet" xmlUrl="https://api.sr.se/api/rss/pod/21401" />
-      <outline type="Podcast" version="RSS" language="sv" title="Europapodden" htmlUrl="https://sverigesradio.se/europapodden" xmlUrl="https://api.sr.se/api/rss/pod/22793" />
-      <outline type="Podcast" version="RSS" language="sv" title="Farah i P3" htmlUrl="https://sverigesradio.se/farahip3" xmlUrl="https://api.sr.se/api/rss/pod/28686" />
-      <outline type="Podcast" version="RSS" language="sv" title="Filosofera med Farzad" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5225" xmlUrl="https://api.sr.se/api/rss/pod/27515" />
-      <outline type="Podcast" version="RSS" language="sv" title="Filosofiska rummet" htmlUrl="https://sverigesradio.se/filosofiskarummet" xmlUrl="https://api.sr.se/api/rss/pod/3963" />
-      <outline type="Podcast" version="RSS" language="sv" title="Finnjävlarpodden" htmlUrl="https://sverigesradio.se/finnjavlarpodden" xmlUrl="https://api.sr.se/api/rss/pod/23655" />
-      <outline type="Podcast" version="RSS" language="sv" title="Finnmix" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=2707" xmlUrl="https://api.sr.se/api/rss/pod/28857" />
-      <outline type="Podcast" version="RSS" language="sv" title="Fogelbergs ljudbokspodd" htmlUrl="https://sverigesradio.se/fogelbergsljudbokspodd" xmlUrl="https://api.sr.se/api/rss/pod/23903" />
-      <outline type="Podcast" version="RSS" language="sv" title="Förmiddag i P4 Kalmar" htmlUrl="https://sverigesradio.se/formiddagip4kalmar" xmlUrl="https://api.sr.se/api/rss/pod/24449" />
-      <outline type="Podcast" version="RSS" language="sv" title="FotbollsArena Radiosporten" htmlUrl="https://sverigesradio.se/fotbollsarenaradiosporten" xmlUrl="https://api.sr.se/api/rss/pod/18535" />
-      <outline type="Podcast" version="RSS" language="sv" title="Fråga musikprofessorn" htmlUrl="https://sverigesradio.se/fragamusikprofessorn" xmlUrl="https://api.sr.se/api/rss/pod/23971" />
-      <outline type="Podcast" version="RSS" language="sv" title="Fråga vad du vill i P3" htmlUrl="https://sverigesradio.se/fragavadduvillip3" xmlUrl="https://api.sr.se/api/rss/pod/22956" />
-      <outline type="Podcast" version="RSS" language="sv" title="Fredag i P4" htmlUrl="https://sverigesradio.se/fredagip4" xmlUrl="https://api.sr.se/api/rss/pod/23622" />
-      <outline type="Podcast" version="RSS" language="sv" title="Godmorgon, världen!" htmlUrl="https://sverigesradio.se/godmorgon-varlden" xmlUrl="https://api.sr.se/api/rss/pod/3958" />
-      <outline type="Podcast" version="RSS" language="sv" title="Gränslöst" htmlUrl="https://sverigesradio.se/granslost" xmlUrl="https://api.sr.se/api/rss/pod/21153" />
-      <outline type="Podcast" version="RSS" language="sv" title="Grunden till allt" htmlUrl="https://sverigesradio.se/grundentillallt" xmlUrl="https://api.sr.se/api/rss/pod/28739" />
-      <outline type="Podcast" version="RSS" language="sv" title="Gudstjänsten" htmlUrl="https://sverigesradio.se/gudstjansten" xmlUrl="https://api.sr.se/api/rss/pod/24397" />
-      <outline type="Podcast" version="RSS" language="sv" title="Hej jag heter Fredrik" htmlUrl="https://sverigesradio.se/hejjagheterfredrik" xmlUrl="https://api.sr.se/api/rss/pod/30938" />
-      <outline type="Podcast" version="RSS" language="sv" title="Historierummet i Barnradion" htmlUrl="https://sverigesradio.se/historierummetibarnradion" xmlUrl="https://api.sr.se/api/rss/pod/25889" />
-      <outline type="Podcast" version="RSS" language="sv" title="Historiska val" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5227" xmlUrl="https://api.sr.se/api/rss/pod/28547" />
-      <outline type="Podcast" version="RSS" language="sv" title="Husesyn med Ulla Skoog" htmlUrl="https://sverigesradio.se/husesynmedullaskoog" xmlUrl="https://api.sr.se/api/rss/pod/24044" />
-      <outline type="Podcast" version="RSS" language="sv" title="I lagens namn" htmlUrl="https://sverigesradio.se/ilagensnamn" xmlUrl="https://api.sr.se/api/rss/pod/21147" />
-      <outline type="Podcast" version="RSS" language="sv" title="Instrumentalisterna" htmlUrl="https://sverigesradio.se/instrumentalisterna" xmlUrl="https://api.sr.se/api/rss/pod/26274" />
-      <outline type="Podcast" version="RSS" language="sv" title="Jiddisch far alle" htmlUrl="https://sverigesradio.se/jiddischfaralle" xmlUrl="https://api.sr.se/api/rss/pod/23331" />
-      <outline type="Podcast" version="RSS" language="sv" title="Jukeboxen i P4" htmlUrl="https://sverigesradio.se/jukeboxenip4" xmlUrl="https://api.sr.se/api/rss/pod/22714" />
-      <outline type="Podcast" version="RSS" language="sv" title="Julkalendern 2018: Tonje i Glimmerdalen" htmlUrl="https://sverigesradio.se/tonjeiglimmerdalen" xmlUrl="https://api.sr.se/api/rss/pod/26225" />
-      <outline type="Podcast" version="RSS" language="sv" title="Juniornyheterna" htmlUrl="https://sverigesradio.se/juniornyheterna" xmlUrl="https://api.sr.se/api/rss/pod/28850" />
-      <outline type="Podcast" version="RSS" language="sv" title="Juniorsporten" htmlUrl="https://sverigesradio.se/juniorsporten" xmlUrl="https://api.sr.se/api/rss/pod/17470" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kaliber" htmlUrl="https://sverigesradio.se/kaliber" xmlUrl="https://api.sr.se/api/rss/pod/4016" />
-      <outline type="Podcast" version="RSS" language="sv" title="Känsligt läge med Klara Zimmergren" htmlUrl="https://sverigesradio.se/kansligtlage" xmlUrl="https://api.sr.se/api/rss/pod/22029" />
-      <outline type="Podcast" version="RSS" language="sv" title="Karlavagnen" htmlUrl="https://sverigesradio.se/karlavagnen" xmlUrl="https://api.sr.se/api/rss/pod/9850" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kärlek i P4" htmlUrl="https://sverigesradio.se/karlekip4" xmlUrl="https://api.sr.se/api/rss/pod/22484" />
-      <outline type="Podcast" version="RSS" language="sv" title="Katarina Hahr möter" htmlUrl="https://sverigesradio.se/katarinahahrmoter" xmlUrl="https://api.sr.se/api/rss/pod/18732" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kattis med fredagssalongen" htmlUrl="https://sverigesradio.se/kattisfredagmedsalongen" xmlUrl="https://api.sr.se/api/rss/pod/17254" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kesäpuhujat" htmlUrl="https://sverigesradio.se/kesapuhujat" xmlUrl="https://api.sr.se/api/rss/pod/15372" />
-      <outline type="Podcast" version="RSS" language="sv" title="Keski-Ruotsin Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25498" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kielipuoli" htmlUrl="https://sverigesradio.se/kielipuoli" xmlUrl="https://api.sr.se/api/rss/pod/22363" />
-      <outline type="Podcast" version="RSS" language="sv" title="Klartext" htmlUrl="https://sverigesradio.se/klartext" xmlUrl="https://api.sr.se/api/rss/pod/4019" />
-      <outline type="Podcast" version="RSS" language="sv" title="Klassikern" htmlUrl="https://sverigesradio.se/klassikern" xmlUrl="https://api.sr.se/api/rss/pod/11143" />
-      <outline type="Podcast" version="RSS" language="sv" title="Klassiska podden" htmlUrl="https://sverigesradio.se/klassiskapodden" xmlUrl="https://api.sr.se/api/rss/pod/23177" />
-      <outline type="Podcast" version="RSS" language="sv" title="Klotet i Vetenskapsradion" htmlUrl="https://sverigesradio.se/vetklotet" xmlUrl="https://api.sr.se/api/rss/pod/6230" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kluvet land" htmlUrl="https://sverigesradio.se/kluvetland" xmlUrl="https://api.sr.se/api/rss/pod/14990" />
-      <outline type="Podcast" version="RSS" language="sv" title="Konflikt" htmlUrl="https://sverigesradio.se/konflikt" xmlUrl="https://api.sr.se/api/rss/pod/3967" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kossornas planet" htmlUrl="https://sverigesradio.se/kossornasplanet" xmlUrl="https://api.sr.se/api/rss/pod/5582" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kraschen (P1 drama)" htmlUrl="https://sverigesradio.se/sida/gruppsida.aspx?programid=4976&amp;grupp=28644" xmlUrl="https://api.sr.se/api/rss/pod/28645" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kropp &amp; Själ" htmlUrl="https://sverigesradio.se/kroppsjal" xmlUrl="https://api.sr.se/api/rss/pod/4015" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kroppskontakt" htmlUrl="https://sverigesradio.se/kroppskontakt" xmlUrl="https://api.sr.se/api/rss/pod/26129" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kulttuurikeskustelu Koukku" htmlUrl="https://sverigesradio.se/kulttuurikeskustelukoukku" xmlUrl="https://api.sr.se/api/rss/pod/22364" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kulttuurisunnuntai" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25502" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kulturnytt i P1" htmlUrl="https://sverigesradio.se/kulturnytt" xmlUrl="https://api.sr.se/api/rss/pod/5581" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kulturnytt i P4" htmlUrl="https://sverigesradio.se/kulturnyttip4" xmlUrl="https://api.sr.se/api/rss/pod/18708" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kulturreportaget i P1" htmlUrl="https://sverigesradio.se/kulturpoddarip1" xmlUrl="https://api.sr.se/api/rss/pod/12209" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kusin Vaken i Barnradion" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5232" xmlUrl="https://api.sr.se/api/rss/pod/28674" />
-      <outline type="Podcast" version="RSS" language="sv" title="Kvällspasset i P4" htmlUrl="https://sverigesradio.se/kvallspassetip4" xmlUrl="https://api.sr.se/api/rss/pod/22503" />
-      <outline type="Podcast" version="RSS" language="sv" title="Land- och sjöväder" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=2000" xmlUrl="https://api.sr.se/api/rss/pod/25910" />
-      <outline type="Podcast" version="RSS" language="sv" title="Länsi-Ruotsin Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25507" />
-      <outline type="Podcast" version="RSS" language="sv" title="Lastenohjelma Roketti" htmlUrl="https://sverigesradio.se/roketti" xmlUrl="https://api.sr.se/api/rss/pod/23205" />
-      <outline type="Podcast" version="RSS" language="sv" title="Lediga jobb på Sveriges Radio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5243" xmlUrl="https://api.sr.se/api/rss/pod/28802" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ligga med P3" htmlUrl="https://sverigesradio.se/liggamedp3" xmlUrl="https://api.sr.se/api/rss/pod/13557" />
-      <outline type="Podcast" version="RSS" language="sv" title="Livet enligt Naturmorgon" htmlUrl="https://sverigesradio.se/livetenligtnaturmorgon" xmlUrl="https://api.sr.se/api/rss/pod/24046" />
-      <outline type="Podcast" version="RSS" language="sv" title="Loppmarknadsarkeologerna" htmlUrl="https://sverigesradio.se/loppmarknadsarkeologerna" xmlUrl="https://api.sr.se/api/rss/pod/22700" />
-      <outline type="Podcast" version="RSS" language="sv" title="Lundströms Bokradio" htmlUrl="https://sverigesradio.se/lundstromsbokradio" xmlUrl="https://api.sr.se/api/rss/pod/18340" />
-      <outline type="Podcast" version="RSS" language="sv" title="Luokkaretki" htmlUrl="https://sverigesradio.se/luokkaretki" xmlUrl="https://api.sr.se/api/rss/pod/25506" />
-      <outline type="Podcast" version="RSS" language="sv" title="Magiska skogen i Barnradion" htmlUrl="https://sverigesradio.se/magiskaskogenibarnradion" xmlUrl="https://api.sr.se/api/rss/pod/23805" />
-      <outline type="Podcast" version="RSS" language="sv" title="Magiska skrinet - sagor från minoritetsspråken" htmlUrl="https://sverigesradio.se/magiskaskrinetsagorfranminoritetsspraken" xmlUrl="https://api.sr.se/api/rss/pod/22476" />
-      <outline type="Podcast" version="RSS" language="sv" title="Mammas Nya Kille" htmlUrl="https://sverigesradio.se/mammasnyakille" xmlUrl="https://api.sr.se/api/rss/pod/4892" />
-      <outline type="Podcast" version="RSS" language="sv" title="Mánáidrádio" htmlUrl="https://sverigesradio.se/manaidradio" xmlUrl="https://api.sr.se/api/rss/pod/25476" />
-      <outline type="Podcast" version="RSS" language="sv" title="Människor och tro" htmlUrl="https://sverigesradio.se/manniskorochtro" xmlUrl="https://api.sr.se/api/rss/pod/3973" />
-      <outline type="Podcast" version="RSS" language="sv" title="Meän Kläpit" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=4907" xmlUrl="https://api.sr.se/api/rss/pod/28856" />
-      <outline type="Podcast" version="RSS" language="sv" title="Meän Kläpit" htmlUrl="https://sverigesradio.se/meanklapit" xmlUrl="https://api.sr.se/api/rss/pod/22605" />
-      <outline type="Podcast" version="RSS" language="sv" title="Meänraatio" htmlUrl="https://sverigesradio.se/meanraatio" xmlUrl="https://api.sr.se/api/rss/pod/10469" />
-      <outline type="Podcast" version="RSS" language="sv" title="Meänraatio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=1017" xmlUrl="https://api.sr.se/api/rss/pod/28853" />
-      <outline type="Podcast" version="RSS" language="sv" title="Medierna" htmlUrl="https://sverigesradio.se/medierna" xmlUrl="https://api.sr.se/api/rss/pod/3951" />
-      <outline type="Podcast" version="RSS" language="sv" title="Meka med ABC i barnradion" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5245" xmlUrl="https://api.sr.se/api/rss/pod/28812" />
-      <outline type="Podcast" version="RSS" language="sv" title="Melodikrysset" htmlUrl="https://sverigesradio.se/melodikrysset" xmlUrl="https://api.sr.se/api/rss/pod/15447" />
-      <outline type="Podcast" version="RSS" language="sv" title="Meny" htmlUrl="https://sverigesradio.se/meny" xmlUrl="https://api.sr.se/api/rss/pod/4009" />
-      <outline type="Podcast" version="RSS" language="sv" title="Min Story – Storydox i P4" htmlUrl="https://sverigesradio.se/minstorystorydoxip4" xmlUrl="https://api.sr.se/api/rss/pod/23980" />
-      <outline type="Podcast" version="RSS" language="sv" title="Morgon i P4 Göteborg" htmlUrl="https://sverigesradio.se/morgonip4goteborg" xmlUrl="https://api.sr.se/api/rss/pod/26329" />
-      <outline type="Podcast" version="RSS" language="sv" title="Morgon i P4 Kalmar" htmlUrl="https://sverigesradio.se/morgonip4kalmar" xmlUrl="https://api.sr.se/api/rss/pod/24450" />
-      <outline type="Podcast" version="RSS" language="sv" title="Morgon i P4 Västerbotten" htmlUrl="https://sverigesradio.se/morgonip4vasterbotten" xmlUrl="https://api.sr.se/api/rss/pod/26070" />
-      <outline type="Podcast" version="RSS" language="sv" title="Morgonandakten" htmlUrl="https://sverigesradio.se/morgonandakten" xmlUrl="https://api.sr.se/api/rss/pod/8842" />
-      <outline type="Podcast" version="RSS" language="sv" title="Morgonpasset i P3" htmlUrl="https://sverigesradio.se/morgonpassetip3" xmlUrl="https://api.sr.se/api/rss/pod/4893" />
-      <outline type="Podcast" version="RSS" language="sv" title="Morgonpasset i P3 – Gästen" htmlUrl="https://sverigesradio.se/morgonpassetip3gasten" xmlUrl="https://api.sr.se/api/rss/pod/21772" />
-      <outline type="Podcast" version="RSS" language="sv" title="Musik och matematik" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5195" xmlUrl="https://api.sr.se/api/rss/pod/26100" />
-      <outline type="Podcast" version="RSS" language="sv" title="Musikdokumentär" htmlUrl="https://sverigesradio.se/musikdokumentar" xmlUrl="https://api.sr.se/api/rss/pod/22649" />
-      <outline type="Podcast" version="RSS" language="sv" title="Musikguiden i P3" htmlUrl="https://sverigesradio.se/musikguidenip3" xmlUrl="https://api.sr.se/api/rss/pod/18656" />
-      <outline type="Podcast" version="RSS" language="sv" title="Musikrevyn i P2" htmlUrl="https://sverigesradio.se/musikrevynip2" xmlUrl="https://api.sr.se/api/rss/pod/22303" />
-      <outline type="Podcast" version="RSS" language="sv" title="Musikspecial i P4" htmlUrl="https://sverigesradio.se/musikspecialip4" xmlUrl="https://api.sr.se/api/rss/pod/22895" />
-      <outline type="Podcast" version="RSS" language="sv" title="Naturmorgon" htmlUrl="https://sverigesradio.se/naturmorgon" xmlUrl="https://api.sr.se/api/rss/pod/4008" />
-      <outline type="Podcast" version="RSS" language="sv" title="Nordegren &amp; Epstein i P1" htmlUrl="https://sverigesradio.se/nordegrenepsteinip1" xmlUrl="https://api.sr.se/api/rss/pod/13716" />
-      <outline type="Podcast" version="RSS" language="sv" title="Norlannin Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25509" />
-      <outline type="Podcast" version="RSS" language="sv" title="Nyheter i Barnradion" htmlUrl="https://sverigesradio.se/nyheteribarnradion" xmlUrl="https://api.sr.se/api/rss/pod/19086" />
-      <outline type="Podcast" version="RSS" language="sv" title="Nyhetsteman" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5250" xmlUrl="https://api.sr.se/api/rss/pod/28868" />
-      <outline type="Podcast" version="RSS" language="sv" title="OBS" htmlUrl="https://sverigesradio.se/obs" xmlUrl="https://api.sr.se/api/rss/pod/11327" />
-      <outline type="Podcast" version="RSS" language="sv" title="Odla med P1" htmlUrl="https://sverigesradio.se/odlamedp1" xmlUrl="https://api.sr.se/api/rss/pod/3994" />
-      <outline type="Podcast" version="RSS" language="sv" title="Om Radiosporten" htmlUrl="https://sverigesradio.se/omradiosporten" xmlUrl="https://api.sr.se/api/rss/pod/24346" />
-      <outline type="Podcast" version="RSS" language="sv" title="Operaguiden" htmlUrl="https://sverigesradio.se/operaguiden" xmlUrl="https://api.sr.se/api/rss/pod/22344" />
-      <outline type="Podcast" version="RSS" language="sv" title="Operahuset" htmlUrl="https://sverigesradio.se/operahuset" xmlUrl="https://api.sr.se/api/rss/pod/22822" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ordvalet" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5185" xmlUrl="https://api.sr.se/api/rss/pod/26112" />
-      <outline type="Podcast" version="RSS" language="sv" title="Oscar Zia i P3" htmlUrl="https://sverigesradio.se/oscarziaip3" xmlUrl="https://api.sr.se/api/rss/pod/24029" />
-      <outline type="Podcast" version="RSS" language="sv" title="P1 Dokumentär" htmlUrl="https://sverigesradio.se/p1dokumentar" xmlUrl="https://api.sr.se/api/rss/pod/4013" />
-      <outline type="Podcast" version="RSS" language="sv" title="P1 Drama" htmlUrl="https://sverigesradio.se/drama" xmlUrl="https://api.sr.se/api/rss/pod/22995" />
-      <outline type="Podcast" version="RSS" language="sv" title="P1 Kultur" htmlUrl="https://sverigesradio.se/p1kultur" xmlUrl="https://api.sr.se/api/rss/pod/23639" />
-      <outline type="Podcast" version="RSS" language="sv" title="P1 Specialprogram" htmlUrl="https://sverigesradio.se/p1specialprogram" xmlUrl="https://api.sr.se/api/rss/pod/15451" />
-      <outline type="Podcast" version="RSS" language="sv" title="P1-morgon" htmlUrl="https://sverigesradio.se/p1morgon" xmlUrl="https://api.sr.se/api/rss/pod/12202" />
-      <outline type="Podcast" version="RSS" language="sv" title="P2 Dokumentär" htmlUrl="https://sverigesradio.se/p2dokumentar" xmlUrl="https://api.sr.se/api/rss/pod/16609" />
-      <outline type="Podcast" version="RSS" language="sv" title="P3 Dokumentär" htmlUrl="https://sverigesradio.se/p3dokumentar" xmlUrl="https://api.sr.se/api/rss/pod/3966" />
-      <outline type="Podcast" version="RSS" language="sv" title="P3 Dystopia" htmlUrl="https://sverigesradio.se/dystopia" xmlUrl="https://api.sr.se/api/rss/pod/26068" />
-      <outline type="Podcast" version="RSS" language="sv" title="P3 Historia" htmlUrl="https://sverigesradio.se/p3historia" xmlUrl="https://api.sr.se/api/rss/pod/23791" />
-      <outline type="Podcast" version="RSS" language="sv" title="P3 Musik" htmlUrl="https://sverigesradio.se/p3musik" xmlUrl="https://api.sr.se/api/rss/pod/26318" />
-      <outline type="Podcast" version="RSS" language="sv" title="P3 Musikdokumentär" htmlUrl="https://sverigesradio.se/p3musikdokumentar" xmlUrl="https://api.sr.se/api/rss/pod/25943" />
-      <outline type="Podcast" version="RSS" language="sv" title="P3 Nyheter" htmlUrl="https://sverigesradio.se/p3nyheter" xmlUrl="https://api.sr.se/api/rss/pod/7565" />
-      <outline type="Podcast" version="RSS" language="sv" title="P3 Nyheter på en minut" htmlUrl="https://sverigesradio.se/p3nyheterpaenminut" xmlUrl="https://api.sr.se/api/rss/pod/22376" />
-      <outline type="Podcast" version="RSS" language="sv" title="P3 Osignat - Topp 10" htmlUrl="https://sverigesradio.se/p3osignattopp10" xmlUrl="https://api.sr.se/api/rss/pod/21648" />
-      <outline type="Podcast" version="RSS" language="sv" title="P3 Serie" htmlUrl="https://sverigesradio.se/p3serie" xmlUrl="https://api.sr.se/api/rss/pod/22824" />
-      <outline type="Podcast" version="RSS" language="sv" title="P3 Soul" htmlUrl="https://sverigesradio.se/p3soul" xmlUrl="https://api.sr.se/api/rss/pod/18294" />
-      <outline type="Podcast" version="RSS" language="sv" title="P3 Spel" htmlUrl="https://sverigesradio.se/p3spel" xmlUrl="https://api.sr.se/api/rss/pod/14424" />
-      <outline type="Podcast" version="RSS" language="sv" title="P3s mest spelade" htmlUrl="https://sverigesradio.se/p3smestspelade" xmlUrl="https://api.sr.se/api/rss/pod/28685" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Blekinge" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=105" xmlUrl="https://api.sr.se/api/rss/pod/3770" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Dalarna" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=161" xmlUrl="https://api.sr.se/api/rss/pod/3771" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Dokumentär" htmlUrl="https://sverigesradio.se/p4dokumentar" xmlUrl="https://api.sr.se/api/rss/pod/4896" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Extra" htmlUrl="https://sverigesradio.se/p4extra" xmlUrl="https://api.sr.se/api/rss/pod/6616" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Göteborg" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=104" xmlUrl="https://api.sr.se/api/rss/pod/3774" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Gotland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=94" xmlUrl="https://api.sr.se/api/rss/pod/3772" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Halland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=128" xmlUrl="https://api.sr.se/api/rss/pod/3775" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Jämtland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=78" xmlUrl="https://api.sr.se/api/rss/pod/3776" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Jönköping" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=91" xmlUrl="https://api.sr.se/api/rss/pod/3777" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Kalmar" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=86" xmlUrl="https://api.sr.se/api/rss/pod/3778" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Kristianstad" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=101" xmlUrl="https://api.sr.se/api/rss/pod/3779" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Norrbotten" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=98" xmlUrl="https://api.sr.se/api/rss/pod/3782" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Örebro" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=159" xmlUrl="https://api.sr.se/api/rss/pod/3793" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Östergötland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=160" xmlUrl="https://api.sr.se/api/rss/pod/3794" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Sjuhärad" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=95" xmlUrl="https://api.sr.se/api/rss/pod/3785" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Skaraborg" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=97" xmlUrl="https://api.sr.se/api/rss/pod/3786" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Sörmland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=87" xmlUrl="https://api.sr.se/api/rss/pod/3787" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 specialprogram" htmlUrl="https://sverigesradio.se/p4specialprogram" xmlUrl="https://api.sr.se/api/rss/pod/17410" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Stockholm" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=103" xmlUrl="https://api.sr.se/api/rss/pod/3783" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Uppland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=114" xmlUrl="https://api.sr.se/api/rss/pod/3788" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Världen" htmlUrl="https://sverigesradio.se/p4varlden" xmlUrl="https://api.sr.se/api/rss/pod/21472" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Värmland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=93" xmlUrl="https://api.sr.se/api/rss/pod/3789" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Väst" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=125" xmlUrl="https://api.sr.se/api/rss/pod/3784" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Västerbotten" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=109" xmlUrl="https://api.sr.se/api/rss/pod/3790" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Västernorrland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=110" xmlUrl="https://api.sr.se/api/rss/pod/3791" />
-      <outline type="Podcast" version="RSS" language="sv" title="P4 Västmanland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=112" xmlUrl="https://api.sr.se/api/rss/pod/3792" />
-      <outline type="Podcast" version="RSS" language="sv" title="På minuten" htmlUrl="https://sverigesradio.se/paminuten" xmlUrl="https://api.sr.se/api/rss/pod/3965" />
-      <outline type="Podcast" version="RSS" language="sv" title="På väg med Karin Adelsköld" htmlUrl="https://sverigesradio.se/pavagmed" xmlUrl="https://api.sr.se/api/rss/pod/26180" />
-      <outline type="Podcast" version="RSS" language="sv" title="Persson och Marhlo testar" htmlUrl="https://sverigesradio.se/motionssverigemedmarhloochpersson" xmlUrl="https://api.sr.se/api/rss/pod/23737" />
-      <outline type="Podcast" version="RSS" language="sv" title="Pettson och Findus i Barnradion" htmlUrl="https://sverigesradio.se/pettsonochfindusibarnradion" xmlUrl="https://api.sr.se/api/rss/pod/27348" />
-      <outline type="Podcast" version="RSS" language="sv" title="Pitchmall Drama" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5226" xmlUrl="https://api.sr.se/api/rss/pod/27520" />
-      <outline type="Podcast" version="RSS" language="sv" title="PK-mannen" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5228" xmlUrl="https://api.sr.se/api/rss/pod/28553" />
-      <outline type="Podcast" version="RSS" language="sv" title="Plånboken" htmlUrl="https://sverigesradio.se/planboken" xmlUrl="https://api.sr.se/api/rss/pod/3970" />
-      <outline type="Podcast" version="RSS" language="sv" title="Poddfest" htmlUrl="https://sverigesradio.se/poddfest" xmlUrl="https://api.sr.se/api/rss/pod/20051" />
-      <outline type="Podcast" version="RSS" language="sv" title="Popula" htmlUrl="https://sverigesradio.se/popula" xmlUrl="https://api.sr.se/api/rss/pod/21500" />
-      <outline type="Podcast" version="RSS" language="sv" title="PP3" htmlUrl="https://sverigesradio.se/pp3" xmlUrl="https://api.sr.se/api/rss/pod/17013" />
-      <outline type="Podcast" version="RSS" language="sv" title="Public Service" htmlUrl="https://sverigesradio.se/publicservice" xmlUrl="https://api.sr.se/api/rss/pod/3955" />
-      <outline type="Podcast" version="RSS" language="sv" title="Punani_99" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5166" xmlUrl="https://api.sr.se/api/rss/pod/25794" />
-      <outline type="Podcast" version="RSS" language="sv" title="Pyramiden" htmlUrl="https://sverigesradio.se/pyramiden" xmlUrl="https://api.sr.se/api/rss/pod/21417" />
-      <outline type="Podcast" version="RSS" language="sv" title="Radio Romano" htmlUrl="https://sverigesradio.se/radioromano" xmlUrl="https://api.sr.se/api/rss/pod/5187" />
-      <outline type="Podcast" version="RSS" language="sv" title="Radio Sweden" htmlUrl="https://sverigesradio.se/radiosweden" xmlUrl="https://api.sr.se/api/rss/pod/4901" />
-      <outline type="Podcast" version="RSS" language="sv" title="Radio Sweden Kurdish - ڕادیۆی سوید - Radyoya Swêdê" htmlUrl="https://sverigesradio.se/radioswedenkurdishradyoyaswede" xmlUrl="https://api.sr.se/api/rss/pod/3977" />
-      <outline type="Podcast" version="RSS" language="sv" title="Radio Sweden på lätt svenska" htmlUrl="https://sverigesradio.se/radioswedenpalattsvenska" xmlUrl="https://api.sr.se/api/rss/pod/22723" />
-      <outline type="Podcast" version="RSS" language="sv" title="Radio Sweden Somali - Raadiyaha Iswiidhen" htmlUrl="https://sverigesradio.se/radioswedensomaliraadiyahaiswiidhen" xmlUrl="https://api.sr.se/api/rss/pod/12364" />
-      <outline type="Podcast" version="RSS" language="sv" title="Radioapan i Sagoskogen" htmlUrl="https://sverigesradio.se/radioapanisagoskogen" xmlUrl="https://api.sr.se/api/rss/pod/19577" />
-      <outline type="Podcast" version="RSS" language="sv" title="Radioapans hemsida" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=4350" xmlUrl="https://api.sr.se/api/rss/pod/24356" />
-      <outline type="Podcast" version="RSS" language="sv" title="Radioföljetongen &amp; Radionovellen" htmlUrl="https://sverigesradio.se/radiofoljetongenradionovellen" xmlUrl="https://api.sr.se/api/rss/pod/21477" />
-      <outline type="Podcast" version="RSS" language="sv" title="Radiokorrespondenterna" htmlUrl="https://sverigesradio.se/radiokorrespondenterna" xmlUrl="https://api.sr.se/api/rss/pod/4886" />
-      <outline type="Podcast" version="RSS" language="sv" title="Radiopsykologen" htmlUrl="https://sverigesradio.se/radiopsykologen" xmlUrl="https://api.sr.se/api/rss/pod/9135" />
-      <outline type="Podcast" version="RSS" language="sv" title="Radiosporten Dokumentär" htmlUrl="https://sverigesradio.se/radiosportendokumentar" xmlUrl="https://api.sr.se/api/rss/pod/20669" />
-      <outline type="Podcast" version="RSS" language="sv" title="Radiosportens nyhetssändningar" htmlUrl="https://sverigesradio.se/radiosportensnyhetssandningar" xmlUrl="https://api.sr.se/api/rss/pod/5324" />
-      <outline type="Podcast" version="RSS" language="sv" title="Relationsradion i P3" htmlUrl="https://sverigesradio.se/relationsradionip3" xmlUrl="https://api.sr.se/api/rss/pod/22162" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ring P1 - 099-510 10" htmlUrl="https://sverigesradio.se/ringp1" xmlUrl="https://api.sr.se/api/rss/pod/6688" />
-      <outline type="Podcast" version="RSS" language="sv" title="Romane Paramichi" htmlUrl="https://sverigesradio.se/romaneparamichi" xmlUrl="https://api.sr.se/api/rss/pod/4911" />
-      <outline type="Podcast" version="RSS" language="sv" title="Romanpriset" htmlUrl="https://sverigesradio.se/romanpriset" xmlUrl="https://api.sr.se/api/rss/pod/7145" />
-      <outline type="Podcast" version="RSS" language="sv" title="Så funkar det" htmlUrl="https://sverigesradio.se/safunkardet" xmlUrl="https://api.sr.se/api/rss/pod/23847" />
-      <outline type="Podcast" version="RSS" language="sv" title="Sagor i Barnradion" htmlUrl="https://sverigesradio.se/sagoribarnradion" xmlUrl="https://api.sr.se/api/rss/pod/10948" />
-      <outline type="Podcast" version="RSS" language="sv" title="Sameradiopodden" htmlUrl="https://sverigesradio.se/sameradiopodden" xmlUrl="https://api.sr.se/api/rss/pod/25900" />
-      <outline type="Podcast" version="RSS" language="sv" title="Samiska nyheter på svenska" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=2327" xmlUrl="https://api.sr.se/api/rss/pod/4001" />
-      <outline type="Podcast" version="RSS" language="sv" title="Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/4899" />
-      <outline type="Podcast" version="RSS" language="sv" title="Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/4898" />
-      <outline type="Podcast" version="RSS" language="sv" title="Sisuradion sarjat" htmlUrl="https://sverigesradio.se/sisuradionsarjat" xmlUrl="https://api.sr.se/api/rss/pod/23110" />
-      <outline type="Podcast" version="RSS" language="sv" title="Sjukt, galet och helt normalt" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5223" xmlUrl="https://api.sr.se/api/rss/pod/27504" />
-      <outline type="Podcast" version="RSS" language="sv" title="Skymningsland" htmlUrl="https://sverigesradio.se/skymningsland" xmlUrl="https://api.sr.se/api/rss/pod/30956" />
-      <outline type="Podcast" version="RSS" language="sv" title="Släktband" htmlUrl="https://sverigesradio.se/slaktband" xmlUrl="https://api.sr.se/api/rss/pod/4885" />
-      <outline type="Podcast" version="RSS" language="sv" title="Smarta högtalare och röstassistenter" htmlUrl="https://sverigesradio.se/smartahogtalare" xmlUrl="https://api.sr.se/api/rss/pod/28635" />
-      <outline type="Podcast" version="RSS" language="sv" title="Smoolanti-Hallanti" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25514" />
-      <outline type="Podcast" version="RSS" language="sv" title="Snedtänkt med Kalle Lind" htmlUrl="https://sverigesradio.se/snedtanktmedkallelind" xmlUrl="https://api.sr.se/api/rss/pod/21650" />
-      <outline type="Podcast" version="RSS" language="sv" title="Soilin seurassa" htmlUrl="https://sverigesradio.se/soilinseurassa" xmlUrl="https://api.sr.se/api/rss/pod/22336" />
-      <outline type="Podcast" version="RSS" language="sv" title="Sommar &amp; Vinter i P1" htmlUrl="https://sverigesradio.se/sommarvinterip1" xmlUrl="https://api.sr.se/api/rss/pod/4023" />
-      <outline type="Podcast" version="RSS" language="sv" title="Söndagarna med Stina Wollter" htmlUrl="https://sverigesradio.se/sondagarnamedstinawollter" xmlUrl="https://api.sr.se/api/rss/pod/20288" />
-      <outline type="Podcast" version="RSS" language="sv" title="Söndagsintervjun" htmlUrl="https://sverigesradio.se/sondagsintervjun" xmlUrl="https://api.sr.se/api/rss/pod/21830" />
-      <outline type="Podcast" version="RSS" language="sv" title="SöndagsMorgan i P4" htmlUrl="https://sverigesradio.se/sondagsmorganip4" xmlUrl="https://api.sr.se/api/rss/pod/21340" />
-      <outline type="Podcast" version="RSS" language="sv" title="Spanarna" htmlUrl="https://sverigesradio.se/spanarna" xmlUrl="https://api.sr.se/api/rss/pod/4007" />
-      <outline type="Podcast" version="RSS" language="sv" title="Speedwaypodden" htmlUrl="https://sverigesradio.se/speedwaypodden" xmlUrl="https://api.sr.se/api/rss/pod/12403" />
-      <outline type="Podcast" version="RSS" language="sv" title="Språket" htmlUrl="https://sverigesradio.se/spraket" xmlUrl="https://api.sr.se/api/rss/pod/4012" />
-      <outline type="Podcast" version="RSS" language="sv" title="Stadsinspektionen" htmlUrl="https://sverigesradio.se/stadsinspektionen" xmlUrl="https://api.sr.se/api/rss/pod/24104" />
-      <outline type="Podcast" version="RSS" language="sv" title="Stil" htmlUrl="https://sverigesradio.se/stil" xmlUrl="https://api.sr.se/api/rss/pod/4887" />
-      <outline type="Podcast" version="RSS" language="sv" title="Studio Ett" htmlUrl="https://sverigesradio.se/studioett" xmlUrl="https://api.sr.se/api/rss/pod/4021" />
-      <outline type="Podcast" version="RSS" language="sv" title="Svenska berättelser" htmlUrl="https://sverigesradio.se/svenskaberattelser" xmlUrl="https://api.sr.se/api/rss/pod/20206" />
-      <outline type="Podcast" version="RSS" language="sv" title="Svenska ikoner" htmlUrl="https://sverigesradio.se/svenskaikoner" xmlUrl="https://api.sr.se/api/rss/pod/22203" />
-      <outline type="Podcast" version="RSS" language="sv" title="Svensktoppen" htmlUrl="https://sverigesradio.se/svensktoppen" xmlUrl="https://api.sr.se/api/rss/pod/14423" />
-      <outline type="Podcast" version="RSS" language="sv" title="Sveriges Radio i Almedalen" htmlUrl="https://sverigesradio.se/sverigesradioialmedalen" xmlUrl="https://api.sr.se/api/rss/pod/8210" />
-      <outline type="Podcast" version="RSS" language="sv" title="Sydänmaan Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25516" />
-      <outline type="Podcast" version="RSS" language="sv" title="Tablå för extrasändningar" htmlUrl="https://sverigesradio.se/extrasandningar" xmlUrl="https://api.sr.se/api/rss/pod/25911" />
-      <outline type="Podcast" version="RSS" language="sv" title="Taikalipas - satuja ja tarinoita lapsille" htmlUrl="https://sverigesradio.se/taikalipassatujajatarinoitalapsille" xmlUrl="https://api.sr.se/api/rss/pod/4912" />
-      <outline type="Podcast" version="RSS" language="sv" title="Tankar för dagen" htmlUrl="https://sverigesradio.se/tankarfordagen" xmlUrl="https://api.sr.se/api/rss/pod/3957" />
-      <outline type="Podcast" version="RSS" language="sv" title="Tankesmedjan" htmlUrl="https://sverigesradio.se/tankesmedjan" xmlUrl="https://api.sr.se/api/rss/pod/9946" />
-      <outline type="Podcast" version="RSS" language="sv" title="Teaterprogrammet" htmlUrl="https://sverigesradio.se/teaterprogrammet" xmlUrl="https://api.sr.se/api/rss/pod/22044" />
-      <outline type="Podcast" version="RSS" language="sv" title="Tendens – kortdokumentärer" htmlUrl="https://sverigesradio.se/tendens" xmlUrl="https://api.sr.se/api/rss/pod/6615" />
-      <outline type="Podcast" version="RSS" language="sv" title="Terni Generatcia" htmlUrl="https://sverigesradio.se/ternigeneratcia" xmlUrl="https://api.sr.se/api/rss/pod/23300" />
-      <outline type="Podcast" version="RSS" language="sv" title="Till sängs i kulturen" htmlUrl="https://sverigesradio.se/tillsangsikulturen" xmlUrl="https://api.sr.se/api/rss/pod/23050" />
-      <outline type="Podcast" version="RSS" language="sv" title="Tillfälligheternas spel" htmlUrl="https://sverigesradio.se/tillfalligheternasspel" xmlUrl="https://api.sr.se/api/rss/pod/26176" />
-      <outline type="Podcast" version="RSS" language="sv" title="Timo Räisänen i P2" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5199" xmlUrl="https://api.sr.se/api/rss/pod/26140" />
-      <outline type="Podcast" version="RSS" language="sv" title="Tintin och det hemliga vapnet" htmlUrl="https://sverigesradio.se/sida/gruppsida.aspx?programid=3171&amp;grupp=26268" xmlUrl="https://api.sr.se/api/rss/pod/27345" />
-      <outline type="Podcast" version="RSS" language="sv" title="Tio miljoner" htmlUrl="https://sverigesradio.se/tiomiljoner" xmlUrl="https://api.sr.se/api/rss/pod/26097" />
-      <outline type="Podcast" version="RSS" language="sv" title="Tollans musikaliska" htmlUrl="https://sverigesradio.se/tollansmusikaliska" xmlUrl="https://api.sr.se/api/rss/pod/22517" />
-      <outline type="Podcast" version="RSS" language="sv" title="Trafikredaktionen Göteborg" htmlUrl="https://sverigesradio.se/sida/trafik.aspx?programid=2848" xmlUrl="https://api.sr.se/api/rss/pod/18748" />
-      <outline type="Podcast" version="RSS" language="sv" title="Trafikredaktionen Malmö" htmlUrl="https://sverigesradio.se/sida/trafik.aspx?programid=2855" xmlUrl="https://api.sr.se/api/rss/pod/19126" />
-      <outline type="Podcast" version="RSS" language="sv" title="Trafikredaktionen Stockholm" htmlUrl="https://sverigesradio.se/sida/trafik.aspx?programid=2859" xmlUrl="https://api.sr.se/api/rss/pod/10326" />
-      <outline type="Podcast" version="RSS" language="sv" title="Turid - en vikingasaga" htmlUrl="https://sverigesradio.se/sida/gruppsida.aspx?programid=3171&amp;grupp=28584" xmlUrl="https://api.sr.se/api/rss/pod/28585" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ufopodden i P3" htmlUrl="https://sverigesradio.se/ufopoddenip3" xmlUrl="https://api.sr.se/api/rss/pod/23664" />
-      <outline type="Podcast" version="RSS" language="sv" title="Urheilu" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25518" />
-      <outline type="Podcast" version="RSS" language="sv" title="USApodden" htmlUrl="https://sverigesradio.se/usapodden" xmlUrl="https://api.sr.se/api/rss/pod/22712" />
-      <outline type="Podcast" version="RSS" language="sv" title="Utblick Sapmi" htmlUrl="https://sverigesradio.se/utblicksapmi" xmlUrl="https://api.sr.se/api/rss/pod/3978" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ute med P1" htmlUrl="https://sverigesradio.se/utemedp1" xmlUrl="https://api.sr.se/api/rss/pod/22726" />
-      <outline type="Podcast" version="RSS" language="sv" title="Utkantssverige" htmlUrl="https://sverigesradio.se/utkantssverige" xmlUrl="https://api.sr.se/api/rss/pod/23851" />
-      <outline type="Podcast" version="RSS" language="sv" title="Utrikeskrönikan" htmlUrl="https://sverigesradio.se/utrikeskronikan" xmlUrl="https://api.sr.se/api/rss/pod/21816" />
-      <outline type="Podcast" version="RSS" language="sv" title="Utvecklingsbloggen" htmlUrl="https://sverigesradio.se/utvecklingsbloggen" xmlUrl="https://api.sr.se/api/rss/pod/26061" />
-      <outline type="Podcast" version="RSS" language="sv" title="Väder från hela landet" htmlUrl="https://sverigesradio.se/vaderfranhelalandet" xmlUrl="https://api.sr.se/api/rss/pod/7625" />
-      <outline type="Podcast" version="RSS" language="sv" title="Världens barn i P4" htmlUrl="https://sverigesradio.se/varldensbarnip4" xmlUrl="https://api.sr.se/api/rss/pod/24353" />
-      <outline type="Podcast" version="RSS" language="sv" title="Verkligheten i P3" htmlUrl="https://sverigesradio.se/verklighetenip3" xmlUrl="https://api.sr.se/api/rss/pod/4895" />
-      <outline type="Podcast" version="RSS" language="sv" title="Vetandets värld" htmlUrl="https://sverigesradio.se/vetandetsvarld" xmlUrl="https://api.sr.se/api/rss/pod/4017" />
-      <outline type="Podcast" version="RSS" language="sv" title="Vetenskapsradion" htmlUrl="https://sverigesradio.se/vetenskapsradion" xmlUrl="https://api.sr.se/api/rss/pod/4890" />
-      <outline type="Podcast" version="RSS" language="sv" title="Vetenskapsradion Historia" htmlUrl="https://sverigesradio.se/vetenskapsradionhistoria" xmlUrl="https://api.sr.se/api/rss/pod/4020" />
-      <outline type="Podcast" version="RSS" language="sv" title="Vetenskapsradions veckomagasin" htmlUrl="https://sverigesradio.se/vetenskapsradionsveckomagasin" xmlUrl="https://api.sr.se/api/rss/pod/3988" />
-      <outline type="Podcast" version="RSS" language="sv" title="Vi i femman" htmlUrl="https://sverigesradio.se/viifemman" xmlUrl="https://api.sr.se/api/rss/pod/9848" />
-      <outline type="Podcast" version="RSS" language="sv" title="Viikkosisu" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5241" xmlUrl="https://api.sr.se/api/rss/pod/28783" />
-      <outline type="Podcast" version="RSS" language="sv" title="Vuoden Ruotsinsuomalaiset / Årets Sverigefinnar" htmlUrl="https://sverigesradio.se/aretssverigefinnar" xmlUrl="https://api.sr.se/api/rss/pod/25510" />
-      <outline type="Podcast" version="RSS" language="sv" title="رادیو السوید Radio Sweden Arabic" htmlUrl="https://sverigesradio.se/radioswedenarabic" xmlUrl="https://api.sr.se/api/rss/pod/4004" />
-      <outline type="Podcast" version="RSS" language="sv" title="رادیو سوئد / رادیوی سویدن Radio Sweden Farsi/Dari" htmlUrl="https://sverigesradio.se/radioswedenfarsidari" xmlUrl="https://api.sr.se/api/rss/pod/3962" />
+    <outline type="Podcast" version="RSS" language="sv" title="1000 modiga frågor i Barnradion" htmlUrl="https://sverigesradio.se/1000modigafragoribarnradion" xmlUrl="https://api.sr.se/api/rss/pod/19359" />
+    <outline type="Podcast" version="RSS" language="sv" title="Algoritmen" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5244" xmlUrl="https://api.sr.se/api/rss/pod/28805" />
+    <outline type="Podcast" version="RSS" language="sv" title="Allvarligt talat" htmlUrl="https://sverigesradio.se/allvarligttalat" xmlUrl="https://api.sr.se/api/rss/pod/5191" />
+    <outline type="Podcast" version="RSS" language="sv" title="Anna Blomberg i P4" htmlUrl="https://sverigesradio.se/annablombergip4" xmlUrl="https://api.sr.se/api/rss/pod/24021" />
+    <outline type="Podcast" version="RSS" language="sv" title="Annika Lantz i P1" htmlUrl="https://sverigesradio.se/annika-lantz-i-p1" xmlUrl="https://api.sr.se/api/rss/pod/19243" />
+    <outline type="Podcast" version="RSS" language="sv" title="App och etikett" htmlUrl="https://sverigesradio.se/appochetikett" xmlUrl="https://api.sr.se/api/rss/pod/27442" />
+    <outline type="Podcast" version="RSS" language="sv" title="Arabisk Talkshow, Talkshow بالعربي" htmlUrl="https://sverigesradio.se/arabisktalkshowtalkshow" xmlUrl="https://api.sr.se/api/rss/pod/22836" />
+    <outline type="Podcast" version="RSS" language="sv" title="Avgörande ögonblick" htmlUrl="https://sverigesradio.se/sida/avsnitt?programid=1602" xmlUrl="https://api.sr.se/api/rss/pod/3984" />
+    <outline type="Podcast" version="RSS" language="sv" title="Backstage med Marit Bergman" htmlUrl="https://sverigesradio.se/backstagemedmaritbergman" xmlUrl="https://api.sr.se/api/rss/pod/24096" />
+    <outline type="Podcast" version="RSS" language="sv" title="Barnmorgon med Jonas" htmlUrl="https://sverigesradio.se/barnmorgonmedjonas" xmlUrl="https://api.sr.se/api/rss/pod/22669" />
+    <outline type="Podcast" version="RSS" language="sv" title="Barnradions bokpris" htmlUrl="https://sverigesradio.se/barnradionsbokpris" xmlUrl="https://api.sr.se/api/rss/pod/12065" />
+    <outline type="Podcast" version="RSS" language="sv" title="Barnradions poddpaket 3-8 år" htmlUrl="https://sverigesradio.se/barnradionspoddpaket38ar" xmlUrl="https://api.sr.se/api/rss/pod/21895" />
+    <outline type="Podcast" version="RSS" language="sv" title="Barnradions poddpaket 9-13 år" htmlUrl="https://sverigesradio.se/barnradionspoddpaket913ar" xmlUrl="https://api.sr.se/api/rss/pod/22477" />
+    <outline type="Podcast" version="RSS" language="sv" title="Båtlivet i P4" htmlUrl="https://sverigesradio.se/batlivetip4" xmlUrl="https://api.sr.se/api/rss/pod/14928" />
+    <outline type="Podcast" version="RSS" language="sv" title="Bergmanpodden" htmlUrl="https://sverigesradio.se/bergmanpodden" xmlUrl="https://api.sr.se/api/rss/pod/25657" />
+    <outline type="Podcast" version="RSS" language="sv" title="Bokcirkeln" htmlUrl="https://sverigesradio.se/bokcirkeln" xmlUrl="https://api.sr.se/api/rss/pod/5579" />
+    <outline type="Podcast" version="RSS" language="sv" title="Bota mig!" htmlUrl="https://sverigesradio.se/botamig" xmlUrl="https://api.sr.se/api/rss/pod/28745" />
+    <outline type="Podcast" version="RSS" language="sv" title="City Sisu" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/24442" />
+    <outline type="Podcast" version="RSS" language="sv" title="Creepypodden i P3" htmlUrl="https://sverigesradio.se/creepypoddenmedjackwerner" xmlUrl="https://api.sr.se/api/rss/pod/22209" />
+    <outline type="Podcast" version="RSS" language="sv" title="Cykla i P1" htmlUrl="https://sverigesradio.se/cyklaip1" xmlUrl="https://api.sr.se/api/rss/pod/19424" />
+    <outline type="Podcast" version="RSS" language="sv" title="Dagens dikt" htmlUrl="https://sverigesradio.se/dagensdikt" xmlUrl="https://api.sr.se/api/rss/pod/22005" />
+    <outline type="Podcast" version="RSS" language="sv" title="De fyra elementen i barnradion" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5240" xmlUrl="https://api.sr.se/api/rss/pod/28804" />
+    <outline type="Podcast" version="RSS" language="sv" title="Den gömda koden" htmlUrl="https://sverigesradio.se/dengomdakoden" xmlUrl="https://api.sr.se/api/rss/pod/21612" />
+    <outline type="Podcast" version="RSS" language="sv" title="Det politiska spelet" htmlUrl="https://sverigesradio.se/detpolitiskaspelet" xmlUrl="https://api.sr.se/api/rss/pod/21597" />
+    <outline type="Podcast" version="RSS" language="sv" title="Di farkishefte pishke - sagor på jiddisch" htmlUrl="https://sverigesradio.se/difarkisheftepishkesagorpajiddisch" xmlUrl="https://api.sr.se/api/rss/pod/4914" />
+    <outline type="Podcast" version="RSS" language="sv" title="Dialekt i P1" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5216" xmlUrl="https://api.sr.se/api/rss/pod/26312" />
+    <outline type="Podcast" version="RSS" language="sv" title="Digitala insatsstyrkans blogg" htmlUrl="https://sverigesradio.se/digitalainsatsstyrkan" xmlUrl="https://api.sr.se/api/rss/pod/27493" />
+    <outline type="Podcast" version="RSS" language="sv" title="Drama för unga" htmlUrl="https://sverigesradio.se/dramaforunga" xmlUrl="https://api.sr.se/api/rss/pod/14989" />
+    <outline type="Podcast" version="RSS" language="sv" title="Drama-arkivet i P1" htmlUrl="https://sverigesradio.se/dramaarkivetip1" xmlUrl="https://api.sr.se/api/rss/pod/18825" />
+    <outline type="Podcast" version="RSS" language="sv" title="Eftermiddag i P4 Kalmar" htmlUrl="https://sverigesradio.se/eftermiddagip4kalmar" xmlUrl="https://api.sr.se/api/rss/pod/24448" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ekonomi" htmlUrl="https://sverigesradio.se/ekonomi" xmlUrl="https://api.sr.se/api/rss/pod/25562" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ekonomiekot" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=178" xmlUrl="https://api.sr.se/api/rss/pod/3821" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ekonomiekot" htmlUrl="https://sverigesradio.se/sida/avsnitt?programid=178" xmlUrl="https://api.sr.se/api/rss/pod/24333" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ekonomiekot Extra" htmlUrl="https://sverigesradio.se/ekonomiekotextra" xmlUrl="https://api.sr.se/api/rss/pod/8749" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ekonyheter" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=4540" xmlUrl="https://api.sr.se/api/rss/pod/24334" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ekot" htmlUrl="https://sverigesradio.se/ekot" xmlUrl="https://api.sr.se/api/rss/pod/3795" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ekot granskar" htmlUrl="https://sverigesradio.se/ekotgranskar" xmlUrl="https://api.sr.se/api/rss/pod/19303" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ekot Special" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5251" xmlUrl="https://api.sr.se/api/rss/pod/30920" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ekots lördagsintervju" htmlUrl="https://sverigesradio.se/ekotslordagsintervju" xmlUrl="https://api.sr.se/api/rss/pod/3953" />
+    <outline type="Podcast" version="RSS" language="sv" title="Etelä-Ruotsin Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/24444" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ett nytt Sverige" htmlUrl="https://sverigesradio.se/ettnyttsverige" xmlUrl="https://api.sr.se/api/rss/pod/22891" />
+    <outline type="Podcast" version="RSS" language="sv" title="EU-valet 2019" htmlUrl="https://sverigesradio.se/euvalet" xmlUrl="https://api.sr.se/api/rss/pod/21401" />
+    <outline type="Podcast" version="RSS" language="sv" title="Europapodden" htmlUrl="https://sverigesradio.se/europapodden" xmlUrl="https://api.sr.se/api/rss/pod/22793" />
+    <outline type="Podcast" version="RSS" language="sv" title="Farah i P3" htmlUrl="https://sverigesradio.se/farahip3" xmlUrl="https://api.sr.se/api/rss/pod/28686" />
+    <outline type="Podcast" version="RSS" language="sv" title="Filosofera med Farzad" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5225" xmlUrl="https://api.sr.se/api/rss/pod/27515" />
+    <outline type="Podcast" version="RSS" language="sv" title="Filosofiska rummet" htmlUrl="https://sverigesradio.se/filosofiskarummet" xmlUrl="https://api.sr.se/api/rss/pod/3963" />
+    <outline type="Podcast" version="RSS" language="sv" title="Finnjävlarpodden" htmlUrl="https://sverigesradio.se/finnjavlarpodden" xmlUrl="https://api.sr.se/api/rss/pod/23655" />
+    <outline type="Podcast" version="RSS" language="sv" title="Finnmix" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=2707" xmlUrl="https://api.sr.se/api/rss/pod/28857" />
+    <outline type="Podcast" version="RSS" language="sv" title="Förmiddag i P4 Kalmar" htmlUrl="https://sverigesradio.se/formiddagip4kalmar" xmlUrl="https://api.sr.se/api/rss/pod/24449" />
+    <outline type="Podcast" version="RSS" language="sv" title="FotbollsArena Radiosporten" htmlUrl="https://sverigesradio.se/fotbollsarenaradiosporten" xmlUrl="https://api.sr.se/api/rss/pod/18535" />
+    <outline type="Podcast" version="RSS" language="sv" title="Fråga musikprofessorn" htmlUrl="https://sverigesradio.se/fragamusikprofessorn" xmlUrl="https://api.sr.se/api/rss/pod/23971" />
+    <outline type="Podcast" version="RSS" language="sv" title="Fråga vad du vill i P3" htmlUrl="https://sverigesradio.se/fragavadduvillip3" xmlUrl="https://api.sr.se/api/rss/pod/22956" />
+    <outline type="Podcast" version="RSS" language="sv" title="Fredag i P4" htmlUrl="https://sverigesradio.se/fredagip4" xmlUrl="https://api.sr.se/api/rss/pod/23622" />
+    <outline type="Podcast" version="RSS" language="sv" title="Funk i P1" htmlUrl="https://sverigesradio.se/funkip1" xmlUrl="https://api.sr.se/api/rss/pod/22920" />
+    <outline type="Podcast" version="RSS" language="sv" title="Godmorgon, världen!" htmlUrl="https://sverigesradio.se/godmorgon-varlden" xmlUrl="https://api.sr.se/api/rss/pod/3958" />
+    <outline type="Podcast" version="RSS" language="sv" title="Gränslöst" htmlUrl="https://sverigesradio.se/granslost" xmlUrl="https://api.sr.se/api/rss/pod/21153" />
+    <outline type="Podcast" version="RSS" language="sv" title="Grunden till allt" htmlUrl="https://sverigesradio.se/grundentillallt" xmlUrl="https://api.sr.se/api/rss/pod/28739" />
+    <outline type="Podcast" version="RSS" language="sv" title="Gudstjänsten" htmlUrl="https://sverigesradio.se/gudstjansten" xmlUrl="https://api.sr.se/api/rss/pod/24397" />
+    <outline type="Podcast" version="RSS" language="sv" title="Hej jag heter Fredrik" htmlUrl="https://sverigesradio.se/hejjagheterfredrik" xmlUrl="https://api.sr.se/api/rss/pod/30938" />
+    <outline type="Podcast" version="RSS" language="sv" title="Historierummet i Barnradion" htmlUrl="https://sverigesradio.se/historierummetibarnradion" xmlUrl="https://api.sr.se/api/rss/pod/25889" />
+    <outline type="Podcast" version="RSS" language="sv" title="Historiska val" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5227" xmlUrl="https://api.sr.se/api/rss/pod/28547" />
+    <outline type="Podcast" version="RSS" language="sv" title="Husesyn med Ulla Skoog" htmlUrl="https://sverigesradio.se/husesynmedullaskoog" xmlUrl="https://api.sr.se/api/rss/pod/24044" />
+    <outline type="Podcast" version="RSS" language="sv" title="I lagens namn" htmlUrl="https://sverigesradio.se/ilagensnamn" xmlUrl="https://api.sr.se/api/rss/pod/21147" />
+    <outline type="Podcast" version="RSS" language="sv" title="Instrumentalisterna" htmlUrl="https://sverigesradio.se/instrumentalisterna" xmlUrl="https://api.sr.se/api/rss/pod/26274" />
+    <outline type="Podcast" version="RSS" language="sv" title="Jiddisch far alle" htmlUrl="https://sverigesradio.se/jiddischfaralle" xmlUrl="https://api.sr.se/api/rss/pod/23331" />
+    <outline type="Podcast" version="RSS" language="sv" title="Jukeboxen i P4" htmlUrl="https://sverigesradio.se/jukeboxenip4" xmlUrl="https://api.sr.se/api/rss/pod/22714" />
+    <outline type="Podcast" version="RSS" language="sv" title="Julkalendern 2018: Tonje i Glimmerdalen" htmlUrl="https://sverigesradio.se/tonjeiglimmerdalen" xmlUrl="https://api.sr.se/api/rss/pod/26225" />
+    <outline type="Podcast" version="RSS" language="sv" title="Juniornyheterna" htmlUrl="https://sverigesradio.se/juniornyheterna" xmlUrl="https://api.sr.se/api/rss/pod/28850" />
+    <outline type="Podcast" version="RSS" language="sv" title="Juniorsporten" htmlUrl="https://sverigesradio.se/juniorsporten" xmlUrl="https://api.sr.se/api/rss/pod/17470" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kaliber" htmlUrl="https://sverigesradio.se/kaliber" xmlUrl="https://api.sr.se/api/rss/pod/4016" />
+    <outline type="Podcast" version="RSS" language="sv" title="Känsligt läge med Klara Zimmergren" htmlUrl="https://sverigesradio.se/kansligtlage" xmlUrl="https://api.sr.se/api/rss/pod/22029" />
+    <outline type="Podcast" version="RSS" language="sv" title="Karlavagnen" htmlUrl="https://sverigesradio.se/karlavagnen" xmlUrl="https://api.sr.se/api/rss/pod/9850" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kärlek i P4" htmlUrl="https://sverigesradio.se/karlekip4" xmlUrl="https://api.sr.se/api/rss/pod/22484" />
+    <outline type="Podcast" version="RSS" language="sv" title="Katarina Hahr möter" htmlUrl="https://sverigesradio.se/katarinahahrmoter" xmlUrl="https://api.sr.se/api/rss/pod/18732" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kattis med fredagssalongen" htmlUrl="https://sverigesradio.se/kattisfredagmedsalongen" xmlUrl="https://api.sr.se/api/rss/pod/17254" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kesäpuhujat" htmlUrl="https://sverigesradio.se/kesapuhujat" xmlUrl="https://api.sr.se/api/rss/pod/15372" />
+    <outline type="Podcast" version="RSS" language="sv" title="Keski-Ruotsin Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25498" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kielipuoli" htmlUrl="https://sverigesradio.se/kielipuoli" xmlUrl="https://api.sr.se/api/rss/pod/22363" />
+    <outline type="Podcast" version="RSS" language="sv" title="Klartext" htmlUrl="https://sverigesradio.se/klartext" xmlUrl="https://api.sr.se/api/rss/pod/4019" />
+    <outline type="Podcast" version="RSS" language="sv" title="Klassikern" htmlUrl="https://sverigesradio.se/klassikern" xmlUrl="https://api.sr.se/api/rss/pod/11143" />
+    <outline type="Podcast" version="RSS" language="sv" title="Klassiska krysset" htmlUrl="https://sverigesradio.se/klassiskakrysset" xmlUrl="https://api.sr.se/api/rss/pod/30995" />
+    <outline type="Podcast" version="RSS" language="sv" title="Klassiska podden" htmlUrl="https://sverigesradio.se/klassiskapodden" xmlUrl="https://api.sr.se/api/rss/pod/23177" />
+    <outline type="Podcast" version="RSS" language="sv" title="Klimatspår" htmlUrl="https://sverigesradio.se/klimatsp%C3%A5r" xmlUrl="https://api.sr.se/api/rss/pod/31042" />
+    <outline type="Podcast" version="RSS" language="sv" title="Klotet i Vetenskapsradion" htmlUrl="https://sverigesradio.se/vetklotet" xmlUrl="https://api.sr.se/api/rss/pod/6230" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kluvet land" htmlUrl="https://sverigesradio.se/kluvetland" xmlUrl="https://api.sr.se/api/rss/pod/14990" />
+    <outline type="Podcast" version="RSS" language="sv" title="Konflikt" htmlUrl="https://sverigesradio.se/konflikt" xmlUrl="https://api.sr.se/api/rss/pod/3967" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kossornas planet" htmlUrl="https://sverigesradio.se/kossornasplanet" xmlUrl="https://api.sr.se/api/rss/pod/5582" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kraschen (P1 drama)" htmlUrl="https://sverigesradio.se/sida/gruppsida.aspx?programid=4976&amp;grupp=28644" xmlUrl="https://api.sr.se/api/rss/pod/28645" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kropp &amp; Själ" htmlUrl="https://sverigesradio.se/kroppsjal" xmlUrl="https://api.sr.se/api/rss/pod/4015" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kroppskontakt" htmlUrl="https://sverigesradio.se/kroppskontakt" xmlUrl="https://api.sr.se/api/rss/pod/26129" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kulttuurikeskustelu Koukku" htmlUrl="https://sverigesradio.se/kulttuurikeskustelukoukku" xmlUrl="https://api.sr.se/api/rss/pod/22364" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kulttuurisunnuntai" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25502" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kulturnytt i P1" htmlUrl="https://sverigesradio.se/kulturnytt" xmlUrl="https://api.sr.se/api/rss/pod/5581" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kulturnytt i P4" htmlUrl="https://sverigesradio.se/kulturnyttip4" xmlUrl="https://api.sr.se/api/rss/pod/18708" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kulturreportaget i P1" htmlUrl="https://sverigesradio.se/kulturpoddarip1" xmlUrl="https://api.sr.se/api/rss/pod/12209" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kusin Vaken i Barnradion" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5232" xmlUrl="https://api.sr.se/api/rss/pod/28674" />
+    <outline type="Podcast" version="RSS" language="sv" title="Kvällspasset i P4" htmlUrl="https://sverigesradio.se/kvallspassetip4" xmlUrl="https://api.sr.se/api/rss/pod/22503" />
+    <outline type="Podcast" version="RSS" language="sv" title="Land- och sjöväder" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=2000" xmlUrl="https://api.sr.se/api/rss/pod/25910" />
+    <outline type="Podcast" version="RSS" language="sv" title="Länsi-Ruotsin Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25507" />
+    <outline type="Podcast" version="RSS" language="sv" title="Lediga jobb på Sveriges Radio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5243" xmlUrl="https://api.sr.se/api/rss/pod/28802" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ligga med P3" htmlUrl="https://sverigesradio.se/liggamedp3" xmlUrl="https://api.sr.se/api/rss/pod/13557" />
+    <outline type="Podcast" version="RSS" language="sv" title="Livet enligt Naturmorgon" htmlUrl="https://sverigesradio.se/livetenligtnaturmorgon" xmlUrl="https://api.sr.se/api/rss/pod/24046" />
+    <outline type="Podcast" version="RSS" language="sv" title="Loppmarknadsarkeologerna" htmlUrl="https://sverigesradio.se/loppmarknadsarkeologerna" xmlUrl="https://api.sr.se/api/rss/pod/22700" />
+    <outline type="Podcast" version="RSS" language="sv" title="Lundströms Bokradio" htmlUrl="https://sverigesradio.se/lundstromsbokradio" xmlUrl="https://api.sr.se/api/rss/pod/18340" />
+    <outline type="Podcast" version="RSS" language="sv" title="Luokkaretki" htmlUrl="https://sverigesradio.se/luokkaretki" xmlUrl="https://api.sr.se/api/rss/pod/25506" />
+    <outline type="Podcast" version="RSS" language="sv" title="Magiska skogen i Barnradion" htmlUrl="https://sverigesradio.se/magiskaskogenibarnradion" xmlUrl="https://api.sr.se/api/rss/pod/23805" />
+    <outline type="Podcast" version="RSS" language="sv" title="Magiska skrinet - sagor från minoritetsspråken" htmlUrl="https://sverigesradio.se/magiskaskrinetsagorfranminoritetsspraken" xmlUrl="https://api.sr.se/api/rss/pod/22476" />
+    <outline type="Podcast" version="RSS" language="sv" title="Mammas Nya Kille" htmlUrl="https://sverigesradio.se/mammasnyakille" xmlUrl="https://api.sr.se/api/rss/pod/4892" />
+    <outline type="Podcast" version="RSS" language="sv" title="Mánáidrádio" htmlUrl="https://sverigesradio.se/manaidradio" xmlUrl="https://api.sr.se/api/rss/pod/25476" />
+    <outline type="Podcast" version="RSS" language="sv" title="Människor och tro" htmlUrl="https://sverigesradio.se/manniskorochtro" xmlUrl="https://api.sr.se/api/rss/pod/3973" />
+    <outline type="Podcast" version="RSS" language="sv" title="Meän Kläpit" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=4907" xmlUrl="https://api.sr.se/api/rss/pod/28856" />
+    <outline type="Podcast" version="RSS" language="sv" title="Meän Kläpit" htmlUrl="https://sverigesradio.se/meanklapit" xmlUrl="https://api.sr.se/api/rss/pod/22605" />
+    <outline type="Podcast" version="RSS" language="sv" title="Meänraatio" htmlUrl="https://sverigesradio.se/meanraatio" xmlUrl="https://api.sr.se/api/rss/pod/10469" />
+    <outline type="Podcast" version="RSS" language="sv" title="Meänraatio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=1017" xmlUrl="https://api.sr.se/api/rss/pod/28853" />
+    <outline type="Podcast" version="RSS" language="sv" title="Medierna" htmlUrl="https://sverigesradio.se/medierna" xmlUrl="https://api.sr.se/api/rss/pod/3951" />
+    <outline type="Podcast" version="RSS" language="sv" title="Meka med ABC i barnradion" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5245" xmlUrl="https://api.sr.se/api/rss/pod/28812" />
+    <outline type="Podcast" version="RSS" language="sv" title="Melodikrysset" htmlUrl="https://sverigesradio.se/melodikrysset" xmlUrl="https://api.sr.se/api/rss/pod/15447" />
+    <outline type="Podcast" version="RSS" language="sv" title="Meny" htmlUrl="https://sverigesradio.se/meny" xmlUrl="https://api.sr.se/api/rss/pod/4009" />
+    <outline type="Podcast" version="RSS" language="sv" title="Min Story – Storydox i P4" htmlUrl="https://sverigesradio.se/minstorystorydoxip4" xmlUrl="https://api.sr.se/api/rss/pod/23980" />
+    <outline type="Podcast" version="RSS" language="sv" title="Morgon i P4 Göteborg" htmlUrl="https://sverigesradio.se/morgonip4goteborg" xmlUrl="https://api.sr.se/api/rss/pod/26329" />
+    <outline type="Podcast" version="RSS" language="sv" title="Morgon i P4 Kalmar" htmlUrl="https://sverigesradio.se/morgonip4kalmar" xmlUrl="https://api.sr.se/api/rss/pod/24450" />
+    <outline type="Podcast" version="RSS" language="sv" title="Morgon i P4 Västerbotten" htmlUrl="https://sverigesradio.se/morgonip4vasterbotten" xmlUrl="https://api.sr.se/api/rss/pod/26070" />
+    <outline type="Podcast" version="RSS" language="sv" title="Morgonandakten" htmlUrl="https://sverigesradio.se/morgonandakten" xmlUrl="https://api.sr.se/api/rss/pod/8842" />
+    <outline type="Podcast" version="RSS" language="sv" title="Morgonpasset i P3" htmlUrl="https://sverigesradio.se/morgonpassetip3" xmlUrl="https://api.sr.se/api/rss/pod/4893" />
+    <outline type="Podcast" version="RSS" language="sv" title="Morgonpasset i P3 – Gästen" htmlUrl="https://sverigesradio.se/morgonpassetip3gasten" xmlUrl="https://api.sr.se/api/rss/pod/21772" />
+    <outline type="Podcast" version="RSS" language="sv" title="Musikguiden i P3" htmlUrl="https://sverigesradio.se/musikguidenip3" xmlUrl="https://api.sr.se/api/rss/pod/18656" />
+    <outline type="Podcast" version="RSS" language="sv" title="Musikrevyn i P2" htmlUrl="https://sverigesradio.se/musikrevynip2" xmlUrl="https://api.sr.se/api/rss/pod/22303" />
+    <outline type="Podcast" version="RSS" language="sv" title="Musikspecial i P4" htmlUrl="https://sverigesradio.se/musikspecialip4" xmlUrl="https://api.sr.se/api/rss/pod/22895" />
+    <outline type="Podcast" version="RSS" language="sv" title="Naturmorgon" htmlUrl="https://sverigesradio.se/naturmorgon" xmlUrl="https://api.sr.se/api/rss/pod/4008" />
+    <outline type="Podcast" version="RSS" language="sv" title="Nordegren &amp; Epstein i P1" htmlUrl="https://sverigesradio.se/nordegrenepsteinip1" xmlUrl="https://api.sr.se/api/rss/pod/13716" />
+    <outline type="Podcast" version="RSS" language="sv" title="Norlannin Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25509" />
+    <outline type="Podcast" version="RSS" language="sv" title="Nyheter i Barnradion" htmlUrl="https://sverigesradio.se/nyheteribarnradion" xmlUrl="https://api.sr.se/api/rss/pod/19086" />
+    <outline type="Podcast" version="RSS" language="sv" title="Nyhetsteman" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5250" xmlUrl="https://api.sr.se/api/rss/pod/28868" />
+    <outline type="Podcast" version="RSS" language="sv" title="OBS" htmlUrl="https://sverigesradio.se/obs" xmlUrl="https://api.sr.se/api/rss/pod/11327" />
+    <outline type="Podcast" version="RSS" language="sv" title="Odla med P1" htmlUrl="https://sverigesradio.se/odlamedp1" xmlUrl="https://api.sr.se/api/rss/pod/3994" />
+    <outline type="Podcast" version="RSS" language="sv" title="Om Radiosporten" htmlUrl="https://sverigesradio.se/omradiosporten" xmlUrl="https://api.sr.se/api/rss/pod/24346" />
+    <outline type="Podcast" version="RSS" language="sv" title="Operaguiden" htmlUrl="https://sverigesradio.se/operaguiden" xmlUrl="https://api.sr.se/api/rss/pod/22344" />
+    <outline type="Podcast" version="RSS" language="sv" title="Operahuset" htmlUrl="https://sverigesradio.se/operahuset" xmlUrl="https://api.sr.se/api/rss/pod/22822" />
+    <outline type="Podcast" version="RSS" language="sv" title="Oscar Zia i P3" htmlUrl="https://sverigesradio.se/oscarziaip3" xmlUrl="https://api.sr.se/api/rss/pod/24029" />
+    <outline type="Podcast" version="RSS" language="sv" title="P1 Dokumentär" htmlUrl="https://sverigesradio.se/p1dokumentar" xmlUrl="https://api.sr.se/api/rss/pod/4013" />
+    <outline type="Podcast" version="RSS" language="sv" title="P1 Drama" htmlUrl="https://sverigesradio.se/drama" xmlUrl="https://api.sr.se/api/rss/pod/22995" />
+    <outline type="Podcast" version="RSS" language="sv" title="P1 Kultur" htmlUrl="https://sverigesradio.se/p1kultur" xmlUrl="https://api.sr.se/api/rss/pod/23639" />
+    <outline type="Podcast" version="RSS" language="sv" title="P1 Specialprogram" htmlUrl="https://sverigesradio.se/p1specialprogram" xmlUrl="https://api.sr.se/api/rss/pod/15451" />
+    <outline type="Podcast" version="RSS" language="sv" title="P1-morgon" htmlUrl="https://sverigesradio.se/p1morgon" xmlUrl="https://api.sr.se/api/rss/pod/12202" />
+    <outline type="Podcast" version="RSS" language="sv" title="P2 Dokumentär" htmlUrl="https://sverigesradio.se/p2dokumentar" xmlUrl="https://api.sr.se/api/rss/pod/16609" />
+    <outline type="Podcast" version="RSS" language="sv" title="P3 Dokumentär" htmlUrl="https://sverigesradio.se/p3dokumentar" xmlUrl="https://api.sr.se/api/rss/pod/3966" />
+    <outline type="Podcast" version="RSS" language="sv" title="P3 Dystopia" htmlUrl="https://sverigesradio.se/dystopia" xmlUrl="https://api.sr.se/api/rss/pod/26068" />
+    <outline type="Podcast" version="RSS" language="sv" title="P3 Historia" htmlUrl="https://sverigesradio.se/p3historia" xmlUrl="https://api.sr.se/api/rss/pod/23791" />
+    <outline type="Podcast" version="RSS" language="sv" title="P3 Musik" htmlUrl="https://sverigesradio.se/p3musik" xmlUrl="https://api.sr.se/api/rss/pod/26318" />
+    <outline type="Podcast" version="RSS" language="sv" title="P3 Musikdokumentär" htmlUrl="https://sverigesradio.se/p3musikdokumentar" xmlUrl="https://api.sr.se/api/rss/pod/25943" />
+    <outline type="Podcast" version="RSS" language="sv" title="P3 Nyheter" htmlUrl="https://sverigesradio.se/p3nyheter" xmlUrl="https://api.sr.se/api/rss/pod/7565" />
+    <outline type="Podcast" version="RSS" language="sv" title="P3 Nyheter på en minut" htmlUrl="https://sverigesradio.se/p3nyheterpaenminut" xmlUrl="https://api.sr.se/api/rss/pod/22376" />
+    <outline type="Podcast" version="RSS" language="sv" title="P3 Osignat - Topp 10" htmlUrl="https://sverigesradio.se/p3osignattopp10" xmlUrl="https://api.sr.se/api/rss/pod/21648" />
+    <outline type="Podcast" version="RSS" language="sv" title="P3 Serie" htmlUrl="https://sverigesradio.se/p3serie" xmlUrl="https://api.sr.se/api/rss/pod/22824" />
+    <outline type="Podcast" version="RSS" language="sv" title="P3 Soul" htmlUrl="https://sverigesradio.se/p3soul" xmlUrl="https://api.sr.se/api/rss/pod/18294" />
+    <outline type="Podcast" version="RSS" language="sv" title="P3 Spel" htmlUrl="https://sverigesradio.se/p3spel" xmlUrl="https://api.sr.se/api/rss/pod/14424" />
+    <outline type="Podcast" version="RSS" language="sv" title="P3s mest spelade" htmlUrl="https://sverigesradio.se/p3smestspelade" xmlUrl="https://api.sr.se/api/rss/pod/28685" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Blekinge" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=105" xmlUrl="https://api.sr.se/api/rss/pod/3770" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Dalarna" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=161" xmlUrl="https://api.sr.se/api/rss/pod/3771" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Dokumentär" htmlUrl="https://sverigesradio.se/p4dokumentar" xmlUrl="https://api.sr.se/api/rss/pod/4896" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Extra" htmlUrl="https://sverigesradio.se/p4extra" xmlUrl="https://api.sr.se/api/rss/pod/6616" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Göteborg" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=104" xmlUrl="https://api.sr.se/api/rss/pod/3774" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Gotland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=94" xmlUrl="https://api.sr.se/api/rss/pod/3772" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Halland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=128" xmlUrl="https://api.sr.se/api/rss/pod/3775" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Jämtland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=78" xmlUrl="https://api.sr.se/api/rss/pod/3776" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Jönköping" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=91" xmlUrl="https://api.sr.se/api/rss/pod/3777" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Kalmar" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=86" xmlUrl="https://api.sr.se/api/rss/pod/3778" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Kristianstad" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=101" xmlUrl="https://api.sr.se/api/rss/pod/3779" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Norrbotten" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=98" xmlUrl="https://api.sr.se/api/rss/pod/3782" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Örebro" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=159" xmlUrl="https://api.sr.se/api/rss/pod/3793" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Östergötland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=160" xmlUrl="https://api.sr.se/api/rss/pod/3794" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Sjuhärad" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=95" xmlUrl="https://api.sr.se/api/rss/pod/3785" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Skaraborg" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=97" xmlUrl="https://api.sr.se/api/rss/pod/3786" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Sörmland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=87" xmlUrl="https://api.sr.se/api/rss/pod/3787" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 specialprogram" htmlUrl="https://sverigesradio.se/p4specialprogram" xmlUrl="https://api.sr.se/api/rss/pod/17410" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Stockholm" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=103" xmlUrl="https://api.sr.se/api/rss/pod/3783" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Uppland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=114" xmlUrl="https://api.sr.se/api/rss/pod/3788" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Världen" htmlUrl="https://sverigesradio.se/p4varlden" xmlUrl="https://api.sr.se/api/rss/pod/21472" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Värmland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=93" xmlUrl="https://api.sr.se/api/rss/pod/3789" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Väst" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=125" xmlUrl="https://api.sr.se/api/rss/pod/3784" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Västerbotten" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=109" xmlUrl="https://api.sr.se/api/rss/pod/3790" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Västernorrland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=110" xmlUrl="https://api.sr.se/api/rss/pod/3791" />
+    <outline type="Podcast" version="RSS" language="sv" title="P4 Västmanland" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=112" xmlUrl="https://api.sr.se/api/rss/pod/3792" />
+    <outline type="Podcast" version="RSS" language="sv" title="På minuten" htmlUrl="https://sverigesradio.se/paminuten" xmlUrl="https://api.sr.se/api/rss/pod/3965" />
+    <outline type="Podcast" version="RSS" language="sv" title="Persson och Marhlo testar" htmlUrl="https://sverigesradio.se/motionssverigemedmarhloochpersson" xmlUrl="https://api.sr.se/api/rss/pod/23737" />
+    <outline type="Podcast" version="RSS" language="sv" title="Pettson och Findus i Barnradion" htmlUrl="https://sverigesradio.se/pettsonochfindusibarnradion" xmlUrl="https://api.sr.se/api/rss/pod/27348" />
+    <outline type="Podcast" version="RSS" language="sv" title="Pitchmall Drama" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5226" xmlUrl="https://api.sr.se/api/rss/pod/27520" />
+    <outline type="Podcast" version="RSS" language="sv" title="PK-mannen" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5228" xmlUrl="https://api.sr.se/api/rss/pod/28553" />
+    <outline type="Podcast" version="RSS" language="sv" title="Plånboken" htmlUrl="https://sverigesradio.se/planboken" xmlUrl="https://api.sr.se/api/rss/pod/3970" />
+    <outline type="Podcast" version="RSS" language="sv" title="Poddfest" htmlUrl="https://sverigesradio.se/poddfest" xmlUrl="https://api.sr.se/api/rss/pod/20051" />
+    <outline type="Podcast" version="RSS" language="sv" title="Popula" htmlUrl="https://sverigesradio.se/popula" xmlUrl="https://api.sr.se/api/rss/pod/21500" />
+    <outline type="Podcast" version="RSS" language="sv" title="PP3" htmlUrl="https://sverigesradio.se/pp3" xmlUrl="https://api.sr.se/api/rss/pod/17013" />
+    <outline type="Podcast" version="RSS" language="sv" title="Public Service" htmlUrl="https://sverigesradio.se/publicservice" xmlUrl="https://api.sr.se/api/rss/pod/3955" />
+    <outline type="Podcast" version="RSS" language="sv" title="Punani_99" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5166" xmlUrl="https://api.sr.se/api/rss/pod/25794" />
+    <outline type="Podcast" version="RSS" language="sv" title="Pyramiden" htmlUrl="https://sverigesradio.se/pyramiden" xmlUrl="https://api.sr.se/api/rss/pod/21417" />
+    <outline type="Podcast" version="RSS" language="sv" title="Radio Romano" htmlUrl="https://sverigesradio.se/radioromano" xmlUrl="https://api.sr.se/api/rss/pod/5187" />
+    <outline type="Podcast" version="RSS" language="sv" title="Radio Sweden" htmlUrl="https://sverigesradio.se/radiosweden" xmlUrl="https://api.sr.se/api/rss/pod/4901" />
+    <outline type="Podcast" version="RSS" language="sv" title="Radio Sweden Kurdish - ڕادیۆی سوید - Radyoya Swêdê" htmlUrl="https://sverigesradio.se/radioswedenkurdishradyoyaswede" xmlUrl="https://api.sr.se/api/rss/pod/3977" />
+    <outline type="Podcast" version="RSS" language="sv" title="Radio Sweden på lätt svenska" htmlUrl="https://sverigesradio.se/radioswedenpalattsvenska" xmlUrl="https://api.sr.se/api/rss/pod/22723" />
+    <outline type="Podcast" version="RSS" language="sv" title="Radio Sweden Somali - Raadiyaha Iswiidhen" htmlUrl="https://sverigesradio.se/radioswedensomaliraadiyahaiswiidhen" xmlUrl="https://api.sr.se/api/rss/pod/12364" />
+    <outline type="Podcast" version="RSS" language="sv" title="Radioapan i Sagoskogen" htmlUrl="https://sverigesradio.se/radioapanisagoskogen" xmlUrl="https://api.sr.se/api/rss/pod/19577" />
+    <outline type="Podcast" version="RSS" language="sv" title="Radioapans hemsida" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=4350" xmlUrl="https://api.sr.se/api/rss/pod/24356" />
+    <outline type="Podcast" version="RSS" language="sv" title="Radioföljetongen &amp; Radionovellen" htmlUrl="https://sverigesradio.se/radiofoljetongenradionovellen" xmlUrl="https://api.sr.se/api/rss/pod/21477" />
+    <outline type="Podcast" version="RSS" language="sv" title="Radiokorrespondenterna" htmlUrl="https://sverigesradio.se/radiokorrespondenterna" xmlUrl="https://api.sr.se/api/rss/pod/4886" />
+    <outline type="Podcast" version="RSS" language="sv" title="Radiopsykologen" htmlUrl="https://sverigesradio.se/radiopsykologen" xmlUrl="https://api.sr.se/api/rss/pod/9135" />
+    <outline type="Podcast" version="RSS" language="sv" title="Radiosporten Dokumentär" htmlUrl="https://sverigesradio.se/radiosportendokumentar" xmlUrl="https://api.sr.se/api/rss/pod/20669" />
+    <outline type="Podcast" version="RSS" language="sv" title="Radiosportens nyhetssändningar" htmlUrl="https://sverigesradio.se/radiosportensnyhetssandningar" xmlUrl="https://api.sr.se/api/rss/pod/5324" />
+    <outline type="Podcast" version="RSS" language="sv" title="Räls" htmlUrl="https://sverigesradio.se/r%C3%A4ls" xmlUrl="https://api.sr.se/api/rss/pod/30981" />
+    <outline type="Podcast" version="RSS" language="sv" title="Relationsradion i P3" htmlUrl="https://sverigesradio.se/relationsradionip3" xmlUrl="https://api.sr.se/api/rss/pod/22162" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ring P1 - 099-510 10" htmlUrl="https://sverigesradio.se/ringp1" xmlUrl="https://api.sr.se/api/rss/pod/6688" />
+    <outline type="Podcast" version="RSS" language="sv" title="Romane Paramichi" htmlUrl="https://sverigesradio.se/romaneparamichi" xmlUrl="https://api.sr.se/api/rss/pod/4911" />
+    <outline type="Podcast" version="RSS" language="sv" title="Romanpriset" htmlUrl="https://sverigesradio.se/romanpriset" xmlUrl="https://api.sr.se/api/rss/pod/7145" />
+    <outline type="Podcast" version="RSS" language="sv" title="Så funkar det" htmlUrl="https://sverigesradio.se/safunkardet" xmlUrl="https://api.sr.se/api/rss/pod/23847" />
+    <outline type="Podcast" version="RSS" language="sv" title="Sagor i Barnradion" htmlUrl="https://sverigesradio.se/sagoribarnradion" xmlUrl="https://api.sr.se/api/rss/pod/10948" />
+    <outline type="Podcast" version="RSS" language="sv" title="Sameradiopodden" htmlUrl="https://sverigesradio.se/sameradiopodden" xmlUrl="https://api.sr.se/api/rss/pod/25900" />
+    <outline type="Podcast" version="RSS" language="sv" title="Samiska nyheter på svenska" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=2327" xmlUrl="https://api.sr.se/api/rss/pod/4001" />
+    <outline type="Podcast" version="RSS" language="sv" title="Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/4899" />
+    <outline type="Podcast" version="RSS" language="sv" title="Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/4898" />
+    <outline type="Podcast" version="RSS" language="sv" title="Sisuradion sarjat" htmlUrl="https://sverigesradio.se/sisuradionsarjat" xmlUrl="https://api.sr.se/api/rss/pod/23110" />
+    <outline type="Podcast" version="RSS" language="sv" title="Sjukt, galet och helt normalt" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5223" xmlUrl="https://api.sr.se/api/rss/pod/27504" />
+    <outline type="Podcast" version="RSS" language="sv" title="Skymningsland" htmlUrl="https://sverigesradio.se/skymningsland" xmlUrl="https://api.sr.se/api/rss/pod/30956" />
+    <outline type="Podcast" version="RSS" language="sv" title="Släktband" htmlUrl="https://sverigesradio.se/slaktband" xmlUrl="https://api.sr.se/api/rss/pod/4885" />
+    <outline type="Podcast" version="RSS" language="sv" title="Smarta högtalare och röstassistenter" htmlUrl="https://sverigesradio.se/smartahogtalare" xmlUrl="https://api.sr.se/api/rss/pod/28635" />
+    <outline type="Podcast" version="RSS" language="sv" title="Smoolanti-Hallanti" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25514" />
+    <outline type="Podcast" version="RSS" language="sv" title="Snedtänkt med Kalle Lind" htmlUrl="https://sverigesradio.se/snedtanktmedkallelind" xmlUrl="https://api.sr.se/api/rss/pod/21650" />
+    <outline type="Podcast" version="RSS" language="sv" title="Soilin seurassa" htmlUrl="https://sverigesradio.se/soilinseurassa" xmlUrl="https://api.sr.se/api/rss/pod/22336" />
+    <outline type="Podcast" version="RSS" language="sv" title="Sommar &amp; Vinter i P1" htmlUrl="https://sverigesradio.se/sommarvinterip1" xmlUrl="https://api.sr.se/api/rss/pod/4023" />
+    <outline type="Podcast" version="RSS" language="sv" title="Söndagarna med Stina Wollter" htmlUrl="https://sverigesradio.se/sondagarnamedstinawollter" xmlUrl="https://api.sr.se/api/rss/pod/20288" />
+    <outline type="Podcast" version="RSS" language="sv" title="Söndagsintervjun" htmlUrl="https://sverigesradio.se/sondagsintervjun" xmlUrl="https://api.sr.se/api/rss/pod/21830" />
+    <outline type="Podcast" version="RSS" language="sv" title="SöndagsMorgan i P4" htmlUrl="https://sverigesradio.se/sondagsmorganip4" xmlUrl="https://api.sr.se/api/rss/pod/21340" />
+    <outline type="Podcast" version="RSS" language="sv" title="Spanarna" htmlUrl="https://sverigesradio.se/spanarna" xmlUrl="https://api.sr.se/api/rss/pod/4007" />
+    <outline type="Podcast" version="RSS" language="sv" title="Speedwaypodden" htmlUrl="https://sverigesradio.se/speedwaypodden" xmlUrl="https://api.sr.se/api/rss/pod/12403" />
+    <outline type="Podcast" version="RSS" language="sv" title="Språket" htmlUrl="https://sverigesradio.se/spraket" xmlUrl="https://api.sr.se/api/rss/pod/4012" />
+    <outline type="Podcast" version="RSS" language="sv" title="Stadsinspektionen" htmlUrl="https://sverigesradio.se/stadsinspektionen" xmlUrl="https://api.sr.se/api/rss/pod/24104" />
+    <outline type="Podcast" version="RSS" language="sv" title="Stil" htmlUrl="https://sverigesradio.se/stil" xmlUrl="https://api.sr.se/api/rss/pod/4887" />
+    <outline type="Podcast" version="RSS" language="sv" title="Studio Ett" htmlUrl="https://sverigesradio.se/studioett" xmlUrl="https://api.sr.se/api/rss/pod/4021" />
+    <outline type="Podcast" version="RSS" language="sv" title="Svenska berättelser" htmlUrl="https://sverigesradio.se/svenskaberattelser" xmlUrl="https://api.sr.se/api/rss/pod/20206" />
+    <outline type="Podcast" version="RSS" language="sv" title="Svenska ikoner" htmlUrl="https://sverigesradio.se/svenskaikoner" xmlUrl="https://api.sr.se/api/rss/pod/22203" />
+    <outline type="Podcast" version="RSS" language="sv" title="Svensktoppen" htmlUrl="https://sverigesradio.se/svensktoppen" xmlUrl="https://api.sr.se/api/rss/pod/14423" />
+    <outline type="Podcast" version="RSS" language="sv" title="Sveriges Radio i Almedalen" htmlUrl="https://sverigesradio.se/sverigesradioialmedalen" xmlUrl="https://api.sr.se/api/rss/pod/8210" />
+    <outline type="Podcast" version="RSS" language="sv" title="Sydänmaan Sisuradio" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25516" />
+    <outline type="Podcast" version="RSS" language="sv" title="Tablå för extrasändningar" htmlUrl="https://sverigesradio.se/extrasandningar" xmlUrl="https://api.sr.se/api/rss/pod/25911" />
+    <outline type="Podcast" version="RSS" language="sv" title="Taikalipas - satuja ja tarinoita lapsille" htmlUrl="https://sverigesradio.se/taikalipassatujajatarinoitalapsille" xmlUrl="https://api.sr.se/api/rss/pod/4912" />
+    <outline type="Podcast" version="RSS" language="sv" title="Tankar för dagen" htmlUrl="https://sverigesradio.se/tankarfordagen" xmlUrl="https://api.sr.se/api/rss/pod/3957" />
+    <outline type="Podcast" version="RSS" language="sv" title="Tankesmedjan" htmlUrl="https://sverigesradio.se/tankesmedjan" xmlUrl="https://api.sr.se/api/rss/pod/9946" />
+    <outline type="Podcast" version="RSS" language="sv" title="Tendens – kortdokumentärer" htmlUrl="https://sverigesradio.se/tendens" xmlUrl="https://api.sr.se/api/rss/pod/6615" />
+    <outline type="Podcast" version="RSS" language="sv" title="Terni Generatcia" htmlUrl="https://sverigesradio.se/ternigeneratcia" xmlUrl="https://api.sr.se/api/rss/pod/23300" />
+    <outline type="Podcast" version="RSS" language="sv" title="Till sängs i kulturen" htmlUrl="https://sverigesradio.se/tillsangsikulturen" xmlUrl="https://api.sr.se/api/rss/pod/23050" />
+    <outline type="Podcast" version="RSS" language="sv" title="Tillfälligheternas spel" htmlUrl="https://sverigesradio.se/tillfalligheternasspel" xmlUrl="https://api.sr.se/api/rss/pod/26176" />
+    <outline type="Podcast" version="RSS" language="sv" title="Tio miljoner" htmlUrl="https://sverigesradio.se/tiomiljoner" xmlUrl="https://api.sr.se/api/rss/pod/26097" />
+    <outline type="Podcast" version="RSS" language="sv" title="Tollans musikaliska" htmlUrl="https://sverigesradio.se/tollansmusikaliska" xmlUrl="https://api.sr.se/api/rss/pod/22517" />
+    <outline type="Podcast" version="RSS" language="sv" title="Trafikredaktionen Göteborg" htmlUrl="https://sverigesradio.se/sida/trafik.aspx?programid=2848" xmlUrl="https://api.sr.se/api/rss/pod/18748" />
+    <outline type="Podcast" version="RSS" language="sv" title="Trafikredaktionen Malmö" htmlUrl="https://sverigesradio.se/sida/trafik.aspx?programid=2855" xmlUrl="https://api.sr.se/api/rss/pod/19126" />
+    <outline type="Podcast" version="RSS" language="sv" title="Trafikredaktionen Stockholm" htmlUrl="https://sverigesradio.se/sida/trafik.aspx?programid=2859" xmlUrl="https://api.sr.se/api/rss/pod/10326" />
+    <outline type="Podcast" version="RSS" language="sv" title="Turid - en vikingasaga" htmlUrl="https://sverigesradio.se/sida/gruppsida.aspx?programid=3171&amp;grupp=28584" xmlUrl="https://api.sr.se/api/rss/pod/28585" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ufopodden i P3" htmlUrl="https://sverigesradio.se/ufopoddenip3" xmlUrl="https://api.sr.se/api/rss/pod/23664" />
+    <outline type="Podcast" version="RSS" language="sv" title="Urheilu" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=185" xmlUrl="https://api.sr.se/api/rss/pod/25518" />
+    <outline type="Podcast" version="RSS" language="sv" title="USApodden" htmlUrl="https://sverigesradio.se/usapodden" xmlUrl="https://api.sr.se/api/rss/pod/22712" />
+    <outline type="Podcast" version="RSS" language="sv" title="Utblick Sapmi" htmlUrl="https://sverigesradio.se/utblicksapmi" xmlUrl="https://api.sr.se/api/rss/pod/3978" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ute med P1" htmlUrl="https://sverigesradio.se/utemedp1" xmlUrl="https://api.sr.se/api/rss/pod/22726" />
+    <outline type="Podcast" version="RSS" language="sv" title="Utkantssverige" htmlUrl="https://sverigesradio.se/utkantssverige" xmlUrl="https://api.sr.se/api/rss/pod/23851" />
+    <outline type="Podcast" version="RSS" language="sv" title="Utrikeskrönikan" htmlUrl="https://sverigesradio.se/utrikeskronikan" xmlUrl="https://api.sr.se/api/rss/pod/21816" />
+    <outline type="Podcast" version="RSS" language="sv" title="Utvecklingsbloggen" htmlUrl="https://sverigesradio.se/utvecklingsbloggen" xmlUrl="https://api.sr.se/api/rss/pod/26061" />
+    <outline type="Podcast" version="RSS" language="sv" title="Väder från hela landet" htmlUrl="https://sverigesradio.se/vaderfranhelalandet" xmlUrl="https://api.sr.se/api/rss/pod/7625" />
+    <outline type="Podcast" version="RSS" language="sv" title="Världens barn i P4" htmlUrl="https://sverigesradio.se/varldensbarnip4" xmlUrl="https://api.sr.se/api/rss/pod/24353" />
+    <outline type="Podcast" version="RSS" language="sv" title="Verkligheten i P3" htmlUrl="https://sverigesradio.se/verklighetenip3" xmlUrl="https://api.sr.se/api/rss/pod/4895" />
+    <outline type="Podcast" version="RSS" language="sv" title="Vetandets värld" htmlUrl="https://sverigesradio.se/vetandetsvarld" xmlUrl="https://api.sr.se/api/rss/pod/4017" />
+    <outline type="Podcast" version="RSS" language="sv" title="Vetenskapsradion" htmlUrl="https://sverigesradio.se/vetenskapsradion" xmlUrl="https://api.sr.se/api/rss/pod/4890" />
+    <outline type="Podcast" version="RSS" language="sv" title="Vetenskapsradion Historia" htmlUrl="https://sverigesradio.se/vetenskapsradionhistoria" xmlUrl="https://api.sr.se/api/rss/pod/4020" />
+    <outline type="Podcast" version="RSS" language="sv" title="Vetenskapsradions veckomagasin" htmlUrl="https://sverigesradio.se/vetenskapsradionsveckomagasin" xmlUrl="https://api.sr.se/api/rss/pod/3988" />
+    <outline type="Podcast" version="RSS" language="sv" title="Vi i femman" htmlUrl="https://sverigesradio.se/viifemman" xmlUrl="https://api.sr.se/api/rss/pod/9848" />
+    <outline type="Podcast" version="RSS" language="sv" title="Viikkosisu" htmlUrl="https://sverigesradio.se/sida/default.aspx?programid=5241" xmlUrl="https://api.sr.se/api/rss/pod/28783" />
+    <outline type="Podcast" version="RSS" language="sv" title="Vuoden Ruotsinsuomalaiset / Årets Sverigefinnar" htmlUrl="https://sverigesradio.se/aretssverigefinnar" xmlUrl="https://api.sr.se/api/rss/pod/25510" />
+    <outline type="Podcast" version="RSS" language="sv" title="رادیو السوید Radio Sweden Arabic" htmlUrl="https://sverigesradio.se/radioswedenarabic" xmlUrl="https://api.sr.se/api/rss/pod/4004" />
+    <outline type="Podcast" version="RSS" language="sv" title="رادیو سوئد / رادیوی سویدن Radio Sweden Farsi/Dari" htmlUrl="https://sverigesradio.se/radioswedenfarsidari" xmlUrl="https://api.sr.se/api/rss/pod/3962" />
   </body>
 </opml>
-

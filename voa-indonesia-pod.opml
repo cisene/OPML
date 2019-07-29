@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/voa-indonesia-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - VOA - Bahasa Indonesia Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:23 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="id" title="Amerika Kini - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/4136" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=4136" />
+    <outline type="Podcast" version="RSS" language="id" title="Aneka Info VOA - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/4141" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=4141" />
+    <outline type="Podcast" version="RSS" language="id" title="Audios - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/585" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=585" />
+    <outline type="Podcast" version="RSS" language="id" title="Berita - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/299" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=299" />
+    <outline type="Podcast" version="RSS" language="id" title="Indonesia - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/555" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=555" />
+    <outline type="Podcast" version="RSS" language="id" title="Indonesia di Amerika - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/2813" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=2813" />
+    <outline type="Podcast" version="RSS" language="id" title="Indonesia Kini - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/4140" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=4140" />
+    <outline type="Podcast" version="RSS" language="id" title="Info Film VOA - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/4143" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=4143" />
+    <outline type="Podcast" version="RSS" language="id" title="Info Pasar Keuangan &amp; Bursa Global - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/4137" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=4137" />
+    <outline type="Podcast" version="RSS" language="id" title="Radio - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/408" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=408" />
+    <outline type="Podcast" version="RSS" language="id" title="Sains &amp; Kesehatan - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/4138" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=4138" />
+    <outline type="Podcast" version="RSS" language="id" title="Siaran Pagi - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/421" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=421" />
+    <outline type="Podcast" version="RSS" language="id" title="Siaran Petang - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/422" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=422" />
+    <outline type="Podcast" version="RSS" language="id" title="VOA Executive Lounge - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/3151" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=3151" />
+    <outline type="Podcast" version="RSS" language="id" title="VOA Gondangdia - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/425" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=425" />
+    <outline type="Podcast" version="RSS" language="id" title="VOA Headline News - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/3941" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=3941" />
+    <outline type="Podcast" version="RSS" language="id" title="VOA Kisah Rantau - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/3680" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=3680" />
+    <outline type="Podcast" version="RSS" language="id" title="VOA Today - Voice of America | Bahasa Indonesia" htmlUrl="https://www.voaindonesia.com/z/4223" xmlUrl="https://www.voaindonesia.com/podcast/?count=50&amp;zoneId=4223" />
+  </body>
+</opml>

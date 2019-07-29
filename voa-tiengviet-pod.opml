@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/voa-tiengviet-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - VOA - Tiếng Việt Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:40 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="vi" title="Sức khỏe - VOA" htmlUrl="https://www.voatiengviet.com/z/1796" xmlUrl="https://www.voatiengviet.com/podcast/?count=50&amp;zoneId=1796" />
+    <outline type="Podcast" version="RSS" language="vi" title="Tin tức - VOA" htmlUrl="https://www.voatiengviet.com/z/1777" xmlUrl="https://www.voatiengviet.com/podcast/?count=50&amp;zoneId=1777" />
+    <outline type="Podcast" version="RSS" language="vi" title="Việt Nam - VOA" htmlUrl="https://www.voatiengviet.com/z/1813" xmlUrl="https://www.voatiengviet.com/podcast/?count=50&amp;zoneId=1813" />
+    <outline type="Podcast" version="RSS" language="vi" title="Việt Nam - VOA" htmlUrl="https://www.voatiengviet.com/z/1813" xmlUrl="https://www.voatiengviet.com/podcast/?count=20&amp;zoneId=1813" />
+    <outline type="Podcast" version="RSS" language="vi" title="VOA 4 giờ 30 sáng - VOA" htmlUrl="https://www.voatiengviet.com/z/1952" xmlUrl="https://www.voatiengviet.com/podcast/?count=50&amp;zoneId=1952" />
+  </body>
+</opml>

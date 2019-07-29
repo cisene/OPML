@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/wmfe-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - WMFE - Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:55:15 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="en" title="90.7 WMFE&apos;s Intersection" htmlUrl="https://www.wmfe.org/category/wmfe-intersection" xmlUrl="https://www.wmfe.org/category/wmfe-intersection-podcast/feed" />
+    <outline type="Podcast" version="RSS" language="en" title="90.7 WMFE&apos;s Intersection" htmlUrl="https://www.wmfe.org/category/wmfe-intersection" xmlUrl="https://www.wmfe.org/category/wmfe-intersection-podcast/feed/podcast" />
+    <outline type="Podcast" version="RSS" language="en" title="Are We There Yet?" htmlUrl="https://www.wmfe.org/category/are-we-there-yet" xmlUrl="https://www.wmfe.org/category/are-we-there-yet/feed/podcast" />
+    <outline type="Podcast" version="RSS" language="en" title="Fishkind Economic Conversations" htmlUrl="https://www.wmfe.org/category/commentaries/fishkind-economics" xmlUrl="https://www.wmfe.org/category/commentaries/fishkind-economics/feed" />
+    <outline type="Podcast" version="RSS" language="en" title="Growing Bolder" htmlUrl="https://www.wmfe.org/category/growing-bolder" xmlUrl="https://www.wmfe.org/category/growing-bolder/feed/podcast" />
+  </body>
+</opml>

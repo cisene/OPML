@@ -1,35 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Podmix/0.2-dev -->
+<!-- Created with Podmix-OPML/0.4-dev -->
 <!-- Source: http://b19.se/data/alandsradio-pod.opml -->
 <opml version="2.0">
   <head>
     <title>Podmix - Ålands Radio - Podcasts</title>
-    <dateModified>Sun, 30 Jun 2019 14:36:24 +0000</dateModified>
+    <dateModified>Mon, 29 Jul 2019 10:52:53 +0000</dateModified>
   </head>
   <body>
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Ålandsnytt på 1 minut" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/522" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Allt om inget" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/725" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Arkivpärlan" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/758" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Dokumentär" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/455" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Julkalendern 2018" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/569" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Kulturen" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/398" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Kunskapscupen" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/461" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Läshörnan" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/407" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Livshissen" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/626" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Min Bokhylla" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/770" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Panelen" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/558" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Radiobokcirkeln" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/593" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Resumé" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/533" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Sagostunden" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/410" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Sjömanshistorier" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/603" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Sommarprat 2018" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/476" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Sommarprat 2019" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/752" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Sportpodden" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/542" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Teknikmagasinet" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/413" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Trosbekännelser" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/737" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Val 2019" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/705" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Valsnack med Smeds" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/708" />
-      <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Vinterprat 2018" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/579" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Ålandsnytt på 1 minut" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/522" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Allt om inget" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/725" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Arkivpärlan" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/758" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Dokumentär" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/455" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Julkalendern 2018" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/569" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Kulturen" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/398" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Kunskapscupen" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/461" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Läshörnan" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/407" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Livshissen" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/626" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Min Bokhylla" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/770" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Panelen" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/558" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Radiobokcirkeln" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/593" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Resumé" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/533" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Sagostunden" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/410" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Sjömanshistorier" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/603" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Sommarprat 2018" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/476" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Sommarprat 2019" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/752" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Sportpodden" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/542" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Teknikmagasinet" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/413" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Trosbekännelser" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/737" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Val 2019" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/705" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Valsnack med Smeds" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/708" />
+    <outline type="Podcast" version="RSS" language="sv" title="Ålands Radio - Vinterprat 2018" htmlUrl="https://alandsradio.ax/" xmlUrl="https://alandsradio.ax/podcast/rss/579" />
   </body>
 </opml>
-

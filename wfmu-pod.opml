@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Podmix-OPML/0.4-dev -->
+<!-- Source: http://b19.se/data/wfmu-pod.opml -->
+<opml version="2.0">
+  <head>
+    <title>Podmix - WFMU - Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:56 +0000</dateModified>
+  </head>
+  <body>
+    <outline type="Podcast" version="RSS" language="en" title="Bitslap with KBC | WFMU" htmlUrl="http://www.wfmu.org/playlists/KB" xmlUrl="http://www.wfmu.org/podcast/kb.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Centennial Songs / The Antique Phonograph Music Program with MAC | WFMU" htmlUrl="http://www.wfmu.org/playlists/AP" xmlUrl="http://www.wfmu.org/podcast/ap.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Dave Emory | WFMU" htmlUrl="http://www.wfmu.org/playlists/DX" xmlUrl="http://www.wfmu.org/podcast/dx.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Diane&apos;s Kamikaze Fun Machine | WFMU" htmlUrl="http://www.wfmu.org/playlists/DK" xmlUrl="http://www.wfmu.org/podcast/dk.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Downtown Soulville with Mr. Fine Wine | WFMU" htmlUrl="http://www.wfmu.org/playlists/SV" xmlUrl="http://www.wfmu.org/podcast/sv.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="FMA Listening Party with Cheyenne | WFMU" htmlUrl="http://www.wfmu.org/playlists/FM" xmlUrl="http://www.wfmu.org/podcast/fm.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Honky Tonk Radio Girl with Becky | WFMU" htmlUrl="http://www.wfmu.org/playlists/HG" xmlUrl="http://www.wfmu.org/podcast/hg.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="In Real Life with Kimzilla and Emily | WFMU" htmlUrl="http://www.wfmu.org/playlists/IL" xmlUrl="http://www.wfmu.org/podcast/il.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Michael Shelley | WFMU" htmlUrl="http://www.wfmu.org/playlists/SH" xmlUrl="http://www.wfmu.org/podcast/sh.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Miracle Nutrition with Hearty White | WFMU" htmlUrl="http://www.wfmu.org/playlists/HA" xmlUrl="http://www.wfmu.org/podcast/ha.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Seven Second Delay with Ken and Andy | WFMU" htmlUrl="http://www.wfmu.org/playlists/SD" xmlUrl="http://www.wfmu.org/podcast/sd.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Shut Up, Weirdo with Frangry and Michele with One &quot;L&quot; | WFMU" htmlUrl="http://www.wfmu.org/playlists/AF" xmlUrl="http://www.wfmu.org/podcast/af.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Sinner&apos;s Crossroads with Kevin Nutt | WFMU" htmlUrl="http://www.wfmu.org/playlists/CR" xmlUrl="http://www.wfmu.org/podcast/cr.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Techtonic with Mark Hurst | WFMU" htmlUrl="http://www.wfmu.org/playlists/TD" xmlUrl="http://www.wfmu.org/podcast/td.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="The Blind Tourist with Adriene | WFMU" htmlUrl="http://www.wfmu.org/playlists/TX" xmlUrl="http://www.wfmu.org/podcast/tx.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="The Eternal Now with Andy Ortmann | WFMU" htmlUrl="http://www.wfmu.org/playlists/AO" xmlUrl="http://www.wfmu.org/podcast/ao.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="The Goddamn Dave Hill Show | WFMU" htmlUrl="http://www.wfmu.org/playlists/GS" xmlUrl="http://www.wfmu.org/podcast/gs.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Wake and Bake Podcast with Clay Pigeon | WFMU" htmlUrl="http://www.wfmu.org/playlists/WP" xmlUrl="http://www.wfmu.org/podcast/wp.xml" />
+  </body>
+</opml>

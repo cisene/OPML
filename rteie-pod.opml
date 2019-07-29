@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Podmix/0.2-dev -->
+<!-- Created with Podmix-OPML/0.4-dev -->
 <!-- Source: http://b19.se/data/rteie-pod.opml -->
 <opml version="2.0">
   <head>
-    <title>Podmix - RTE Ireland - Podcasts</title>
-    <dateModified>Sun, 30 Jun 2019 14:36:28 +0000</dateModified>
+    <title>Podmix - RTÉ Ireland - Podcasts</title>
+    <dateModified>Mon, 29 Jul 2019 10:54:04 +0000</dateModified>
   </head>
   <body>
-      <outline type="Podcast" version="RSS" language="en" title="Deep Cleanse - The Skin Nerd" htmlUrl="http://www.rte.ie/lifestyle/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_deepcleanse.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="Documentary on One - RTÃ Documentaries" htmlUrl="http://www.rte.ie/radio1/doconone/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_documentaryonone.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Arena Podcast" htmlUrl="http://www.rte.ie/radio1/arena/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_arena.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Brexit Republic" htmlUrl="http://www.rte.ie/news/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_brexitrepublic.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Callans Kicks" htmlUrl="http://www.rte.ie/radio1/specials" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_callanskicks.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - CountryWide Podcast" htmlUrl="http://www.rte.ie/radio1/countrywide/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_countrywide.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Drama On One Podcast" htmlUrl="http://www.rte.ie/radio1/dramaonone/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_dramaonone.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Drivetime" htmlUrl="http://www.rte.ie/radio1/drivetime/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_drivetime.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Like Family" htmlUrl="http://www.rte.ie/radio1/likefamily/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_likefamily.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Liveline" htmlUrl="http://www.rte.ie/radio1/liveline/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_liveline.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - lyric fm - Movies and Musicals" htmlUrl="http://www.rte.ie/lyricfm/movies/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_moviesandmusicals.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Marian Finucane" htmlUrl="http://www.rte.ie/radio1/marianfinucane/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_marianfinucane.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Mooney Goes Wild" htmlUrl="http://www.rte.ie/radio/mooney/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_mooney.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Morning Ireland" htmlUrl="http://www.rte.ie/radio1/morningireland/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_morningireland.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - News at One Podcast" htmlUrl="http://www.rte.ie/radio1/newsatone/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_newsatone.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Playback" htmlUrl="http://www.rte.ie/radio1/playback/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_playback.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Saturday with Cormac O hEadhra" htmlUrl="http://www.rte.ie/radio1/saturday/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_saturday.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Second Captains" htmlUrl="http://www.rte.ie/radio1/second-captains-sunday/" xmlUrl="http://www.rte.ie/radio1/podcast/podcast_secondcaptainssunday.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Situationships" htmlUrl="http://www.rte.ie/radio1/situationships/" xmlUrl="http://www.rte.ie/radio1/podcast/podcast_situationships.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Sunday Miscellany" htmlUrl="http://www.rte.ie/radio1/sundaymiscellany/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_sundaymiscellany.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - The Business" htmlUrl="http://www.rte.ie/radio1/thebusiness/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_thebusiness.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - The History Show" htmlUrl="http://www.rte.ie/radio1/thehistoryshow/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_thehistoryshow.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - The Late Debate" htmlUrl="http://www.rte.ie/radio1/the-late-debate/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_thelatedebate.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - The Mystery Train" htmlUrl="http://www.rte.ie/lyricfm/mystery-train/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_mysterytrain.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - The Ray Darcy Show" htmlUrl="http://www.rte.ie/radio1/ray/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_theraydarcyshow.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - The Ryan Tubridy Show" htmlUrl="http://www.rte.ie/radio1/ryan-tubridy/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_ryantubridy.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - This Week Podcast" htmlUrl="http://www.rte.ie/news/thisweek/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_thisweek.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Today with Sean O&apos;Rourke" htmlUrl="http://www.rte.ie/radio1/today-with-sean-o-rourke" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_seanorourke.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ - Your Politics" htmlUrl="http://www.rte.ie/radio1/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_yourpolitics.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="RTÃ Podcast" htmlUrl="http://www.rte.ie" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_seascapes.xml" />
-      <outline type="Podcast" version="RSS" language="en" title="Unlocked with Laura and Emma" htmlUrl="http://www.rte.ie/entertainment/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_unlocked.xml" />
-      <outline type="Podcast" version="RSS" language="gd" title="RTÃ - ArdtrÃ¡thnÃ³na" htmlUrl="http://www.rte.ie/rnag/ardtrathnona.html" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_ardtrathnona.xml" />
-      <outline type="Podcast" version="RSS" language="gd" title="RTÃ - Iris Aniar" htmlUrl="http://www.rte.ie/rnag/irisaniar.html" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_irisaniar.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Deep Cleanse - The Skin Nerd" htmlUrl="http://www.rte.ie/lifestyle/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_deepcleanse.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Documentary on One - RTÉ Documentaries" htmlUrl="http://www.rte.ie/radio1/doconone/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_documentaryonone.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Jennifer Zamparelli on 2FM" htmlUrl="http://2fm.rte.ie" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_jenniferzamparelli.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Arena Podcast" htmlUrl="http://www.rte.ie/radio1/arena/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_arena.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Beo Ar Éigean" htmlUrl="https://www.rte.ie/gaeilge/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_beoareigean.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Brexit Republic" htmlUrl="http://www.rte.ie/news/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_brexitrepublic.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Callans Kicks" htmlUrl="http://www.rte.ie/radio1/specials" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_callanskicks.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - CountryWide Podcast" htmlUrl="http://www.rte.ie/radio1/countrywide/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_countrywide.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Drama On One Podcast" htmlUrl="http://www.rte.ie/radio1/dramaonone/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_dramaonone.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Drivetime" htmlUrl="http://www.rte.ie/radio1/drivetime/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_drivetime.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Like Family" htmlUrl="http://www.rte.ie/radio1/likefamily/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_likefamily.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Liveline" htmlUrl="http://www.rte.ie/radio1/liveline/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_liveline.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - lyric fm - Movies and Musicals" htmlUrl="http://www.rte.ie/lyricfm/movies/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_moviesandmusicals.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Marian Finucane" htmlUrl="http://www.rte.ie/radio1/marianfinucane/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_marianfinucane.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Mooney Goes Wild" htmlUrl="http://www.rte.ie/radio/mooney/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_mooney.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Morning Ireland" htmlUrl="http://www.rte.ie/radio1/morningireland/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_morningireland.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - News at One Podcast" htmlUrl="http://www.rte.ie/radio1/newsatone/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_newsatone.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Playback" htmlUrl="http://www.rte.ie/radio1/playback/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_playback.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Saturday with Cormac O hEadhra" htmlUrl="http://www.rte.ie/radio1/saturday/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_saturday.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Second Captains" htmlUrl="http://www.rte.ie/radio1/second-captains-sunday/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_secondcaptainssunday.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Situationships" htmlUrl="http://www.rte.ie/radio1/situationships/" xmlUrl="http://www.rte.ie/radio1/podcast/podcast_situationships.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Sunday Miscellany" htmlUrl="http://www.rte.ie/radio1/sundaymiscellany/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_sundaymiscellany.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - The Business" htmlUrl="http://www.rte.ie/radio1/thebusiness/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_thebusiness.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - The History Show" htmlUrl="http://www.rte.ie/radio1/thehistoryshow/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_thehistoryshow.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - The Late Debate" htmlUrl="http://www.rte.ie/radio1/the-late-debate/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_thelatedebate.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - The Mystery Train" htmlUrl="http://www.rte.ie/lyricfm/mystery-train/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_mysterytrain.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - The Ray Darcy Show" htmlUrl="http://www.rte.ie/radio1/ray/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_theraydarcyshow.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - The Ryan Tubridy Show" htmlUrl="http://www.rte.ie/radio1/ryan-tubridy/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_ryantubridy.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - This Week Podcast" htmlUrl="http://www.rte.ie/news/thisweek/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_thisweek.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Today with Sean O&apos;Rourke" htmlUrl="http://www.rte.ie/radio1/today-with-sean-o-rourke" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_seanorourke.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ - Your Politics" htmlUrl="http://www.rte.ie/radio1/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_yourpolitics.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ Podcast" htmlUrl="http://www.rte.ie" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_seascapes.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="RTÉ Soccer Podcast" htmlUrl="http://www.rte.ie/sport/soccer/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_soccerrepublic.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="THE W" htmlUrl="http://www.rte.ie/sport/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_thew.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Unlocked with Laura and Emma" htmlUrl="http://www.rte.ie/entertainment/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_unlocked.xml" />
+    <outline type="Podcast" version="RSS" language="en" title="Voices of the 8th" htmlUrl="http://www.rte.ie/news/" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_voices8th.xml" />
+    <outline type="Podcast" version="RSS" language="gd" title="RTÉ - ArdtrÃ¡thnÃ³na" htmlUrl="http://www.rte.ie/rnag/ardtrathnona.html" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_ardtrathnona.xml" />
+    <outline type="Podcast" version="RSS" language="gd" title="RTÉ - Iris Aniar" htmlUrl="http://www.rte.ie/rnag/irisaniar.html" xmlUrl="https://www.rte.ie/radio1/podcast/podcast_irisaniar.xml" />
   </body>
 </opml>
-
