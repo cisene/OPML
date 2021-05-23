@@ -1,6 +1,6 @@
 # OPML
 
-All OPML files mirrored from http://b19.se/data
+All OPML files mirrored from https://b19.se/data/
 
 Audio-only podcast RSS/Atom feeds are colleced into OPML with a certain theme. The below listed OPMLs are collected from a broadcaster theme.
 
