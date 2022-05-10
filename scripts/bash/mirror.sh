@@ -204,4 +204,18 @@ MirrorOPML "https://feeds.twit.tv/twitfeeds.opml" "twit-tv-twitfeeds.opml"
 MirrorOPML "https://feeds.twit.tv/twitshows.opml" "twit-tv-twitshows.opml"
 MirrorOPML "https://feeds.twit.tv/twitshows_video_hd.opml" "twit-tv-twitshows-video-hd.opml"
 
+# IOSDevDirectory
+MirrorOPML "https://iosdevdirectory.com/opml/en/podcasts.opml" "iosdevdirectory-english-podcasts.opml"
+MirrorOPML "https://iosdevdirectory.com/opml/es/podcasts.opml" "iosdevdirectory-spanish-podcasts.opml"
+MirrorOPML "https://iosdevdirectory.com/opml/de/podcasts.opml" "iosdevdirectory-german-podcasts.opml"
 
+
+# Radio2
+MirrorOPML "http://s3.amazonaws.com/radio2/communityReadingList.opml" "radio2-communityReadingList.opml"
+
+# Divergence-Fm
+MirrorOPML "http://podcasts.divergence-fm.org/podcasts.opml" "divergence-fm-podcasts.opml"
+
+
+# Misc
+MirrorOPML "https://source.mcwhirter.io/craige/rcfiles/raw/branch/consensus/.gpodder.opml" "mcwhirter-craige-consensus-gpodder.opml"
