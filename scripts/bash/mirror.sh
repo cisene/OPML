@@ -219,3 +219,4 @@ MirrorOPML "http://podcasts.divergence-fm.org/podcasts.opml" "divergence-fm-podc
 
 # Misc
 MirrorOPML "https://source.mcwhirter.io/craige/rcfiles/raw/branch/consensus/.gpodder.opml" "mcwhirter-craige-consensus-gpodder.opml"
+MirrorOPML "https://raw.githubusercontent.com/yasuharu519/opml/master/main.opml" "yasuhary519.opml"
