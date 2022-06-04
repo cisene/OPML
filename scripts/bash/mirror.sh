@@ -74,9 +74,9 @@ MirrorOPML "https://www.rtl.fr/podcasts.opml" "rtl-fr-podcasts.opml"
 MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
 
 # Misc
-MirrorOPML "https://raw.githubusercontent.com/alaskasquirrel/Chinese-Podcasts/master/Podcasts.opml" "gorver-pod.opml"
+# Dead 2022-04-22 MirrorOPML "https://raw.githubusercontent.com/alaskasquirrel/Chinese-Podcasts/master/Podcasts.opml" "gorver-pod.opml"
 MirrorOPML "https://typlog.com/podlist/opml.xml" "typlog-pod.opml"
-MirrorOPML "https://www.open.edu/openlearn/rss/feeds.opml" "open-edu-openlearn-rss-feeds.opml"
+# Dead 2022-01-21 MirrorOPML "https://www.open.edu/openlearn/rss/feeds.opml" "open-edu-openlearn-rss-feeds.opml"
 MirrorOPML "https://wissenschaftspodcasts.de/opml-export/" "wissenschafts-podcasts.opml"
 MirrorOPML "http://rss.sina.com.cn/sina_all_opml.xml" "sina-com-cn-all.opml"
 MirrorOPML "https://digiper.com/dl/digiper.opml" "digiper.opml"
