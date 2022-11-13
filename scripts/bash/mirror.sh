@@ -61,6 +61,9 @@ function MirrorOPML {
 # CBC Canada
 MirrorOPML "http://www.cbc.ca/podcasts.opml" "cbc-ca-podcasts.opml"
 
+# CNN
+MirrorOPML "http://edition.cnn.com/services/podcasting/CNN.opml" "cnn-edition.opml"
+
 # BBC
 MirrorOPML "http://www.bbc.co.uk/podcasts.opml" "bbc-co-uk-podcasts.opml"
 MirrorOPML "http://news.bbc.co.uk/rss/feeds.opml" "bbc-co-uk-news-rss-feeds.opml"
@@ -73,6 +76,9 @@ MirrorOPML "https://www.rtl.fr/podcasts.opml" "rtl-fr-podcasts.opml"
 
 # ApaPodcast.cz
 MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
+
+# Aloha Podcast Network
+MirrorOPML "http://www.alohapodcast.com/APN.opml" "alohapodcast-apn.opml"
 
 # Misc
 # Dead 2022-04-22 MirrorOPML "https://raw.githubusercontent.com/alaskasquirrel/Chinese-Podcasts/master/Podcasts.opml" "gorver-pod.opml"
@@ -88,6 +94,20 @@ MirrorOPML "http://rasterweb.net/raster/feeds/wisconsin.opml" "rasterweb-net-wis
 MirrorOPML "http://ipodder.sourceforge.net/opml/ipodder.opml" "ipodder-sourceforge-net-ipodder.opml"
 MirrorOPML "http://ipodder.sourceforge.net/opml/ipodder-aegrumet.opml" "ipodder-sourceforge-net-ipodder-aegrumet.opml"
 MirrorOPML "http://ipodder.sourceforge.net/opml/ipodder-gtk.opml" "ipodder-sourceforge-net-ipodder-gtk.opml"
+
+MirrorOPML "https://raw.githubusercontent.com/Cj-Malone/Linux-Podcasts/master/feeds.opml" "cj-malone-linux-podcasts.opml"
+MirrorOPML "http://media.phlow.de/download/rss/podcast.opml" "phlow-de-podcasts.opml"
+MirrorOPML "http://www.mit.edu/~gsstark/miro.opml" "gsstark-miro.opml"
+MirrorOPML "https://dhruv-sharma.ovh/files/podcasts.opml" "dhruv-sharma.opml"
+
+MirrorOPML "http://s3.amazonaws.com/radio2/communityReadingList.opml" "radio2-communityReadingList.opml"
+MirrorOPML "https://ainali.com/listening/feed.opml" "ainali-listening.opml"
+MirrorOPML "https://welcometochina.com.au/wp-content/uploads/china-podcasts.opml" "welcomtochina-china-podcasts.opml"
+MirrorOPML "http://drummer.scripting.com/AndySylvester99/FavoritePodcasts.opml" "andysylvester99-favoriepodcasts.opml"
+MirrorOPML "https://defaria.com/podcasts.opml" "defaria-podcasts.opml"
+MirrorOPML "https://inkdroid.org/podcasts/feed.opml" "inkdroid-podcasts.opml"
+
+MirrorOPML "https://source.mcwhirter.io/craige/rcfiles/raw/branch/consensus/.gpodder.opml" "mcwhirter-craige-consensus-gpodder.opml"
 
 # Fyyd
 MirrorOPML "https://fyyd.de/user/altf4/collection/deutsch/opml" "fyyd-de-altf4-collection-deutsch.opml"
