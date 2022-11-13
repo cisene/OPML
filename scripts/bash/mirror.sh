@@ -80,34 +80,6 @@ MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
 # Aloha Podcast Network
 MirrorOPML "http://www.alohapodcast.com/APN.opml" "alohapodcast-apn.opml"
 
-# Misc
-# Dead 2022-04-22 MirrorOPML "https://raw.githubusercontent.com/alaskasquirrel/Chinese-Podcasts/master/Podcasts.opml" "gorver-pod.opml"
-MirrorOPML "https://typlog.com/podlist/opml.xml" "typlog-pod.opml"
-# Dead 2022-01-21 MirrorOPML "https://www.open.edu/openlearn/rss/feeds.opml" "open-edu-openlearn-rss-feeds.opml"
-MirrorOPML "https://wissenschaftspodcasts.de/opml-export/" "wissenschafts-podcasts.opml"
-MirrorOPML "http://rss.sina.com.cn/sina_all_opml.xml" "sina-com-cn-all.opml"
-MirrorOPML "https://digiper.com/dl/digiper.opml" "digiper.opml"
-MirrorOPML "http://www.marshallk.com/politicalaudio.aspx.xml" "marshalls-politicalaudio.opml"
-MirrorOPML "https://www.ancientfaith.com/feeds/podcasts.opml" "ancientfaith-podcasts.opml"
-MirrorOPML "http://www.electricsky.net/radio.opml" "electricsky-net-radio.opml"
-MirrorOPML "http://rasterweb.net/raster/feeds/wisconsin.opml" "rasterweb-net-wisconsin.opml"
-MirrorOPML "http://ipodder.sourceforge.net/opml/ipodder.opml" "ipodder-sourceforge-net-ipodder.opml"
-MirrorOPML "http://ipodder.sourceforge.net/opml/ipodder-aegrumet.opml" "ipodder-sourceforge-net-ipodder-aegrumet.opml"
-MirrorOPML "http://ipodder.sourceforge.net/opml/ipodder-gtk.opml" "ipodder-sourceforge-net-ipodder-gtk.opml"
-
-MirrorOPML "https://raw.githubusercontent.com/Cj-Malone/Linux-Podcasts/master/feeds.opml" "cj-malone-linux-podcasts.opml"
-MirrorOPML "http://media.phlow.de/download/rss/podcast.opml" "phlow-de-podcasts.opml"
-MirrorOPML "http://www.mit.edu/~gsstark/miro.opml" "gsstark-miro.opml"
-MirrorOPML "https://dhruv-sharma.ovh/files/podcasts.opml" "dhruv-sharma.opml"
-
-MirrorOPML "http://s3.amazonaws.com/radio2/communityReadingList.opml" "radio2-communityReadingList.opml"
-MirrorOPML "https://ainali.com/listening/feed.opml" "ainali-listening.opml"
-MirrorOPML "https://welcometochina.com.au/wp-content/uploads/china-podcasts.opml" "welcomtochina-china-podcasts.opml"
-MirrorOPML "http://drummer.scripting.com/AndySylvester99/FavoritePodcasts.opml" "andysylvester99-favoriepodcasts.opml"
-MirrorOPML "https://defaria.com/podcasts.opml" "defaria-podcasts.opml"
-MirrorOPML "https://inkdroid.org/podcasts/feed.opml" "inkdroid-podcasts.opml"
-
-MirrorOPML "https://source.mcwhirter.io/craige/rcfiles/raw/branch/consensus/.gpodder.opml" "mcwhirter-craige-consensus-gpodder.opml"
 
 # Fyyd
 MirrorOPML "https://fyyd.de/user/altf4/collection/deutsch/opml" "fyyd-de-altf4-collection-deutsch.opml"
@@ -230,6 +202,10 @@ MirrorOPML "https://iosdevdirectory.com/opml/en/podcasts.opml" "iosdevdirectory-
 MirrorOPML "https://iosdevdirectory.com/opml/es/podcasts.opml" "iosdevdirectory-spanish-podcasts.opml"
 MirrorOPML "https://iosdevdirectory.com/opml/de/podcasts.opml" "iosdevdirectory-german-podcasts.opml"
 
+# iPodder Sourceforge
+MirrorOPML "http://ipodder.sourceforge.net/opml/ipodder-aegrumet.opml" "ipodder-sourceforge-net-ipodder-aegrumet.opml"
+MirrorOPML "http://ipodder.sourceforge.net/opml/ipodder-gtk.opml" "ipodder-sourceforge-net-ipodder-gtk.opml"
+MirrorOPML "http://ipodder.sourceforge.net/opml/ipodder.opml" "ipodder-sourceforge-net-ipodder.opml"
 
 # Radio2
 MirrorOPML "http://s3.amazonaws.com/radio2/communityReadingList.opml" "radio2-communityReadingList.opml"
@@ -239,9 +215,23 @@ MirrorOPML "http://podcasts.divergence-fm.org/podcasts.opml" "divergence-fm-podc
 
 
 # Misc
-MirrorOPML "https://source.mcwhirter.io/craige/rcfiles/raw/branch/consensus/.gpodder.opml" "mcwhirter-craige-consensus-gpodder.opml"
-MirrorOPML "https://raw.githubusercontent.com/yasuharu519/opml/master/main.opml" "yasuhary519.opml"
+MirrorOPML "http://drummer.scripting.com/AndySylvester99/FavoritePodcasts.opml" "andysylvester99-favoriepodcasts.opml"
+MirrorOPML "http://media.phlow.de/download/rss/podcast.opml" "phlow-de-podcasts.opml"
+MirrorOPML "http://rasterweb.net/raster/feeds/wisconsin.opml" "rasterweb-net-wisconsin.opml"
+MirrorOPML "http://rss.sina.com.cn/sina_all_opml.xml" "sina-com-cn-all.opml"
+MirrorOPML "http://www.electricsky.net/radio.opml" "electricsky-net-radio.opml"
+MirrorOPML "http://www.marshallk.com/politicalaudio.aspx.xml" "marshalls-politicalaudio.opml"
+MirrorOPML "http://www.mit.edu/~gsstark/miro.opml" "gsstark-miro.opml"
+MirrorOPML "https://ainali.com/listening/feed.opml" "ainali-listening.opml"
 MirrorOPML "https://dave.sobr.org/enc/1662343807.433_polishpodcastdirectoryopml.xml" "podkasty-info-katalog-podkastow.opml"
-
-# Elmundo
-# MirrorOPML "http://rss.elmundo.es/rss/static/elmundo_OPML.xml" "elmundo-rss.opml"
+MirrorOPML "https://defaria.com/podcasts.opml" "defaria-podcasts.opml"
+MirrorOPML "https://dhruv-sharma.ovh/files/podcasts.opml" "dhruv-sharma.opml"
+MirrorOPML "https://digiper.com/dl/digiper.opml" "digiper.opml"
+MirrorOPML "https://inkdroid.org/podcasts/feed.opml" "inkdroid-podcasts.opml"
+MirrorOPML "https://raw.githubusercontent.com/Cj-Malone/Linux-Podcasts/master/feeds.opml" "cj-malone-linux-podcasts.opml"
+MirrorOPML "https://raw.githubusercontent.com/yasuharu519/opml/master/main.opml" "yasuhary519.opml"
+MirrorOPML "https://source.mcwhirter.io/craige/rcfiles/raw/branch/consensus/.gpodder.opml" "mcwhirter-craige-consensus-gpodder.opml"
+MirrorOPML "https://typlog.com/podlist/opml.xml" "typlog-pod.opml"
+MirrorOPML "https://welcometochina.com.au/wp-content/uploads/china-podcasts.opml" "welcomtochina-china-podcasts.opml"
+MirrorOPML "https://wissenschaftspodcasts.de/opml-export/" "wissenschafts-podcasts.opml"
+MirrorOPML "https://www.ancientfaith.com/feeds/podcasts.opml" "ancientfaith-podcasts.opml"
