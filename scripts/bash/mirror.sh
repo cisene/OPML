@@ -25,9 +25,10 @@ function removeTemp {
 }
 
 function fixCharacters {
-  sed -i "s|\x26amp\x3b|\&amp;|gi" temp.opml
-  sed -i "s|\b\x26(?!(.+?)\x3b)\b|\&amp;|gi" temp.opml
-  sed -i "s|\s\x26\s| \&amp; |gi" temp.opml
+  #sed -i "s|\x26amp\x3b|\&amp;|gi" temp.opml
+  #sed -i "s|\b\x26(?!(.+?)\x3b)\b|\&amp;|gi" temp.opml
+  #sed -i "s|\s\x26\s| \&amp; |gi" temp.opml
+  sed -i "s/\x26(?!(?:apos|quot|[gl]t|amp)\x3b|#)/&amp;/gi" temp.opml
 }
 
 function addMirrorTag {
