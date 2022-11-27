@@ -39,7 +39,7 @@ function addMirrorTag {
   # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
   # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
   sed -i "s|\x3c\x3fxml\x2dstylesheet\x20(.+?)\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
-  sed -i "s|\x3c\x3fxml\x2dstylesheet\x20type\x3d\x22text\x2fxsl\x22\x20href\x3d\x22(.+?)\x2exsl\x22\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
+  sed -i "s|\x3c\x3f(\s+)?xml\x2dstylesheet\x20type\x3d\x22text\x2fxsl\x22\x20href\x3d\x22(.+?)\x2exsl\x22(\s+)?\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
 
   # OPML 1.0
   sed -i "s|\x3copml\x20version\x3d\x221\x2e0\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/mirrored/$2 -->\n<opml version=\"1.0\">|gi" "$2"
@@ -89,6 +89,7 @@ MirrorOPML "http://www.alohapodcast.com/APN.opml" "alohapodcast-apn.opml"
 
 
 # Fyyd
+# MirrorOPML "https://fyyd.de/user/Graukaue/collection/oekonomie/opml" "fyyd-de-graukaue-collection-oekonomie.opml"
 MirrorOPML "https://fyyd.de/user/altf4/collection/deutsch/opml" "fyyd-de-altf4-collection-deutsch.opml"
 MirrorOPML "https://fyyd.de/user/dirkprimbs/collection/fotografiepodcasts/opml" "fyyd-de-dirkprimbs-collection-fotografiepodcasts.opml"
 MirrorOPML "https://fyyd.de/user/dirkprimbs/collection/podcastpodcasts/opml" "fyyd-de-dirkprimbs-collection-podcastpodcasts.opml"
@@ -96,7 +97,6 @@ MirrorOPML "https://fyyd.de/user/emolotow/collection/f361eea6f2288b3b565324885c9
 MirrorOPML "https://fyyd.de/user/garneleh/collection/audiospass-fuer-kids-und-co/opml" "fyyd-de-garneleh-collection-audiospass-fuer-kids-und-co.opml"
 MirrorOPML "https://fyyd.de/user/garneleh/collection/frauenstimmen-im-netz/opml" "fyyd-de-garneleh-collection-frauenstimmen-im-netz.opml"
 MirrorOPML "https://fyyd.de/user/gglnx/collection/meine-podcasts/opml" "fyyd-de-gglnx-collection-meine-podcasts.opml"
-MirrorOPML "https://fyyd.de/user/Graukaue/collection/oekonomie/opml" "fyyd-de-graukaue-collection-oekonomie.opml"
 MirrorOPML "https://fyyd.de/user/hoersuppe/collection/geschichte/opml" "fyyd-de-hoersuppe-collection-geschinchte.opml"
 MirrorOPML "https://fyyd.de/user/hoersuppe/collection/hoersuppe/opml" "fyyd-de-hoersuppe-collection-hoersuppe.opml"
 MirrorOPML "https://fyyd.de/user/hoersuppe/collection/holgis-podcasts/opml" "fyyd-de-hoersuppe-collection-holgis-podcasts.opml"
@@ -227,7 +227,7 @@ MirrorOPML "http://podcasts.divergence-fm.org/podcasts.opml" "divergence-fm-podc
 MirrorOPML "http://media.phlow.de/download/rss/podcast.opml" "phlow-de-podcasts.opml"
 MirrorOPML "http://rasterweb.net/raster/feeds/wisconsin.opml" "rasterweb-net-wisconsin.opml"
 MirrorOPML "http://rss.sina.com.cn/sina_all_opml.xml" "sina-com-cn-all.opml"
-MirrorOPML "http://www.electricsky.net/radio.opml" "electricsky-net-radio.opml"
+# MirrorOPML "http://www.electricsky.net/radio.opml" "electricsky-net-radio.opml"
 MirrorOPML "http://www.marshallk.com/politicalaudio.aspx.xml" "marshalls-politicalaudio.opml"
 MirrorOPML "https://ainali.com/listening/feed.opml" "ainali-listening.opml"
 MirrorOPML "https://dave.sobr.org/enc/1662343807.433_polishpodcastdirectoryopml.xml" "podkasty-info-katalog-podkastow.opml"
