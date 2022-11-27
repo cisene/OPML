@@ -5,7 +5,7 @@ function escapeURL {
 }
 
 function fetchToDisk {
-  echo "Fetching $1 .."
+  #echo "Fetching $1 .."
   #wget --quiet -O "temp.opml" "$1"
   wget --quiet --tries=3 --timeout=10 --dns-timeout=5 --connect-timeout=5 --read-timeout=10 -O "temp.opml" "$1"
 }
