@@ -34,6 +34,9 @@ function fixCharacters {
 function addMirrorTag {
   TIMESTAMP="$(date --iso-8601=seconds)Z"
 
+  # Attempt removal of XSL stylesheet
+  sed -i "s|\x3c\x3fxml\x2dstylesheet\stype\x3d\x22text\x2fxsl\x22\shref\x3d\x22(.+?)\x22\x3f\x3e||gi" "$2"
+
   # OPML 1.0
   sed -i "s|\x3copml\x20version\x3d\x221\x2e0\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/mirrored/$2 -->\n<opml version=\"1.0\">|gi" "$2"
 
