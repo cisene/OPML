@@ -37,7 +37,9 @@ function addMirrorTag {
 
   # Attempt removal of XSL stylesheet
   # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
+  # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
   sed -i "s|\x3c\x3fxml\x2dstylesheet\x20(.+?)\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
+  sed -i "s|\x3c\x3fxml\x2dstylesheet\x20type\x3d\x22text\x2fxsl\x22\x20href\x3d\x22(.+?)\x2exsl\x22\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
 
   # OPML 1.0
   sed -i "s|\x3copml\x20version\x3d\x221\x2e0\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/mirrored/$2 -->\n<opml version=\"1.0\">|gi" "$2"
