@@ -28,6 +28,7 @@ function fixCharacters {
   #sed -i "s|\x26amp\x3b|\&amp;|gi" temp.opml
   #sed -i "s|\b\x26(?!(.+?)\x3b)\b|\&amp;|gi" temp.opml
   #sed -i "s|\s\x26\s| \&amp; |gi" temp.opml
+  set -i "s|\x22\x22|\"|gi" temp.opml
   sed -i "s/\x26(?!(?:apos|quot|[gl]t|amp)\x3b|#)/&amp;/gi" temp.opml
 }
 
@@ -35,7 +36,8 @@ function addMirrorTag {
   TIMESTAMP="$(date --iso-8601=seconds)Z"
 
   # Attempt removal of XSL stylesheet
-  sed -i "s|\x3c\x3fxml\x2dstylesheet\stype\x3d\x22text\x2fxsl\x22\shref\x3d\x22(.+?)\x22\x3f\x3e||gi" "$2"
+  # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
+  sed -i "s|\x3c\x3fxml\x2dstylesheet\x20(.+?)\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
 
   # OPML 1.0
   sed -i "s|\x3copml\x20version\x3d\x221\x2e0\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/mirrored/$2 -->\n<opml version=\"1.0\">|gi" "$2"
@@ -218,13 +220,13 @@ MirrorOPML "http://podcasts.divergence-fm.org/podcasts.opml" "divergence-fm-podc
 
 
 # Misc
-MirrorOPML "http://drummer.scripting.com/AndySylvester99/FavoritePodcasts.opml" "andysylvester99-favoriepodcasts.opml"
+# MirrorOPML "http://drummer.scripting.com/AndySylvester99/FavoritePodcasts.opml" "andysylvester99-favoriepodcasts.opml"
+# MirrorOPML "http://www.mit.edu/~gsstark/miro.opml" "gsstark-miro.opml"
 MirrorOPML "http://media.phlow.de/download/rss/podcast.opml" "phlow-de-podcasts.opml"
 MirrorOPML "http://rasterweb.net/raster/feeds/wisconsin.opml" "rasterweb-net-wisconsin.opml"
 MirrorOPML "http://rss.sina.com.cn/sina_all_opml.xml" "sina-com-cn-all.opml"
 MirrorOPML "http://www.electricsky.net/radio.opml" "electricsky-net-radio.opml"
 MirrorOPML "http://www.marshallk.com/politicalaudio.aspx.xml" "marshalls-politicalaudio.opml"
-MirrorOPML "http://www.mit.edu/~gsstark/miro.opml" "gsstark-miro.opml"
 MirrorOPML "https://ainali.com/listening/feed.opml" "ainali-listening.opml"
 MirrorOPML "https://dave.sobr.org/enc/1662343807.433_polishpodcastdirectoryopml.xml" "podkasty-info-katalog-podkastow.opml"
 MirrorOPML "https://defaria.com/podcasts.opml" "defaria-podcasts.opml"
