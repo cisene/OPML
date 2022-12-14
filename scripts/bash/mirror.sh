@@ -87,6 +87,9 @@ MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
 # Aloha Podcast Network
 MirrorOPML "http://www.alohapodcast.com/APN.opml" "alohapodcast-apn.opml"
 
+# IBM
+MirrorOPML "https://www.ibm.com/ibm/syndication/podcasts/us/en/index.opml" "ibm-podcasts.opml"
+
 
 # Fyyd
 # MirrorOPML "https://fyyd.de/user/Graukaue/collection/oekonomie/opml" "fyyd-de-graukaue-collection-oekonomie.opml"
