@@ -38,7 +38,7 @@ function addMirrorTag {
   # Attempt removal of XSL stylesheet
   # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
   # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
-  sed -i "s|\x3c\x3fxml\x2dstylesheet\x20(.+?)\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
+  sed -i "s|\x3c\x3fxml\x2dstylesheet\s(.+?)\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
   sed -i "s|\x3c\x3f(\s+)?xml\x2dstylesheet\x20type\x3d\x22text\x2fxsl\x22\x20href\x3d\x22(.+?)\x2exsl\x22(\s+)?\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
 
   # OPML 1.0
@@ -92,7 +92,6 @@ MirrorOPML "https://www.ibm.com/ibm/syndication/podcasts/us/en/index.opml" "ibm-
 
 
 # Fyyd
-# MirrorOPML "https://fyyd.de/user/Graukaue/collection/oekonomie/opml" "fyyd-de-graukaue-collection-oekonomie.opml"
 MirrorOPML "https://fyyd.de/user/altf4/collection/deutsch/opml" "fyyd-de-altf4-collection-deutsch.opml"
 MirrorOPML "https://fyyd.de/user/dirkprimbs/collection/fotografiepodcasts/opml" "fyyd-de-dirkprimbs-collection-fotografiepodcasts.opml"
 MirrorOPML "https://fyyd.de/user/dirkprimbs/collection/podcastpodcasts/opml" "fyyd-de-dirkprimbs-collection-podcastpodcasts.opml"
@@ -108,14 +107,20 @@ MirrorOPML "https://fyyd.de/user/hoersuppe/collection/podcasts-fuer-kinder/opml"
 MirrorOPML "https://fyyd.de/user/hoersuppe/collection/podcasts-high-noon/opml" "fyyd-de-hoersuppe-collection-podcasts-high-noon.opml"
 MirrorOPML "https://fyyd.de/user/hoersuppe/collection/utopia/opml" "fyyd-de-hoersuppe-collection-utopia.opml"
 MirrorOPML "https://fyyd.de/user/hoersuppe/collection/wmr-plugs/opml" "fyyd-de-hoersuppe-collection-wmr-plugs.opml"
+MirrorOPML "https://fyyd.de/user/holgi/collection/holgi/opml" "fyyd-de-holgi-collection-holgi.opml"
 MirrorOPML "https://fyyd.de/user/iwmm/collection/77c5dd6f7db4444989918a5726b90255/opml" "fyyd-de-iwmm-collection.opml"
 MirrorOPML "https://fyyd.de/user/JaegersNet/collection/de-rpg-podcasts/opml" "fyyd-de-jaegersnet-collection-de-rpg-podcasts.opml"
 MirrorOPML "https://fyyd.de/user/limpc0re/collection/a64e2c64ea98e27fa996effb1d44af0f/opml" "fyyd-de-limpc0re-collection.opml"
+MirrorOPML "https://fyyd.de/user/MisterL/collection/32dc7ac001dadd43706168d80024d7bb/opml" "fyyd-de-misterl-collection-filme-serien.opml"
+MirrorOPML "https://fyyd.de/user/MisterL/collection/6bb99465e345d025c4ffe8b8bd5f8ff6/opml" "fyyd-de-misterl-collection-albernes.opml"
+MirrorOPML "https://fyyd.de/user/MisterL/collection/8303a30eaffb78e30781753fa08fc769/opml" "fyyd-de-misterl-collection-it.opml"
+MirrorOPML "https://fyyd.de/user/MisterL/collection/9e39ab6ee95f5f4ba8b0c3368cd1828c/opml" "fyyd-de-misterl-collection-politik.opml"
+MirrorOPML "https://fyyd.de/user/MisterL/collection/c50796e5a93ed2db202a6315780dc548/opml" "fyyd-de-misterl-collection-jura.opml"
+MirrorOPML "https://fyyd.de/user/MisterL/collection/cae73c22ce49638a4b57b5a6eac2420d/opml" "fyyd-de-misterl-collection-belletristik.opml"
 MirrorOPML "https://fyyd.de/user/ophmoph/collection/36c66142c31e4cd8edbe74c6b82b5483/opml" "fyyd-de-ophmoph-collection.opml"
 MirrorOPML "https://fyyd.de/user/Podstock/collection/podstock2018/opml" "fyyd-de-podstock-collection-podstock2018.opml"
 MirrorOPML "https://fyyd.de/user/rebel/collection/997f494a3a31d9885acd820499c0439a/opml" "fyyd-de-rebel-collecion.opml"
 MirrorOPML "https://fyyd.de/user/Sliebschner/collection/comic-podcasts/opml" "fyyd-de-sliebschner-collection-comic-podcasts.opml"
-
 
 # Pocketcasts
 MirrorOPML "https://lists.pocketcasts.com/20-under-20.opml" "pocketcasts-com-20-under-20.opml"
