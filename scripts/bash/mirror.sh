@@ -275,6 +275,8 @@ MirrorOPML "https://welcometochina.com.au/wp-content/uploads/china-podcasts.opml
 MirrorOPML "https://wissenschaftspodcasts.de/opml-export/" "wissenschafts-podcasts.opml"
 MirrorOPML "https://www.ancientfaith.com/feeds/podcasts.opml" "ancientfaith-podcasts.opml"
 
+MirrorOPML "https://chillr.de/wp-content/uploads/Podcast20150707.opml" "chillr-de-podcast20150707.opml"
+
 MirrorOPML "https://www.apreche.net/~apreche/podcasts.opml" "apreche-podcasts.opml"
 MirrorOPML "http://nevillehobson.com/pubfiles/060508-NH-primary1-exp.opml" "nevillehobson-com-060508-NH-primary1-exp.opml"
 
@@ -306,6 +308,8 @@ MirrorOPML "http://podgallery.org/opml/?37" "podgallery-org-opml-37.opml"
 MirrorOPML "http://podgallery.org/opml/?38" "podgallery-org-opml-38.opml"
 MirrorOPML "http://podgallery.org/opml/?41" "podgallery-org-opml-41.opml"
 
+MirrorOPML "http://hosting.opml.org/dnorman/educationpodcasts.opml" "opml-org-dnorman-educationpodcasts.opml"
+MirrorOPML "https://jchk.net/files/Podcasts.opml" "jchk-net-files-podcasts.opml"
 
 
 
