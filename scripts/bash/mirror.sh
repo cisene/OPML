@@ -219,6 +219,8 @@ MirrorOPML "https://lists.pocketcasts.com/vox.opml" "pocketcasts-com-vox.opml"
 MirrorOPML "https://lists.pocketcasts.com/whatsnext.opml" "pocketcasts-com-whats-next.opml"
 MirrorOPML "https://lists.pocketcasts.com/women-on-wickedness.opml" "pocketcasts-com-women-on-wickedness.opml"
 
+MirrorOPML "https://lists.pocketcasts.com/hbs-podcast-network-2022.opml" "pocketcasts-com-hbs-podcast-network-2022.opml"
+
 
 # DigitalPodcast
 MirrorOPML "http://www.digitalpodcast.com/opml/digitalpodcast.opml" "digitalpodcast-com-directory.opml"
@@ -272,3 +274,38 @@ MirrorOPML "https://typlog.com/podlist/opml.xml" "typlog-pod.opml"
 MirrorOPML "https://welcometochina.com.au/wp-content/uploads/china-podcasts.opml" "welcomtochina-china-podcasts.opml"
 MirrorOPML "https://wissenschaftspodcasts.de/opml-export/" "wissenschafts-podcasts.opml"
 MirrorOPML "https://www.ancientfaith.com/feeds/podcasts.opml" "ancientfaith-podcasts.opml"
+
+MirrorOPML "https://www.apreche.net/~apreche/podcasts.opml" "apreche-podcasts.opml"
+MirrorOPML "http://nevillehobson.com/pubfiles/060508-NH-primary1-exp.opml" "nevillehobson-com-060508-NH-primary1-exp.opml"
+
+MirrorOPML "http://mirrors.fe.up.pt/kde-applicationdata/amarok/podcast_directory/developer_podcasts.opml" "amarok-developer_podcasts.opml"
+
+MirrorOPML "http://podgallery.org/opml/?1" "podgallery-org-opml-01.opml"
+
+MirrorOPML "http://podgallery.org/opml/?10" "podgallery-org-opml-10.opml"
+MirrorOPML "http://podgallery.org/opml/?12" "podgallery-org-opml-12.opml"
+MirrorOPML "http://podgallery.org/opml/?13" "podgallery-org-opml-13.opml"
+MirrorOPML "http://podgallery.org/opml/?14" "podgallery-org-opml-14.opml"
+MirrorOPML "http://podgallery.org/opml/?15" "podgallery-org-opml-15.opml"
+MirrorOPML "http://podgallery.org/opml/?16" "podgallery-org-opml-16.opml"
+MirrorOPML "http://podgallery.org/opml/?17" "podgallery-org-opml-17.opml"
+MirrorOPML "http://podgallery.org/opml/?18" "podgallery-org-opml-18.opml"
+MirrorOPML "http://podgallery.org/opml/?19" "podgallery-org-opml-19.opml"
+
+MirrorOPML "http://podgallery.org/opml/?21" "podgallery-org-opml-21.opml"
+MirrorOPML "http://podgallery.org/opml/?23" "podgallery-org-opml-23.opml"
+MirrorOPML "http://podgallery.org/opml/?24" "podgallery-org-opml-24.opml"
+MirrorOPML "http://podgallery.org/opml/?25" "podgallery-org-opml-25.opml"
+MirrorOPML "http://podgallery.org/opml/?29" "podgallery-org-opml-29.opml"
+MirrorOPML "http://podgallery.org/opml/?30" "podgallery-org-opml-30.opml"
+MirrorOPML "http://podgallery.org/opml/?32" "podgallery-org-opml-32.opml"
+MirrorOPML "http://podgallery.org/opml/?33" "podgallery-org-opml-33.opml"
+MirrorOPML "http://podgallery.org/opml/?34" "podgallery-org-opml-34.opml"
+MirrorOPML "http://podgallery.org/opml/?35" "podgallery-org-opml-35.opml"
+MirrorOPML "http://podgallery.org/opml/?37" "podgallery-org-opml-37.opml"
+MirrorOPML "http://podgallery.org/opml/?38" "podgallery-org-opml-38.opml"
+MirrorOPML "http://podgallery.org/opml/?41" "podgallery-org-opml-41.opml"
+
+
+
+
