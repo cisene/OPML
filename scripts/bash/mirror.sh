@@ -311,5 +311,5 @@ MirrorOPML "http://podgallery.org/opml/?41" "podgallery-org-opml-41.opml"
 MirrorOPML "http://hosting.opml.org/dnorman/educationpodcasts.opml" "opml-org-dnorman-educationpodcasts.opml"
 MirrorOPML "https://jchk.net/files/Podcasts.opml" "jchk-net-files-podcasts.opml"
 
-
-
+MirrorOPML "https://raw.githubusercontent.com/marklogic-community/feed/master/test-scripts/data/opml_podcast.opml" "marklogic-community.opml"
+MirrorOPML "https://raw.githubusercontent.com/topgold/listening/master/fm.opml" "topgold.opml"
