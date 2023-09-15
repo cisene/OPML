@@ -449,7 +449,8 @@ MirrorOPML "https://player.fm/en/featured/womens-corner.opml" "player-fm-en-feat
 MirrorOPML "https://player.fm/en/featured/womens-health.opml" "player-fm-en-featured-womens-health.opml"
 MirrorOPML "https://player.fm/en/featured/youtube.opml" "player-fm-en-featured-youtube.opml"
 
-
+# PodcastIndex.ogr - V4V enabled
+MirrorOPML "https://stats.podcastindex.org/v4vmusic.opml" "podcastindex-org-value4value-music.opml"
 
 # DigitalPodcast
 MirrorOPML "http://www.digitalpodcast.com/opml/digitalpodcast.opml" "digitalpodcast-com-directory.opml"
