@@ -50,6 +50,13 @@ function fixXML {
   echo "Parameter 1: '$1'"
   echo "Parameter 2: '$2'"
 
+  if test -f "$1"; then
+      echo "'$1' exists."
+  else
+    echo "'$1' does not exist."
+    return
+  fi
+
   # Remove empty htmlUrl attributes
   sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" "$1"
   sed -i "s|\stext\x3d\x22\x22| text=\"Podcast\"|gi" "$1"
