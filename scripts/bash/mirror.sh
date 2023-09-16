@@ -18,6 +18,9 @@ function removeTemp {
 }
 
 function fixCharacters {
+  echo "fixCharacters"
+  echo "Parameter 1: '$1'"
+  echo "Parameter 2: '$2'"
 
   # Truncate strings of 2 or more spaces to a single space
   sed -i "s|\s{2,}| |gi" "$2"
@@ -36,6 +39,10 @@ function fixCharacters {
 }
 
 function fixXML {
+  echo "fixXML"
+  echo "Parameter 1: '$1'"
+  echo "Parameter 2: '$2'"
+
   # Remove empty htmlUrl attributes
   sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" "$2"
   sed -i "s|\stext\x3d\x22\x22| text=\"Podcast\"|gi" "$2"
@@ -56,6 +63,10 @@ function fixXML {
 }
 
 function addMirrorTag {
+  echo "addMirrorTag"
+  echo "Parameter 1: '$1'"
+  echo "Parameter 2: '$2'"
+
   TIMESTAMP="$(date --iso-8601=seconds)Z"
 
   # OPML 1.0
@@ -66,8 +77,6 @@ function addMirrorTag {
 
   # OPML 2.0
   sed -i "s|\x3copml\x20version\x3d\x222\x2e0\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/mirrored/$2 -->\n<opml version=\"2.0\">|gi" "$2"
-
-
 }
 
 function MirrorOPML {
