@@ -46,16 +46,18 @@ function fixCharacters {
 }
 
 function fixXML {
-  # echo "fixXML"
-  # echo "Parameter 1: '$1'"
-  # echo "Parameter 2: '$2'"
+  # Change single quotes to double quotes on XML version declaration
+  sed -i "s|version\x3d\x271\x2e0\x27|version=\"1.0\"|gi" "$1"
 
-  # if test -f "$1"; then
-  #     echo "'$1' exists."
-  # else
-  #   echo "'$1' does not exist."
-  #   return
-  # fi
+  # Change single quotes to double quotes on XML and OPML declaration
+  sed -i "s|version\x3d\x271\x2e1\x27|version=\"1.1\"|gi" "$1"
+
+  # Change single quotes to double quotes on XML and OPML declaration
+  sed -i "s|version\x3d\x272\x2e0\x27|version=\"2.0\"|gi" "$1"
+
+  # Change single quotes to double quotes on XML encoding declaration
+  sed -i "s|encoding\x3d\x27UTF\x2d8\x27|encoding=\"UTF-8\"|gi" "$1"
+
 
   # Remove empty htmlUrl attributes
   sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" "$1"
