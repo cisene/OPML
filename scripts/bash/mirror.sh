@@ -1,18 +1,11 @@
 #!/usr/bin/env bash
 
-function escapeURL {
-  echo ""
-}
-
 function fetchToDisk {
   #echo "Fetching $1 .."
-  #wget --quiet -O "temp.opml" "$1"
   wget --quiet --tries=3 --timeout=10 --dns-timeout=5 --connect-timeout=5 --read-timeout=10 -O "temp.opml" "$1"
 }
 
 function delint {
-  #rm "$1"
-  #cat temp.opml | xmllint --recover --format - > "$1"
   cat temp.opml | xmllint --nonet --noent --recover --xmlout --format - > "$1"
 }
 
@@ -25,21 +18,45 @@ function removeTemp {
 }
 
 function fixCharacters {
+
+  # Truncate strings of 2 or more spaces to a single space
+  set -i "s|\s{2,}| |gi" temp.opml
+
+  set -i "s|\x26amp\x3bndash\x3b|\&ndash;|gi" temp.opml
   #sed -i "s|\x26amp\x3b|\&amp;|gi" temp.opml
   #sed -i "s|\b\x26(?!(.+?)\x3b)\b|\&amp;|gi" temp.opml
   #sed -i "s|\s\x26\s| \&amp; |gi" temp.opml
   sed -i "s|\x22\x22|\"|gi" temp.opml
   sed -i "s/\x26(?!(?:apos|quot|[gl]t|amp)\x3b|#)/&amp;/gi" temp.opml
+
+  sed -i "s|\x27|\&apos;|gi" temp.opml
+  set -i "s|\x26\x2339\x3b|\&apos;|gi" temp.opml
+
+  sed -i "s|\s\x26\s| \&amp; |gi" temp.opml
 }
 
-function addMirrorTag {
-  TIMESTAMP="$(date --iso-8601=seconds)Z"
+function fixXML {
+  # Remove empty htmlUrl attributes
+  sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" temp.opml
+  set -i "s|\stext\x3d\x22\x22| text=\"Podcast\"|gi" temp.opml
+
+  sed -i "s|\x3copml\sversion\x3d\x271.0\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" temp.opml
+  sed -i "s|\x3copml\sversion\x3d\x271.2\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" temp.opml
+  sed -i "s|\x3copml\sversion\x3d\x272.1\x27\x3e<opml version='1.0'>|<opml version=\"2.0\">|gi" temp.opml
+
+  # Remove empty description attribute
+  sed -i "s|\sdescription\x3d\x22\x22||gi" temp.opml
 
   # Attempt removal of XSL stylesheet
   # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
   # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
   sed -i "s|\x3c\x3fxml\x2dstylesheet\s(.+?)\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
   sed -i "s|\x3c\x3f(\s+)?xml\x2dstylesheet\x20type\x3d\x22text\x2fxsl\x22\x20href\x3d\x22(.+?)\x2exsl\x22(\s+)?\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
+
+}
+
+function addMirrorTag {
+  TIMESTAMP="$(date --iso-8601=seconds)Z"
 
   # OPML 1.0
   sed -i "s|\x3copml\x20version\x3d\x221\x2e0\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/mirrored/$2 -->\n<opml version=\"1.0\">|gi" "$2"
@@ -50,14 +67,13 @@ function addMirrorTag {
   # OPML 2.0
   sed -i "s|\x3copml\x20version\x3d\x222\x2e0\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/mirrored/$2 -->\n<opml version=\"2.0\">|gi" "$2"
 
-  sed -i "s|\s\x26\s| \&amp; |gi" "$2"
-
 
 }
 
 function MirrorOPML {
   echo "Mirroring '$1' to '$2' ..."
   fetchToDisk "$1"
+  fixXML "$2"
   fixCharacters "$2"
   delint "$2"
   addMirrorTag "$1" "$2"
@@ -512,31 +528,31 @@ MirrorOPML "http://nevillehobson.com/pubfiles/060508-NH-primary1-exp.opml" "nevi
 
 MirrorOPML "http://mirrors.fe.up.pt/kde-applicationdata/amarok/podcast_directory/developer_podcasts.opml" "amarok-developer_podcasts.opml"
 
-MirrorOPML "http://podgallery.org/opml/?1" "podgallery-org-opml-01.opml"
+#MirrorOPML "http://podgallery.org/opml/?1" "podgallery-org-opml-01.opml"
 
-MirrorOPML "http://podgallery.org/opml/?10" "podgallery-org-opml-10.opml"
-MirrorOPML "http://podgallery.org/opml/?12" "podgallery-org-opml-12.opml"
-MirrorOPML "http://podgallery.org/opml/?13" "podgallery-org-opml-13.opml"
-MirrorOPML "http://podgallery.org/opml/?14" "podgallery-org-opml-14.opml"
-MirrorOPML "http://podgallery.org/opml/?15" "podgallery-org-opml-15.opml"
-MirrorOPML "http://podgallery.org/opml/?16" "podgallery-org-opml-16.opml"
-MirrorOPML "http://podgallery.org/opml/?17" "podgallery-org-opml-17.opml"
-MirrorOPML "http://podgallery.org/opml/?18" "podgallery-org-opml-18.opml"
-MirrorOPML "http://podgallery.org/opml/?19" "podgallery-org-opml-19.opml"
+#MirrorOPML "http://podgallery.org/opml/?10" "podgallery-org-opml-10.opml"
+#MirrorOPML "http://podgallery.org/opml/?12" "podgallery-org-opml-12.opml"
+#MirrorOPML "http://podgallery.org/opml/?13" "podgallery-org-opml-13.opml"
+#MirrorOPML "http://podgallery.org/opml/?14" "podgallery-org-opml-14.opml"
+#MirrorOPML "http://podgallery.org/opml/?15" "podgallery-org-opml-15.opml"
+#MirrorOPML "http://podgallery.org/opml/?16" "podgallery-org-opml-16.opml"
+#MirrorOPML "http://podgallery.org/opml/?17" "podgallery-org-opml-17.opml"
+#MirrorOPML "http://podgallery.org/opml/?18" "podgallery-org-opml-18.opml"
+#MirrorOPML "http://podgallery.org/opml/?19" "podgallery-org-opml-19.opml"
 
-MirrorOPML "http://podgallery.org/opml/?21" "podgallery-org-opml-21.opml"
-MirrorOPML "http://podgallery.org/opml/?23" "podgallery-org-opml-23.opml"
-MirrorOPML "http://podgallery.org/opml/?24" "podgallery-org-opml-24.opml"
-MirrorOPML "http://podgallery.org/opml/?25" "podgallery-org-opml-25.opml"
-MirrorOPML "http://podgallery.org/opml/?29" "podgallery-org-opml-29.opml"
-MirrorOPML "http://podgallery.org/opml/?30" "podgallery-org-opml-30.opml"
-MirrorOPML "http://podgallery.org/opml/?32" "podgallery-org-opml-32.opml"
-MirrorOPML "http://podgallery.org/opml/?33" "podgallery-org-opml-33.opml"
-MirrorOPML "http://podgallery.org/opml/?34" "podgallery-org-opml-34.opml"
-MirrorOPML "http://podgallery.org/opml/?35" "podgallery-org-opml-35.opml"
-MirrorOPML "http://podgallery.org/opml/?37" "podgallery-org-opml-37.opml"
-MirrorOPML "http://podgallery.org/opml/?38" "podgallery-org-opml-38.opml"
-MirrorOPML "http://podgallery.org/opml/?41" "podgallery-org-opml-41.opml"
+#MirrorOPML "http://podgallery.org/opml/?21" "podgallery-org-opml-21.opml"
+#MirrorOPML "http://podgallery.org/opml/?23" "podgallery-org-opml-23.opml"
+#MirrorOPML "http://podgallery.org/opml/?24" "podgallery-org-opml-24.opml"
+#MirrorOPML "http://podgallery.org/opml/?25" "podgallery-org-opml-25.opml"
+#MirrorOPML "http://podgallery.org/opml/?29" "podgallery-org-opml-29.opml"
+#MirrorOPML "http://podgallery.org/opml/?30" "podgallery-org-opml-30.opml"
+#MirrorOPML "http://podgallery.org/opml/?32" "podgallery-org-opml-32.opml"
+#MirrorOPML "http://podgallery.org/opml/?33" "podgallery-org-opml-33.opml"
+#MirrorOPML "http://podgallery.org/opml/?34" "podgallery-org-opml-34.opml"
+#MirrorOPML "http://podgallery.org/opml/?35" "podgallery-org-opml-35.opml"
+#MirrorOPML "http://podgallery.org/opml/?37" "podgallery-org-opml-37.opml"
+#MirrorOPML "http://podgallery.org/opml/?38" "podgallery-org-opml-38.opml"
+#MirrorOPML "http://podgallery.org/opml/?41" "podgallery-org-opml-41.opml"
 
 MirrorOPML "http://hosting.opml.org/dnorman/educationpodcasts.opml" "opml-org-dnorman-educationpodcasts.opml"
 MirrorOPML "https://jchk.net/files/Podcasts.opml" "jchk-net-files-podcasts.opml"
