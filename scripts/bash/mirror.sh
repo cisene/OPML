@@ -9,9 +9,9 @@ function fetchToDisk {
 }
 
 function delint {
-  echo "delint"
-  echo "Parameter 1: '$1'"
-  echo "Parameter 2: '$2'"
+  #echo "delint"
+  #echo "Parameter 1: '$1'"
+  #echo "Parameter 2: '$2'"
 
   if [ ! -f "temp.opml" ]; then
       echo "temp.opml does not exist."
