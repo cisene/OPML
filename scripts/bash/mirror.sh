@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 function fetchToDisk {
-  echo "fetchToDisk"
-  echo "Parameter 1: '$1'"
-  echo "Parameter 2: '$2'"
+  #echo "fetchToDisk"
+  #echo "Parameter 1: '$1'"
+  #echo "Parameter 2: '$2'"
 
   wget --quiet --tries=3 --timeout=10 --dns-timeout=5 --connect-timeout=5 --read-timeout=10 -O "temp.opml" "$1"
 }
@@ -12,6 +12,11 @@ function delint {
   echo "delint"
   echo "Parameter 1: '$1'"
   echo "Parameter 2: '$2'"
+
+  if [ ! -f "temp.opml" ]; then
+      echo "temp.opml does not exist."
+      return
+  fi
 
   cat temp.opml | xmllint --nonet --noent --recover --xmlout --format - > "$1"
 }
@@ -25,9 +30,9 @@ function removeTemp {
 }
 
 function fixCharacters {
-  echo "fixCharacters"
-  echo "Parameter 1: '$1'"
-  echo "Parameter 2: '$2'"
+  #echo "fixCharacters"
+  #echo "Parameter 1: '$1'"
+  #echo "Parameter 2: '$2'"
 
   # Truncate strings of 2 or more spaces to a single space
   sed -i "s|\s{2,}| |gi" "$1"
@@ -39,7 +44,7 @@ function fixCharacters {
   sed -i "s|\x22\x22|\"|gi" "$1"
   sed -i "s/\x26(?!(?:apos|quot|[gl]t|amp)\x3b|#)/&amp;/gi" "$1"
 
-  sed -i "s|\x27|\&apos;|gi" "$1"
+  #sed -i "s|\x27|\&apos;|gi" "$1"
   sed -i "s|\x26\x2339\x3b|\&apos;|gi" "$1"
 
   sed -i "s|\s\x26\s| \&amp; |gi" "$1"
@@ -79,9 +84,9 @@ function fixXML {
 }
 
 function addMirrorTag {
-  echo "addMirrorTag"
-  echo "Parameter 1: '$1'"
-  echo "Parameter 2: '$2'"
+  #echo "addMirrorTag"
+  #echo "Parameter 1: '$1'"
+  #echo "Parameter 2: '$2'"
 
   TIMESTAMP="$(date --iso-8601=seconds)Z"
 
