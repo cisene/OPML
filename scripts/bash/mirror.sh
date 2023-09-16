@@ -18,47 +18,47 @@ function removeTemp {
 }
 
 function fixCharacters {
-  echo "fixCharacters"
-  echo "Parameter 1: '$1'"
-  echo "Parameter 2: '$2'"
+  #echo "fixCharacters"
+  #echo "Parameter 1: '$1'"
+  #echo "Parameter 2: '$2'"
 
   # Truncate strings of 2 or more spaces to a single space
-  sed -i "s|\s{2,}| |gi" "$2"
+  sed -i "s|\s{2,}| |gi" "$1"
 
-  sed -i "s|\x26amp\x3bndash\x3b|\&ndash;|gi" "$2"
+  sed -i "s|\x26amp\x3bndash\x3b|\&ndash;|gi" "$1"
   #sed -i "s|\x26amp\x3b|\&amp;|gi" temp.opml
   #sed -i "s|\b\x26(?!(.+?)\x3b)\b|\&amp;|gi" temp.opml
   #sed -i "s|\s\x26\s| \&amp; |gi" temp.opml
-  sed -i "s|\x22\x22|\"|gi" "$2"
-  sed -i "s/\x26(?!(?:apos|quot|[gl]t|amp)\x3b|#)/&amp;/gi" "$2"
+  sed -i "s|\x22\x22|\"|gi" "$1"
+  sed -i "s/\x26(?!(?:apos|quot|[gl]t|amp)\x3b|#)/&amp;/gi" "$1"
 
-  sed -i "s|\x27|\&apos;|gi" "$2"
-  sed -i "s|\x26\x2339\x3b|\&apos;|gi" "$2"
+  sed -i "s|\x27|\&apos;|gi" "$1"
+  sed -i "s|\x26\x2339\x3b|\&apos;|gi" "$1"
 
-  sed -i "s|\s\x26\s| \&amp; |gi" "$2"
+  sed -i "s|\s\x26\s| \&amp; |gi" "$1"
 }
 
 function fixXML {
-  echo "fixXML"
-  echo "Parameter 1: '$1'"
-  echo "Parameter 2: '$2'"
+  #echo "fixXML"
+  #echo "Parameter 1: '$1'"
+  #echo "Parameter 2: '$2'"
 
   # Remove empty htmlUrl attributes
-  sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" "$2"
-  sed -i "s|\stext\x3d\x22\x22| text=\"Podcast\"|gi" "$2"
+  sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" "$1"
+  sed -i "s|\stext\x3d\x22\x22| text=\"Podcast\"|gi" "$1"
 
-  sed -i "s|\x3copml\sversion\x3d\x271.0\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" "$2"
-  sed -i "s|\x3copml\sversion\x3d\x271.2\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" "$2"
-  sed -i "s|\x3copml\sversion\x3d\x272.1\x27\x3e<opml version='1.0'>|<opml version=\"2.0\">|gi" "$2"
+  sed -i "s|\x3copml\sversion\x3d\x271.0\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" "$1"
+  sed -i "s|\x3copml\sversion\x3d\x271.2\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" "$1"
+  sed -i "s|\x3copml\sversion\x3d\x272.1\x27\x3e<opml version='1.0'>|<opml version=\"2.0\">|gi" "$1"
 
   # Remove empty description attribute
-  sed -i "s|\sdescription\x3d\x22\x22||gi" "$2"
+  sed -i "s|\sdescription\x3d\x22\x22||gi" "$1"
 
   # Attempt removal of XSL stylesheet
   # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
   # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
-  sed -i "s|\x3c\x3fxml\x2dstylesheet\s(.+?)\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
-  sed -i "s|\x3c\x3f(\s+)?xml\x2dstylesheet\x20type\x3d\x22text\x2fxsl\x22\x20href\x3d\x22(.+?)\x2exsl\x22(\s+)?\x3f\x3e|<!-- stylesheet removed -->|gi" "$2"
+  sed -i "s|\x3c\x3fxml\x2dstylesheet\s(.+?)\x3f\x3e|<!-- stylesheet removed -->|gi" "$1"
+  sed -i "s|\x3c\x3f(\s+)?xml\x2dstylesheet\x20type\x3d\x22text\x2fxsl\x22\x20href\x3d\x22(.+?)\x2exsl\x22(\s+)?\x3f\x3e|<!-- stylesheet removed -->|gi" "$1"
 
 }
 
