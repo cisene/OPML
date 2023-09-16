@@ -6,6 +6,10 @@ function fetchToDisk {
 }
 
 function delint {
+  echo "delint"
+  echo "Parameter 1: '$1'"
+  echo "Parameter 2: '$2'"
+
   cat temp.opml | xmllint --nonet --noent --recover --xmlout --format - > "$1"
 }
 
