@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
 function fetchToDisk {
-  #echo "Fetching $1 .."
+  echo "fetchToDisk"
+  echo "Parameter 1: '$1'"
+  echo "Parameter 2: '$2'"
+
   wget --quiet --tries=3 --timeout=10 --dns-timeout=5 --connect-timeout=5 --read-timeout=10 -O "temp.opml" "$1"
 }
 
@@ -22,9 +25,9 @@ function removeTemp {
 }
 
 function fixCharacters {
-  #echo "fixCharacters"
-  #echo "Parameter 1: '$1'"
-  #echo "Parameter 2: '$2'"
+  echo "fixCharacters"
+  echo "Parameter 1: '$1'"
+  echo "Parameter 2: '$2'"
 
   # Truncate strings of 2 or more spaces to a single space
   sed -i "s|\s{2,}| |gi" "$1"
@@ -43,9 +46,9 @@ function fixCharacters {
 }
 
 function fixXML {
-  #echo "fixXML"
-  #echo "Parameter 1: '$1'"
-  #echo "Parameter 2: '$2'"
+  echo "fixXML"
+  echo "Parameter 1: '$1'"
+  echo "Parameter 2: '$2'"
 
   # Remove empty htmlUrl attributes
   sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" "$1"
