@@ -20,32 +20,32 @@ function removeTemp {
 function fixCharacters {
 
   # Truncate strings of 2 or more spaces to a single space
-  set -i "s|\s{2,}| |gi" temp.opml
+  set -i "s|\s{2,}| |gi" "$2"
 
-  set -i "s|\x26amp\x3bndash\x3b|\&ndash;|gi" temp.opml
+  set -i "s|\x26amp\x3bndash\x3b|\&ndash;|gi" "$2"
   #sed -i "s|\x26amp\x3b|\&amp;|gi" temp.opml
   #sed -i "s|\b\x26(?!(.+?)\x3b)\b|\&amp;|gi" temp.opml
   #sed -i "s|\s\x26\s| \&amp; |gi" temp.opml
-  sed -i "s|\x22\x22|\"|gi" temp.opml
-  sed -i "s/\x26(?!(?:apos|quot|[gl]t|amp)\x3b|#)/&amp;/gi" temp.opml
+  sed -i "s|\x22\x22|\"|gi" "$2"
+  sed -i "s/\x26(?!(?:apos|quot|[gl]t|amp)\x3b|#)/&amp;/gi" "$2"
 
-  sed -i "s|\x27|\&apos;|gi" temp.opml
-  set -i "s|\x26\x2339\x3b|\&apos;|gi" temp.opml
+  sed -i "s|\x27|\&apos;|gi" "$2"
+  set -i "s|\x26\x2339\x3b|\&apos;|gi" "$2"
 
-  sed -i "s|\s\x26\s| \&amp; |gi" temp.opml
+  sed -i "s|\s\x26\s| \&amp; |gi" "$2"
 }
 
 function fixXML {
   # Remove empty htmlUrl attributes
-  sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" temp.opml
-  set -i "s|\stext\x3d\x22\x22| text=\"Podcast\"|gi" temp.opml
+  sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" "$2"
+  set -i "s|\stext\x3d\x22\x22| text=\"Podcast\"|gi" "$2"
 
-  sed -i "s|\x3copml\sversion\x3d\x271.0\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" temp.opml
-  sed -i "s|\x3copml\sversion\x3d\x271.2\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" temp.opml
-  sed -i "s|\x3copml\sversion\x3d\x272.1\x27\x3e<opml version='1.0'>|<opml version=\"2.0\">|gi" temp.opml
+  sed -i "s|\x3copml\sversion\x3d\x271.0\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" "$2"
+  sed -i "s|\x3copml\sversion\x3d\x271.2\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" "$2"
+  sed -i "s|\x3copml\sversion\x3d\x272.1\x27\x3e<opml version='1.0'>|<opml version=\"2.0\">|gi" "$2"
 
   # Remove empty description attribute
-  sed -i "s|\sdescription\x3d\x22\x22||gi" temp.opml
+  sed -i "s|\sdescription\x3d\x22\x22||gi" "$2"
 
   # Attempt removal of XSL stylesheet
   # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
