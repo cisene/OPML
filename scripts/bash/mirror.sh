@@ -96,8 +96,8 @@ function addMirrorTag {
 function MirrorOPML {
   echo "Mirroring '$1' to '$2' ..."
   fetchToDisk "$1"
-  fixXML "$2"
-  fixCharacters "$2"
+  fixXML "temp.opml" "$2"
+  fixCharacters "temp.opml" "$2"
   delint "$2"
   addMirrorTag "$1" "$2"
   removeTemp
