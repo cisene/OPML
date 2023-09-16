@@ -1,18 +1,10 @@
 #!/usr/bin/env bash
 
 function fetchToDisk {
-  #echo "fetchToDisk"
-  #echo "Parameter 1: '$1'"
-  #echo "Parameter 2: '$2'"
-
   wget --quiet --tries=3 --timeout=10 --dns-timeout=5 --connect-timeout=5 --read-timeout=10 -O "temp.opml" "$1"
 }
 
 function delint {
-  #echo "delint"
-  #echo "Parameter 1: '$1'"
-  #echo "Parameter 2: '$2'"
-
   if [ ! -f "temp.opml" ]; then
       echo "temp.opml does not exist."
       return
@@ -84,10 +76,6 @@ function fixXML {
 }
 
 function addMirrorTag {
-  #echo "addMirrorTag"
-  #echo "Parameter 1: '$1'"
-  #echo "Parameter 2: '$2'"
-
   TIMESTAMP="$(date --iso-8601=seconds)Z"
 
   # OPML 1.0
