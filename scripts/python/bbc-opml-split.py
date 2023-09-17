@@ -127,6 +127,9 @@ def fixTitle(data):
 
 def fixFilename(data):
   data = data.lower()
+
+  data = re.sub(r"(\x85)", "a", str(data), flags=re.IGNORECASE)
+
   data = re.sub(r"\x20", "-", str(data), flags=re.IGNORECASE)
   data = re.sub(r"\x2e", "-", str(data), flags=re.IGNORECASE)
 
