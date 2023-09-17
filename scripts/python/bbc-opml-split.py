@@ -189,7 +189,7 @@ def parseOPML(contents):
         continue
 
       opml_filename = fixFilename(opml_title)
-      opml_fullpath = f"../../{opml_filename}.opml"
+      opml_fullpath = f"./{opml_filename}.opml"
 
       # Done deriving filename, let's encode ..
       opml_title = htmlEncode(opml_title)
@@ -231,7 +231,7 @@ def parseOPML(contents):
 
 def main():
 
-  file = '../../bbc-co-uk-podcasts.opml'
+  file = './bbc-co-uk-podcasts.opml'
 
   contents = readFile(file)
   parseOPML(contents)
