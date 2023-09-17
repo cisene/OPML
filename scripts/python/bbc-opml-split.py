@@ -141,7 +141,15 @@ def writeFile(fullpath, contents):
 
 def htmlEncode(data):
   data = re.sub(r"\x20\x26\x20", " &amp; ", str(data), flags=re.IGNORECASE)
-  data = re.sub(r"\x27", "&acute;", str(data), flags=re.IGNORECASE)
+  data = re.sub(r"\x27", "&apos;", str(data), flags=re.IGNORECASE)
+  data = re.sub(r"\x91", "&apos;", str(data), flags=re.IGNORECASE)
+  data = re.sub(r"\x26\x23145\x3b", "&apos;", str(data), flags=re.IGNORECASE)
+  data = re.sub(r"\x26\x2339\x3b", "&apos;", str(data), flags=re.IGNORECASE)
+  data = re.sub(r"\x26\x238216\x3b", "&apos;", str(data), flags=re.IGNORECASE)
+  data = re.sub(r"\x26\x238217\x3b", "&apos;", str(data), flags=re.IGNORECASE)
+  data = re.sub(r"\x26lsquo\x3b", "&apos;", str(data), flags=re.IGNORECASE)
+  data = re.sub(r"\x26rsquo\x3b", "&apos;", str(data), flags=re.IGNORECASE)
+
   data = re.sub(r"\x22", "&quote;", str(data), flags=re.IGNORECASE)
 
   data = re.sub(r"\s{2,}", " ", str(data), flags=re.IGNORECASE)
