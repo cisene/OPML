@@ -191,6 +191,7 @@ def parseOPML(contents):
 
     skip_list = [
       'BBC',
+      'BBC Radio nan Gàidheal'
     ]
 
     for inner_outline in base_outline.findall('./outline'):
