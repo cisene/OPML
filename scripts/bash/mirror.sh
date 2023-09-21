@@ -67,9 +67,15 @@ function fixXML {
   sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" "$1"
   sed -i "s|\stext\x3d\x22\x22| text=\"Podcast\"|gi" "$1"
 
-  sed -i "s|\x3copml\sversion\x3d\x271.0\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" "$1"
-  sed -i "s|\x3copml\sversion\x3d\x271.2\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" "$1"
-  sed -i "s|\x3copml\sversion\x3d\x272.1\x27\x3e<opml version='1.0'>|<opml version=\"2.0\">|gi" "$1"
+  # Replace single-quotes with double-quotes on OPML root element
+  #sed -i "s|\x3copml\sversion\x3d\x271.0\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" "$1"
+  #sed -i "s|\x3copml\sversion\x3d\x271.2\x27\x3e<opml version='1.0'>|<opml version=\"1.0\">|gi" "$1"
+  #sed -i "s|\x3copml\sversion\x3d\x272.1\x27\x3e<opml version='1.0'>|<opml version=\"2.0\">|gi" "$1"
+
+  sed -i "s|\x3copml\sversion\x3d\x271.0\x27\x3e|<opml version=\"1.0\">|gi" "$1"
+  sed -i "s|\x3copml\sversion\x3d\x271.1\x27\x3e|<opml version=\"1.1\">|gi" "$1"
+  sed -i "s|\x3copml\sversion\x3d\x272.0\x27\x3e|<opml version=\"2.0\">|gi" "$1"
+
 
   # Remove empty description attribute
   sed -i "s|\sdescription\x3d\x22\x22||gi" "$1"
