@@ -22,23 +22,30 @@ function removeTemp {
 }
 
 function fixCharacters {
-  #echo "fixCharacters"
-  #echo "Parameter 1: '$1'"
-  #echo "Parameter 2: '$2'"
-
   # Truncate strings of 2 or more spaces to a single space
   sed -i "s|\s{2,}| |gi" "$1"
 
-  sed -i "s|\x26amp\x3bndash\x3b|\&ndash;|gi" "$1"
-  #sed -i "s|\x26amp\x3b|\&amp;|gi" temp.opml
-  #sed -i "s|\b\x26(?!(.+?)\x3b)\b|\&amp;|gi" temp.opml
-  #sed -i "s|\s\x26\s| \&amp; |gi" temp.opml
-  sed -i "s|\x22\x22|\"|gi" "$1"
-  sed -i "s/\x26(?!(?:apos|quot|[gl]t|amp)\x3b|#)/&amp;/gi" "$1"
+  # Degree symbol
+  sed -i "s|\xb0|&deg;|gi" "$1"
 
+  # NDASH
+  sed -i "s|\x26amp\x3bndash\x3b|\&ndash;|gi" "$1"
+
+  # APOS 
   #sed -i "s|\x27|\&apos;|gi" "$1"
   sed -i "s|\x26\x2339\x3b|\&apos;|gi" "$1"
 
+  #sed -i "s|\x26amp\x3b|\&amp;|gi" temp.opml
+  #sed -i "s|\b\x26(?!(.+?)\x3b)\b|\&amp;|gi" temp.opml
+  #sed -i "s|\s\x26\s| \&amp; |gi" temp.opml
+
+  # Double double-quotes - breaks XML
+  sed -i "s|\x22\x22|\"|gi" "$1"
+
+  # AMP - Escape stuff that hasn't been escaped already
+  sed -i "s/\x26(?!(?:apos|quot|[gl]t|amp|deg)\x3b|#)/&amp;/gi" "$1"
+
+  # AMP - Naked ampersand between two words separated by space
   sed -i "s|\s\x26\s| \&amp; |gi" "$1"
 }
 
