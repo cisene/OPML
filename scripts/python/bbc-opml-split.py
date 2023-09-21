@@ -152,9 +152,11 @@ def htmlEncode(data):
   data = re.sub(r"\x26\x238217\x3b", "&apos;", str(data), flags=re.IGNORECASE)
   data = re.sub(r"\x26lsquo\x3b", "&apos;", str(data), flags=re.IGNORECASE)
   data = re.sub(r"\x26rsquo\x3b", "&apos;", str(data), flags=re.IGNORECASE)
+  data = re.sub(r"(\u8217|\U00008217)", "&apos;", str(data), flags=re.IGNORECASE)
 
   # Special case - breaks OPML if not handled
-  data = re.sub(r"\x26\x2a", "&amp;&ast;", str(data), flags=re.IGNORECASE)
+  # data = re.sub(r"\x26\x2a", "&amp;&ast;", str(data), flags=re.IGNORECASE)
+  data = re.sub(r"\x26\x2a", "&amp;&#x2A;", str(data), flags=re.IGNORECASE)
   
   data = re.sub(r"\x22", "&quot;", str(data), flags=re.IGNORECASE)
 
