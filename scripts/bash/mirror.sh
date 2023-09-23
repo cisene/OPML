@@ -22,6 +22,8 @@ function removeTemp {
 }
 
 function fixCharacters {
+  echo "fixCharacters - start"
+
   # Truncate strings of 2 or more spaces to a single space
   sed -i "s|\s{2,}| |gi" "$1"
 
@@ -47,9 +49,12 @@ function fixCharacters {
 
   # AMP - Naked ampersand between two words separated by space
   sed -i "s|\s\x26\s| \&amp; |gi" "$1"
+
+  echo "fixCharacters - end"
 }
 
 function fixXML {
+  echo "fixXML - start"
   # Change single quotes to double quotes on XML version declaration
   sed -i "s|version\x3d\x271\x2e0\x27|version=\"1.0\"|gi" "$1"
 
@@ -95,7 +100,7 @@ function fixXML {
   sed -i "s|\x3c\x3fxml\x2dstylesheet\stype\x3d\x22text\x2fxsl\x22\shref\x3d\x22(.+?)\x22\x3f\x3e||gi" "$1"
   sed -i "s|\x3c\x3fxml\x2dstylesheet\shref\x3d\x22(.+?)\x22\stype\x3d\x22text\x2fxsl\x22\x3f\x3e||gi" "$1"
 
-
+  echo "fixXML - end"
 }
 
 function addMirrorTag {
