@@ -103,6 +103,18 @@ function fixXML {
   echo "fixXML - end"
 }
 
+function removeURLFragments {
+  # Strip out GOOGLE_ABUSE_EXEMPTION
+  sed -i "s|^http(s)?\x3a\x2f\x2f(.+?)(\x3f|\x26)google\x5fabuse\x3dGOOGLE\x5fABUSE\x5fEXEMPTION\x253DID\x253D(.*)|http$1://$2|gi" "$1"
+
+  # Strip out "nw=0"
+  sed -i "s|^http(s)?\x3a\x2f\x2f(.+?)(\x3f|\x26)nw\x3d\d{1,}|http$1://$2|gi" "$1"
+
+  # Strip out "format=MP3_xxxK"
+  sed -i "s|^http(s)?\x3a\x2f\x2f(.+?)(\x3f|\x26)format\x3dMP3\x5f\d{1,}K|http$1://$2|gi" "$1"
+  
+}
+
 function addMirrorTag {
   TIMESTAMP="$(date --iso-8601=seconds)Z"
 
@@ -120,6 +132,7 @@ function MirrorOPML {
   echo "Mirroring '$1' to '$2' ..."
   fetchToDisk "$1"
   fixXML "temp.opml" "$2"
+  removeURLFragments "temp.opml"
   fixCharacters "temp.opml" "$2"
   delint "$2"
   addMirrorTag "$1" "$2"
@@ -593,7 +606,7 @@ MirrorOPML "https://player.fm/networks/amovetv.opml" "player-fm-networks-amovetv
 MirrorOPML "https://player.fm/networks/amp-radio-1033.opml" "player-fm-networks-amp-radio-1033.opml"
 MirrorOPML "https://player.fm/networks/arn-mix-fm.opml" "player-fm-networks-arn-mix-fm.opml"
 MirrorOPML "https://player.fm/networks/atomic-rocket-studios.opml" "player-fm-networks-atomic-rocket-studios.opml"
-MirrorOPML "https://player.fm/networks/audioboom.opml" "player-fm-networks-audioboom.opml"
+# 2023-09-27 - empty MirrorOPML "https://player.fm/networks/audioboom.opml" "player-fm-networks-audioboom.opml"
 MirrorOPML "https://player.fm/networks/australia-podcast-networks.opml" "player-fm-networks-australia-podcast-networks.opml"
 MirrorOPML "https://player.fm/networks/b96.opml" "player-fm-networks-b96.opml"
 MirrorOPML "https://player.fm/networks/bald-move.opml" "player-fm-networks-bald-move.opml"
