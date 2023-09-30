@@ -53,8 +53,28 @@ function fixCharacters {
   echo "fixCharacters - end"
 }
 
-function fixXML {
-  echo "fixXML - start"
+function fixXMLDecl {
+  echo "fixXMLDecl - start"
+
+  # Change single quotes to double quotes on XML encoding declaration
+  sed -i "s|encoding\x3d\x27UTF\x2d8\x27|encoding=\"UTF-8\"|gi" "$1"
+
+  echo "fixXMLDecl - end"
+}
+
+function fixXMLStylesheet {
+  echo "fixXMLStylesheet - start"
+
+  # Remove simple stylesheet inclusion
+  sed -i "s|\x3c\x3fxml\x2dstylesheet\stype\x3d\x22text\x2fxsl\x22\shref\x3d\x22(.+?)\x22\x3f\x3e||gi" "$1"
+  sed -i "s|\x3c\x3fxml\x2dstylesheet\shref\x3d\x22(.+?)\x22\stype\x3d\x22text\x2fxsl\x22\x3f\x3e||gi" "$1"
+
+  echo "fixXMLStylesheet - end"
+}
+
+function fixOPMLDecl {
+  echo "fixOPMLDecl - start"
+
   # Change single quotes to double quotes on XML version declaration
   sed -i "s|version\x3d\x271\x2e0\x27|version=\"1.0\"|gi" "$1"
 
@@ -64,9 +84,17 @@ function fixXML {
   # Change single quotes to double quotes on XML and OPML declaration
   sed -i "s|version\x3d\x272\x2e0\x27|version=\"2.0\"|gi" "$1"
 
-  # Change single quotes to double quotes on XML encoding declaration
-  sed -i "s|encoding\x3d\x27UTF\x2d8\x27|encoding=\"UTF-8\"|gi" "$1"
+  # Replace single-quotes with double-quotes on OPML root element
+  sed -i "s|\x3copml\sversion\x3d\x271\x2e0\x27\x3e|<opml version=\"1.0\">|gi" "$1"
+  sed -i "s|\x3copml\sversion\x3d\x271\x2e1\x27\x3e|<opml version=\"1.1\">|gi" "$1"
+  sed -i "s|\x3copml\sversion\x3d\x272\x2e0\x27\x3e|<opml version=\"2.0\">|gi" "$1"
 
+  echo "fixOPMLDecl - end"
+}
+
+
+function fixXML {
+  echo "fixXML - start"
 
   # /&gt; - Strange sequence
   sed -i "s|\x22\s{1,}\x2f\x26gt\x3b\s{1,}\x22|\"\"|gi" "$1"
@@ -75,14 +103,8 @@ function fixXML {
   sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" "$1"
   sed -i "s|\stext\x3d\x22\x22| text=\"Podcast\"|gi" "$1"
 
-  # Replace single-quotes with double-quotes on OPML root element
-  sed -i "s|\x3copml\sversion\x3d\x271.0\x27\x3e|<opml version=\"1.0\">|gi" "$1"
-  sed -i "s|\x3copml\sversion\x3d\x271.1\x27\x3e|<opml version=\"1.1\">|gi" "$1"
-  sed -i "s|\x3copml\sversion\x3d\x272.0\x27\x3e|<opml version=\"2.0\">|gi" "$1"
-
   # Remove UTM-tagging from links
   sed -i "s|(\x3f|\x26|\x26amp\x3b)utm\x5f(source|medium|campaign|content|term)\x3d([a-z0-9\x25\x2d]{1,})||gi" "$1"
-
 
   # Remove empty description attribute
   sed -i "s|\sdescription\x3d\x22\x22||gi" "$1"
@@ -90,20 +112,13 @@ function fixXML {
   # Remove empty htmlUrl
   sed -i "s|\shtmlUrl\x3d\x22\x22||gi" "$1"
 
-  # Attempt removal of XSL stylesheet
-  # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
-  # <?xml-stylesheet type="text/xsl" href="style.xsl"?>
-  #sed -i "s|\x3c\x3fxml\x2dstylesheet\s(.+?)\x3f\x3e|<!-- stylesheet removed -->|gi" "$1"
-  #sed -i "s|\x3c\x3f(\s+)?xml\x2dstylesheet\x20type\x3d\x22text\x2fxsl\x22\x20href\x3d\x22(.+?)\x2exsl\x22(\s+)?\x3f\x3e|<!-- stylesheet removed -->|gi" "$1"
-
-  # Remove simple stylesheet inclusion
-  sed -i "s|\x3c\x3fxml\x2dstylesheet\stype\x3d\x22text\x2fxsl\x22\shref\x3d\x22(.+?)\x22\x3f\x3e||gi" "$1"
-  sed -i "s|\x3c\x3fxml\x2dstylesheet\shref\x3d\x22(.+?)\x22\stype\x3d\x22text\x2fxsl\x22\x3f\x3e||gi" "$1"
 
   echo "fixXML - end"
 }
 
 function removeURLFragments {
+  echo "removeURLFragments - start"
+
   # Strip out GOOGLE_ABUSE_EXEMPTION
   sed -i "s|^http(s)?\x3a\x2f\x2f(.+?)(\x3f|\x26)google\x5fabuse\x3dGOOGLE\x5fABUSE\x5fEXEMPTION\x253DID\x253D(.*)|http$1://$2|gi" "$1"
 
@@ -113,6 +128,7 @@ function removeURLFragments {
   # Strip out "format=MP3_xxxK"
   sed -i "s|^http(s)?\x3a\x2f\x2f(.+?)(\x3f|\x26)format\x3dMP3\x5f\d{1,}K|http$1://$2|gi" "$1"
   
+  echo "removeURLFragments - end"
 }
 
 function addMirrorTag {
@@ -131,6 +147,9 @@ function addMirrorTag {
 function MirrorOPML {
   echo "Mirroring '$1' to '$2' ..."
   fetchToDisk "$1"
+  fixXMLDecl "temp.opml" "$2"
+  fixXMLStylesheet "temp.opml" "$2"
+  fixOPMLDecl "temp.opml" "$2"
   fixXML "temp.opml" "$2"
   removeURLFragments "temp.opml"
   fixCharacters "temp.opml" "$2"
