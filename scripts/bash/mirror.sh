@@ -112,6 +112,8 @@ function fixXML {
   # Remove empty htmlUrl
   sed -i "s|\shtmlUrl\x3d\x22\x22||gi" "$1"
 
+  # Adjust XML declaration to be standalone=yes
+  sed -i "s|standalone\x3d\x22no\x22|standalone=\"yes\"|gi" "$1"
 
   echo "fixXML - end"
 }
@@ -132,6 +134,15 @@ function removeURLFragments {
   sed -i "s|\x3fkey\x3d([a-z0-9]{12})||gi" "$1"
   
   echo "removeURLFragments - end"
+}
+
+function removeStylesheet {
+  # stylesheet reference (type, href)
+  sed -i "s|\x3c\x3fxml\x2dstylesheet\stype\x3d\x22text\x2fxsl\x22\shref\x3d\x22(.+?)\x22\x3f\x3e\n||gi" "$1"
+
+  # stylesheet referenct (href, type)
+  sed -i "s|\x3c\x3fxml\x2dstylesheet\shref\x3d\x22(.+?)\x22\stype\x3d\x22text\x2fxsl\x22\x3f\x3e\n||gi" "$1"
+  
 }
 
 function addMirrorTag {
@@ -155,6 +166,7 @@ function MirrorOPML {
   fixOPMLDecl "temp.opml" "$2"
   fixXML "temp.opml" "$2"
   removeURLFragments "temp.opml"
+  remoteStylesheet "temp.opml"
   fixCharacters "temp.opml" "$2"
   delint "$2"
   addMirrorTag "$1" "$2"
