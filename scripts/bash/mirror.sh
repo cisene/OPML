@@ -127,6 +127,9 @@ function removeURLFragments {
 
   # Strip out "format=MP3_xxxK"
   sed -i "s|^http(s)?\x3a\x2f\x2f(.+?)(\x3f|\x26)format\x3dMP3\x5f\d{1,}K|http$1://$2|gi" "$1"
+
+  # Strip out subscription keys (private subscriptions) "?key=asdf12345678"
+  sed -i "s|\x3fkey\x3d([a-z0-9]{12})||gi" "$1"
   
   echo "removeURLFragments - end"
 }
