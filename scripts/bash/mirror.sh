@@ -244,6 +244,7 @@ MirrorOPML "https://gist.githubusercontent.com/tatsumoto-ren/1df342d5270680f3c9d
 MirrorOPML "https://gist.githubusercontent.com/2KAbhishek/2abf301bdb60c972457e5109fc99ed1c/raw/e13eeb8d821bdf2091e9fe0f46a5286bc3b2b19d/Podcasts.opml.xml" "2KAbhishek.opml"
 MirrorOPML "https://gist.githubusercontent.com/jasontucker/697ed02f11ed39345e11686d2b04acef/raw/e3046566de3ddc7cc9ad241e82b583c3c52be0a6/jasons_podcast.opml" "jasontucker.opml"
 MirrorOPML "https://gist.githubusercontent.com/barrieselack/6164714/raw/8eefb665b812c8bffee881ea4604a5991c7d4823/podcasts.opml" "barrieselack.opml"
+MirrorOPML "https://gist.githubusercontent.com/kobusb/c48256a031ee8cadbdf26d6595d73eee/raw/7d855551365000f52a9da36bf75615b8698748fc/podcasts.opml" "kobusb.opml"
 MirrorOPML "https://redecentralize.org/redigest/2022/kthxbye/redigest_feed_recommendations.opml" "redecentralize-redigest-feed-reccommendations.opml"
 MirrorOPML "https://source.mcwhirter.io/craige/rcfiles/raw/branch/consensus/.gpodder.opml" "mcwhirter-craige-consensus-gpodder.opml"
 MirrorOPML "https://typlog.com/podlist/opml.xml" "typlog-pod.opml"
