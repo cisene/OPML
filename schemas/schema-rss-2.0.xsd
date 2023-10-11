@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="rss" type="rss" />
+
+    <complexType name="rss">
+      <sequence>
+        <element name="channel" type="channel" maxOccurs="1" minOccurs="1" />
+      </sequence>
+      <attribute name="version" type="version" />
+    </complexType>
+
+    <simpleType name="version">
+      <restriction base="string">
+        <enumeration value="2.0" />
+      </restriction>
+    </simpleType>
+
+    <complexType name="channel">
+      <sequence>
+
+        <element name="title" type="string" maxOccurs="1" minOccurs="1">
+          <annotation>
+            <documentation>The name of the channel. It's how people refer to your service. If you have an HTML website that contains the same information as your RSS file, the title of your channel should be the same as the title of your website.</documentation>
+          </annotation>
+        </element>
+
+        <element name="link" type="string" maxOccurs="1" minOccurs="1">
+          <annotation>
+            <documentation>The URL to the HTML website corresponding to the channel.</documentation>
+          </annotation>
+        </element>
+
+        <element name="description" type="string" maxOccurs="1" minOccurs="1">
+          <annotation>
+            <documentation>Phrase or sentence describing the channel.</documentation>
+          </annotation>
+        </element>
+
+        <element name="language" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>The language the channel is written in. This allows aggregators to group all Italian language sites, for example, on a single page. A list of allowable values for this element, as provided by Netscape, is here [http://www.rssboard.org/rss-language-codes]. You may also use values defined by the W3C [http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes].</documentation>
+          </annotation>
+        </element>
+
+        <element name="copyright" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>Copyright notice for content in the channel.</documentation>
+          </annotation>
+        </element>
+
+        <element name="managingEditor" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>Email address for person responsible for editorial content.</documentation>
+          </annotation>
+        </element>
+
+        <element name="webMaster" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>Email address for person responsible for technical issues relating to channel.</documentation>
+          </annotation>
+        </element>
+
+        <element name="pubDate" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>The publication date for the content in the channel. For example, the New York Times publishes on a daily basis, the publication date flips once every 24 hours. That's when the pubDate of the channel changes. All date-times in RSS conform to the Date and Time Specification of RFC 822, with the exception that the year may be expressed with two characters or four characters (four preferred).</documentation>
+          </annotation>
+        </element>
+
+        <element name="lastBuildDate" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>The last time the content of the channel changed.</documentation>
+          </annotation>
+        </element>
+
+        <element name="category" type="category" maxOccurs="unbounded" minOccurs="0">
+          <annotation>
+            <documentation>Specify one or more categories that the channel belongs to. Follows the same rules as the &lt;item&gt;-level category element.</documentation>
+          </annotation>
+        </element>
+
+        <element name="generator" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>A string indicating the program used to generate the channel.</documentation>
+          </annotation>
+        </element>
+
+        <element name="docs" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>A URL that points to the documentation for the format used in the RSS file. It's probably a pointer to this page. It's for people who might stumble across an RSS file on a Web server 25 years from now and wonder what it is.</documentation>
+          </annotation>
+        </element>
+
+        <element name="cloud" type="cloud" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>Allows processes to register with a cloud to be notified of updates to the channel, implementing a lightweight publish-subscribe protocol for RSS feeds. More info here.</documentation>
+          </annotation>
+        </element>
+
+        <element name="ttl" type="int" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>ttl stands for time to live. It's a number of minutes that indicates how long a channel can be cached before refreshing from the source.</documentation>
+          </annotation>
+        </element>
+
+        <element name="image" type="image" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>Specifies a GIF, JPEG or PNG image that can be displayed with the channel.</documentation>
+          </annotation>
+        </element>
+
+        <element name="rating" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>The PICS [http://www.w3.org/PICS/] rating for the channel.</documentation>
+          </annotation>
+        </element>
+
+        <element name="textInput" type="textInput" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>Specifies a text input box that can be displayed with the channel.</documentation>
+          </annotation>
+        </element>
+
+        <element name="skipHours" type="skipHours" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>A hint for aggregators telling them which hours they can skip. This element contains up to 24 &lt;hour&gt; sub-elements whose value is a number between 0 and 23, representing a time in GMT, when aggregators, if they support the feature, may not read the channel on hours listed in the &lt;skipHours&gt; element. The hour beginning at midnight is hour zero.</documentation>
+          </annotation>
+        </element>
+
+        <element name="skipDays" type="skipDays" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>A hint for aggregators telling them which days they can skip. This element contains up to seven &lt;day&gt; sub-elements whose value is Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday. Aggregators may not read the channel during days listed in the &lt;skipDays&gt;element.</documentation>
+          </annotation>
+        </element>
+
+        <element name="item" type="item" maxOccurs="unbounded" minOccurs="0" />
+
+      </sequence>
+    </complexType>
+
+    <complexType name="cloud">
+      <attribute name="domain" type="string" />
+      <attribute name="port">
+        <simpleType>
+          <restriction base="int">
+            <maxInclusive value="65536" />
+            <minInclusive value="0" />
+          </restriction>
+        </simpleType>
+      </attribute>
+      <attribute name="path" type="string" />
+      <attribute name="registerProcedure" type="string" />
+      <attribute name="protocol" type="string" />
+    </complexType>
+
+    <complexType name="image">
+      <sequence>
+        <element name="url" type="string" maxOccurs="1" minOccurs="1" />
+
+        <element name="title" type="string" maxOccurs="1" minOccurs="1" />
+
+        <element name="link" type="string" maxOccurs="1" minOccurs="1" />
+
+        <element name="width" default="88" maxOccurs="1" minOccurs="0">
+          <simpleType>
+            <restriction base="int">
+              <minExclusive value="0" />
+              <maxInclusive value="144" />
+            </restriction>
+          </simpleType>
+        </element>
+
+        <element name="height" default="31" maxOccurs="1" minOccurs="0">
+          <simpleType>
+            <restriction base="int">
+              <minExclusive value="0" />
+              <maxInclusive value="400" />
+            </restriction>
+          </simpleType>
+        </element>
+
+        <element name="description" type="string" maxOccurs="1" minOccurs="0" />
+
+      </sequence>
+    </complexType>
+
+    <complexType name="textInput">
+      <sequence>
+
+        <element name="title" type="string" maxOccurs="1" minOccurs="1" />
+
+        <element name="description" type="string" maxOccurs="1" minOccurs="1" />
+
+        <element name="name" type="string" maxOccurs="1" minOccurs="1" />
+
+        <element name="link" type="string" maxOccurs="1" minOccurs="1" />
+
+      </sequence>
+    </complexType>
+
+    <complexType name="skipHours">
+      <sequence>
+        <element name="hour" minOccurs="1" maxOccurs="24">
+          <simpleType>
+            <restriction base="int">
+              <maxInclusive value="23" />
+              <minInclusive value="0" />
+            </restriction>
+          </simpleType>
+        </element>
+      </sequence>
+    </complexType>
+
+    <complexType name="skipDays">
+      <sequence>
+        <element name="day" maxOccurs="7">
+          <simpleType>
+            <restriction base="string">
+              <enumeration value="Monday" />
+              <enumeration value="Tuesday" />
+              <enumeration value="Wednesday" />
+              <enumeration value="Thursday" />
+              <enumeration value="Friday" />
+              <enumeration value="Saturday" />
+              <enumeration value="Sunday" />
+            </restriction>
+          </simpleType>
+        </element>
+      </sequence>
+    </complexType>
+
+    <complexType name="item">
+      <sequence>
+
+        <element name="title" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>The title of the item.</documentation>
+          </annotation>
+        </element>
+
+        <element name="link" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>The URL of the item.</documentation>
+          </annotation>
+        </element>
+
+        <element name="description" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>The item synopsis.</documentation>
+          </annotation>
+        </element>
+
+        <element name="author" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>Email address of the author of the item.</documentation>
+          </annotation>
+        </element>
+
+        <element name="category" type="category" maxOccurs="unbounded" minOccurs="0">
+          <annotation>
+            <documentation>Includes the item in one or more categories.</documentation>
+          </annotation>
+        </element>
+
+        <element name="comments" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>URL of a page for comments relating to the item.</documentation>
+          </annotation>
+        </element>
+
+        <element name="enclosure" type="enclosure" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>Describes a media object that is attached to the item.</documentation>
+          </annotation>
+        </element>
+
+        <element name="guid" type="guid" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>A string that uniquely identifies the item.</documentation>
+          </annotation>
+        </element>
+
+        <element name="pubDate" type="string" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>Indicates when the item was published.</documentation>
+          </annotation>
+        </element>
+
+        <element name="source" type="source" maxOccurs="1" minOccurs="0">
+          <annotation>
+            <documentation>The RSS channel that the item came from.</documentation>
+          </annotation>
+        </element>
+
+      </sequence>
+    </complexType>
+
+    <complexType name="category">
+      <simpleContent>
+        <extension base="string">
+          <attribute name="domain" type="string" />
+        </extension>
+      </simpleContent>
+    </complexType>
+
+    <complexType name="enclosure">
+      <attribute name="url" type="string" use="required" />
+      <attribute name="length" use="required">
+        <simpleType>
+          <restriction base="int">
+            <minExclusive value="0" />
+          </restriction>
+        </simpleType>
+      </attribute>
+      <attribute name="type" type="string" use="required" />
+    </complexType>
+
+    <complexType name="guid">
+      <simpleContent>
+        <extension base="string">
+          <attribute name="isPermaLink" type="boolean" />
+        </extension>
+      </simpleContent>
+    </complexType>
+
+    <complexType name="source">
+      <simpleContent>
+        <extension base="string">
+          <attribute name="url" type="string" use="required" />
+        </extension>
+      </simpleContent>
+    </complexType>
+
+</schema>
