@@ -252,6 +252,8 @@ MirrorOPML "https://welcometochina.com.au/wp-content/uploads/china-podcasts.opml
 MirrorOPML "https://wissenschaftspodcasts.de/opml-export/" "wissenschafts-podcasts.opml"
 MirrorOPML "https://www.ancientfaith.com/feeds/podcasts.opml" "ancientfaith-podcasts.opml"
 MirrorOPML "https://www.apreche.net/~apreche/podcasts.opml" "apreche-podcasts.opml"
+MirrorOPML "http://www.andyrowell.net/files/podcastaddict_export_20180305_182255.opml" "andyrowell-net-podcastaddict-export-20180305-182255.opml"
+MirrorOPML "https://raw.githubusercontent.com/Nogamara/blaugust-opml/master/output/blapril2020/blaugust.opml" "nogamara-blaugust.opml"
 
 MirrorOPML "https://fyyd.de/user/altf4/collection/deutsch/opml" "fyyd-de-altf4-collection-deutsch.opml"
 MirrorOPML "https://fyyd.de/user/dirkprimbs/collection/fotografiepodcasts/opml" "fyyd-de-dirkprimbs-collection-fotografiepodcasts.opml"
