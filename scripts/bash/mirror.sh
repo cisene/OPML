@@ -447,6 +447,7 @@ MirrorOPML "https://lists.pocketcasts.com/women-on-wickedness.opml" "pocketcasts
 MirrorOPML "https://lists.pocketcasts.com/wondermedianetwork.opml" "pocketcasts-com-wonder-media-network.opml"
 MirrorOPML "https://lists.pocketcasts.com/world-ufo-day-2023.opml" "pocketcasts-com-world-ufo-day-2023.opml"
 MirrorOPML "https://lists.pocketcasts.com/new-and-true-2023.opml" "pocketcasts-com-new-and-true-2023.opml"
+MirrorOPML "https://lists.pocketcasts.com/trannaandthomas.opml" "pocketcasts-com-tranna-and-thomas.opml"
 
 MirrorOPML "https://player.fm/en/featured/acoustic.opml" "player-fm-en-featured-acoustic.opml"
 MirrorOPML "https://player.fm/en/featured/activism.opml" "player-fm-en-featured-activism.opml"
