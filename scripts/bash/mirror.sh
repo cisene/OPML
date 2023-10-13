@@ -216,9 +216,9 @@ MirrorOPML "http://s3.amazonaws.com/radio2/communityReadingList.opml" "radio2-co
 MirrorOPML "http://podcasts.divergence-fm.org/podcasts.opml" "divergence-fm-podcasts.opml"
 
 # Remove when mirrored as we just want to make an accessible copy and not disturb archive.org - hey jason! :)
-MirrorOPML "https://web.archive.org/web/20120617070805if_/http://www.thepodcastnetwork.com/thepodcastnetwork_opml.opml" "thepodcastnetwork_opml.opml"
-MirrorOPML "https://web.archive.org/web/20130203055704if_/http://www.npr.org:80/podcasts.opml" "npr-2013-02-03-podcasts.opml"
-MirrorOPML "https://web.archive.org/web/20140122032727if_/http://www.nytimes.com/services/xml/rss/nyt/index.opml" "nytimes-com-services-nyt-index.opml"
+#MirrorOPML "https://web.archive.org/web/20120617070805if_/http://www.thepodcastnetwork.com/thepodcastnetwork_opml.opml" "thepodcastnetwork_opml.opml"
+#MirrorOPML "https://web.archive.org/web/20130203055704if_/http://www.npr.org:80/podcasts.opml" "npr-2013-02-03-podcasts.opml"
+#MirrorOPML "https://web.archive.org/web/20140122032727if_/http://www.nytimes.com/services/xml/rss/nyt/index.opml" "nytimes-com-services-nyt-index.opml"
 
 
 MirrorOPML "http://hosting.opml.org/dnorman/educationpodcasts.opml" "opml-org-dnorman-educationpodcasts.opml"
