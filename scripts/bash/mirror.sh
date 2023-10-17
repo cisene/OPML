@@ -99,24 +99,40 @@ function fixXML {
   # /&gt; - Strange sequence
   sed -i "s|\x22\s{1,}\x2f\x26gt\x3b\s{1,}\x22|\"\"|gi" "$1"
 
-  # Remove empty htmlUrl attributes
-  sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" "$1"
   sed -i "s|\stext\x3d\x22\x22| text=\"Podcast\"|gi" "$1"
-
-  # Remove UTM-tagging from links
-  sed -i "s|(\x3f|\x26|\x26amp\x3b)utm\x5f(source|medium|campaign|content|term)\x3d([a-z0-9\x25\x2d]{1,})||gi" "$1"
 
   # Remove empty description attribute
   sed -i "s|\sdescription\x3d\x22\x22||gi" "$1"
 
-  # Remove empty htmlUrl
-  sed -i "s|\shtmlUrl\x3d\x22\x22||gi" "$1"
 
   # Adjust XML declaration to be standalone=yes
   sed -i "s|standalone\x3d\x22no\x22|standalone=\"yes\"|gi" "$1"
 
   echo "fixXML - end"
 }
+
+function removeEmptyHtmlUrl {
+  echo "removeEmptyHtmlUrl - start"
+
+  # Remove empty htmlUrl attributes
+  #sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" "$1"
+
+  # Remove empty htmlUrl
+  sed -i "s|\shtmlUrl\x3d\x22\x22||gi" "$1"
+
+
+  echo "removeEmptyHtmlUrl - end"
+}
+
+function removeUTMTracking {
+  echo "removeUTMTracking - start"
+
+  # Remove UTM-tracking from links
+  sed -i "s|(\x3f|\x26|\x26amp\x3b)utm\x5f(source|medium|campaign|content|term)\x3d([a-z0-9\x25\x2d]{1,})||gi" "$1"
+
+  echo "removeUTMTracking - end"
+}
+
 
 function removeURLFragments {
   echo "removeURLFragments - start"
@@ -166,8 +182,12 @@ function MirrorOPML {
   fixOPMLDecl "temp.opml" "$2"
   fixXML "temp.opml" "$2"
   removeURLFragments "temp.opml"
-  remoteStylesheet "temp.opml"
+  removeStylesheet "temp.opml"
+  removeEmptyHtmlUrl "temp.opml"
+  removeUTMTracking "temp.opml"
+
   fixCharacters "temp.opml" "$2"
+
   delint "$2"
   addMirrorTag "$1" "$2"
   removeTemp
