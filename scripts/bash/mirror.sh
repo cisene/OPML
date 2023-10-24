@@ -22,7 +22,7 @@ function removeTemp {
 }
 
 function fixCharacters {
-  echo "fixCharacters - start"
+  #echo "fixCharacters - start"
 
   # Truncate strings of 2 or more spaces to a single space
   sed -i "s|\s{2,}| |gi" "$1"
@@ -48,7 +48,7 @@ function fixCharacters {
   # AMP - Naked ampersand between two words separated by space
   sed -i "s|\s\x26\s| \&amp; |gi" "$1"
 
-  echo "fixCharacters - end"
+  #echo "fixCharacters - end"
 }
 
 function fixCharacterAmpersand {
@@ -64,26 +64,26 @@ function fixCharacterAmpersand {
 }
 
 function fixXMLDecl {
-  echo "fixXMLDecl - start"
+  #echo "fixXMLDecl - start"
 
   # Change single quotes to double quotes on XML encoding declaration
   sed -i "s|encoding\x3d\x27UTF\x2d8\x27|encoding=\"UTF-8\"|gi" "$1"
 
-  echo "fixXMLDecl - end"
+  #echo "fixXMLDecl - end"
 }
 
 function fixXMLStylesheet {
-  echo "fixXMLStylesheet - start"
+  #echo "fixXMLStylesheet - start"
 
   # Remove simple stylesheet inclusion
   sed -i "s|\x3c\x3fxml\x2dstylesheet\stype\x3d\x22text\x2fxsl\x22\shref\x3d\x22(.+?)\x22\x3f\x3e||gi" "$1"
   sed -i "s|\x3c\x3fxml\x2dstylesheet\shref\x3d\x22(.+?)\x22\stype\x3d\x22text\x2fxsl\x22\x3f\x3e||gi" "$1"
 
-  echo "fixXMLStylesheet - end"
+  #echo "fixXMLStylesheet - end"
 }
 
 function fixOPMLDecl {
-  echo "fixOPMLDecl - start"
+  #echo "fixOPMLDecl - start"
 
   # Change single quotes to double quotes on XML version declaration
   sed -i "s|version\x3d\x271\x2e0\x27|version=\"1.0\"|gi" "$1"
@@ -99,12 +99,12 @@ function fixOPMLDecl {
   sed -i "s|\x3copml\sversion\x3d\x271\x2e1\x27\x3e|<opml version=\"1.1\">|gi" "$1"
   sed -i "s|\x3copml\sversion\x3d\x272\x2e0\x27\x3e|<opml version=\"2.0\">|gi" "$1"
 
-  echo "fixOPMLDecl - end"
+  #echo "fixOPMLDecl - end"
 }
 
 
 function fixXML {
-  echo "fixXML - start"
+  #echo "fixXML - start"
 
   # /&gt; - Strange sequence
   sed -i "s|\x22\s{1,}\x2f\x26gt\x3b\s{1,}\x22|\"\"|gi" "$1"
@@ -118,11 +118,11 @@ function fixXML {
   # Adjust XML declaration to be standalone=yes
   sed -i "s|standalone\x3d\x22no\x22|standalone=\"yes\"|gi" "$1"
 
-  echo "fixXML - end"
+  #echo "fixXML - end"
 }
 
 function removeEmptyHtmlUrl {
-  echo "removeEmptyHtmlUrl - start"
+  #echo "removeEmptyHtmlUrl - start"
 
   # Remove empty htmlUrl attributes
   #sed -i "s|\s{1,}htmlUrl\x3d\x22\x22| htmlUrl=\"https://podcastindex.org/\"|gi" "$1"
@@ -131,7 +131,7 @@ function removeEmptyHtmlUrl {
   sed -i "s|\shtmlUrl\x3d\x22\x22||gi" "$1"
 
 
-  echo "removeEmptyHtmlUrl - end"
+  #echo "removeEmptyHtmlUrl - end"
 }
 
 function removeUTMTracking {
