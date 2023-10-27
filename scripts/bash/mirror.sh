@@ -79,6 +79,8 @@ function fixXMLStylesheet {
   sed -i "s|\x3c\x3fxml\x2dstylesheet\stype\x3d\x22text\x2fxsl\x22\shref\x3d\x22(.+?)\x22\x3f\x3e||gi" "$1"
   sed -i "s|\x3c\x3fxml\x2dstylesheet\shref\x3d\x22(.+?)\x22\stype\x3d\x22text\x2fxsl\x22\x3f\x3e||gi" "$1"
 
+  sed -i "s|\x3c\x3fxml\x2dstylesheet\stype\x3d\x22text\x2fxsl\x22\shref\x3d\x22.+?\x22\x3f\x3e||gi" "$1"
+
   #echo "fixXMLStylesheet - end"
 }
 
@@ -105,6 +107,9 @@ function fixOPMLDecl {
 
 function fixXML {
   #echo "fixXML - start"
+
+  # Replace tab characters with spaces
+  sed -i "s|\t{1,}| |gi" "$1"
 
   # /&gt; - Strange sequence
   sed -i "s|\x22\s{1,}\x2f\x26gt\x3b\s{1,}\x22|\"\"|gi" "$1"
