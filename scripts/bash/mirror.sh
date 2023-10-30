@@ -143,7 +143,23 @@ function removeUTMTracking {
   echo "removeUTMTracking - start"
 
   # Remove UTM-tracking from links
-  sed -i "s|(\x3f|\x26|\x26amp\x3b)utm\x5f(source|medium|campaign|content|term)\x3d([a-z0-9\x25\x2d]{1,})||gi" "$1"
+  #sed -i "s|(\x3f|\x26|\x26amp\x3b)utm\x5f(source|medium|campaign|content|term)\x3d([a-z0-9\x25\x2d]{1,})||gi" "$1"
+
+  # Term
+  sed -i "s|\x26utm\x5fterm\x3d([a-z0-9\x25\x2d]{1,})||gi" "$1"
+  
+  # Content
+  sed -i "s|\x26utm\x5fcontent\x3d([a-z0-9\x25\x2d]{1,})||gi" "$1"
+  
+  # Campaign
+  sed -i "s|\x26utm\x5fcampaign\x3d([a-z0-9\x25\x2d]{1,})||gi" "$1"
+
+  # Medium
+  sed -i "s|\x26utm\x5fmedium\x3d([a-z0-9\x25\x2d]{1,})||gi" "$1"
+
+  # Source
+  sed -i "s|\x26utm\x5fsource\x3d([a-z0-9\x25\x2d]{1,})||gi" "$1"
+  sed -i "s|\x3futm\x5fsource\x3d([a-z0-9\x25\x2d]{1,})||gi" "$1"
 
   echo "removeUTMTracking - end"
 }
