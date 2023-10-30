@@ -213,12 +213,13 @@ function MirrorOPML {
   fixOPMLDecl "temp.opml" "$2"
   fixXML "temp.opml" "$2"
 
+  removeUTMTracking "temp.opml"
+
   fixCharacterAmpersand "temp.opml"
 
   removeURLFragments "temp.opml"
   removeStylesheet "temp.opml"
   removeEmptyHtmlUrl "temp.opml"
-  removeUTMTracking "temp.opml"
 
   fixCharacters "temp.opml" "$2"
 
