@@ -301,6 +301,7 @@ MirrorOPML "https://gist.githubusercontent.com/jasontucker/697ed02f11ed39345e116
 MirrorOPML "https://gist.githubusercontent.com/kobusb/c48256a031ee8cadbdf26d6595d73eee/raw/7d855551365000f52a9da36bf75615b8698748fc/podcasts.opml" "kobusb.opml"
 MirrorOPML "https://gist.githubusercontent.com/staxmanade/8365463/raw/9721d3fcdbe366bffe50e1498c254187c2ad40d1/Podcasts.opml" "staxmanade-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/tatsumoto-ren/1df342d5270680f3c9dca078a93298a4/raw/d885f6c2f6ba11076f1e7b5c930472925e050304/podcasts.opml" "tatsumoto-ren.opml"
+MirrorOPML "https://gist.githubusercontent.com/OdinsHat/36855a2b4c76f8109428ba05e163e30e/raw/080b288682368dfc972ce2e4151c88393e9f37ae/castbox-opml-nov-19.xml" "OdinsHat-castbox-opml-nov-19.xml"
 MirrorOPML "https://inkdroid.org/podcasts/feed.opml" "inkdroid-podcasts.opml"
 MirrorOPML "https://jchk.net/files/Podcasts.opml" "jchk-net-files-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/Cj-Malone/Linux-Podcasts/master/feeds.opml" "cj-malone-linux-podcasts.opml"
