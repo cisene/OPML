@@ -275,7 +275,9 @@ MirrorOPML "http://podcasts.divergence-fm.org/podcasts.opml" "divergence-fm-podc
 #MirrorOPML "https://web.archive.org/web/20130203055704if_/http://www.npr.org:80/podcasts.opml" "npr-2013-02-03-podcasts.opml"
 #MirrorOPML "https://web.archive.org/web/20140122032727if_/http://www.nytimes.com/services/xml/rss/nyt/index.opml" "nytimes-com-services-nyt-index.opml"
 
-
+MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
+MirrorOPML "http://ece252.ece.wisc.edu/podcast.rss" "wisc-edu-ece252.opml"
+MirrorOPML "https://www.luisquintanilla.me/feed/podroll/index.opml" "luisquintanilla-me-podroll.opml"
 MirrorOPML "http://hosting.opml.org/dnorman/educationpodcasts.opml" "opml-org-dnorman-educationpodcasts.opml"
 MirrorOPML "http://ladyofsituations.com/custom/people.opml" "ladyofsituations-custom-people.opml"
 MirrorOPML "http://media.phlow.de/download/rss/podcast.opml" "phlow-de-podcasts.opml"
@@ -318,6 +320,7 @@ MirrorOPML "https://raw.githubusercontent.com/topgold/listening/master/fm.opml" 
 MirrorOPML "https://raw.githubusercontent.com/topgold/listening/master/fm.opml" "topgold.opml"
 MirrorOPML "https://raw.githubusercontent.com/vinhnx/podcasts/master/overcast.opml" "vinhnx-podcasts-overcast.opml"
 MirrorOPML "https://raw.githubusercontent.com/yasuharu519/opml/master/main.opml" "yasuhary519.opml"
+MirrorOPML "https://raw.githubusercontent.com/alekseysidorov/zizulja/master/feeds01.opml" "alekseysidorov-zizulja.opml"
 MirrorOPML "https://redecentralize.org/redigest/2022/kthxbye/redigest_feed_recommendations.opml" "redecentralize-redigest-feed-reccommendations.opml"
 MirrorOPML "https://source.mcwhirter.io/craige/rcfiles/raw/branch/consensus/.gpodder.opml" "mcwhirter-craige-consensus-gpodder.opml"
 MirrorOPML "https://typlog.com/podlist/opml.xml" "typlog-pod.opml"
