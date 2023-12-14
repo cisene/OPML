@@ -274,9 +274,12 @@ MirrorOPML "http://podcasts.divergence-fm.org/podcasts.opml" "divergence-fm-podc
 #MirrorOPML "https://web.archive.org/web/20120617070805if_/http://www.thepodcastnetwork.com/thepodcastnetwork_opml.opml" "thepodcastnetwork_opml.opml"
 #MirrorOPML "https://web.archive.org/web/20130203055704if_/http://www.npr.org:80/podcasts.opml" "npr-2013-02-03-podcasts.opml"
 #MirrorOPML "https://web.archive.org/web/20140122032727if_/http://www.nytimes.com/services/xml/rss/nyt/index.opml" "nytimes-com-services-nyt-index.opml"
-
-
 #MirrorOPML "http://www.andyrowell.net/files/podcastaddict_export_20180305_182255.opml" "andyrowell-net-podcastaddict-export-20180305-182255.opml"
+
+MirrorOPML "https://soenke-scharnhorst.de/files/overcast.opml" "soenke-scharnhorst-overcast.opml"
+MirrorOPML "https://jchk.net/files/Podcasts.opml" "jchk-net-podcasts.opml"
+MirrorOPML "https://www.ironnysh.com/assets/podcasts-subs.opml" "ironnysh-com-podcasts-subs.opml"
+MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
 MirrorOPML "http://ece252.ece.wisc.edu/podcast.rss" "wisc-edu-ece252.opml"
 MirrorOPML "http://hosting.opml.org/dnorman/educationpodcasts.opml" "opml-org-dnorman-educationpodcasts.opml"
 MirrorOPML "http://ladyofsituations.com/custom/people.opml" "ladyofsituations-custom-people.opml"
