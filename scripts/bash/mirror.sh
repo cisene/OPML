@@ -427,6 +427,7 @@ MirrorOPML "https://lists.pocketcasts.com/foreverdog.opml" "pocketcasts-com-fore
 MirrorOPML "https://lists.pocketcasts.com/forthekids.opml" "pocketcasts-com-for-the-kids.opml"
 MirrorOPML "https://lists.pocketcasts.com/frequency.opml" "pocketcasts-com-frequency.opml"
 MirrorOPML "https://lists.pocketcasts.com/ftb-lgbtq.opml" "pocketcasts-com-ftb-lgbtq.opml"
+MirrorOPML "https://lists.pocketcasts.com/funnyhaha" "pocketcasts-com-funny-haha.opml"
 MirrorOPML "https://lists.pocketcasts.com/gamenight.opml" "pocketcasts-com-gamenight.opml"
 MirrorOPML "https://lists.pocketcasts.com/geek-speak.opml" "pocketcasts-com-geek-speak.opml"
 MirrorOPML "https://lists.pocketcasts.com/ghoulishtales.opml" "pocketcasts-com-ghoulish-tales.opml"
