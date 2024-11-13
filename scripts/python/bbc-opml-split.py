@@ -202,6 +202,9 @@ def parseOPML(contents):
     for inner_outline in base_outline.findall('./outline'):
       opml_title = fixTitle(inner_outline.get('text'))
 
+      if opml_title == None:
+        continue
+
       if inner_outline.get('text') in skip_list:
         continue
 
