@@ -126,16 +126,17 @@ def fixTitle(data):
   return result
 
 def fixFilename(data):
-  data = data.lower()
+  if data != None:
+    data = data.lower()
 
-  data = re.sub(r"(\x85)", "a", str(data), flags=re.IGNORECASE)
+    data = re.sub(r"(\x85)", "a", str(data), flags=re.IGNORECASE)
 
-  data = re.sub(r"\x20", "-", str(data), flags=re.IGNORECASE)
-  data = re.sub(r"\x2e", "-", str(data), flags=re.IGNORECASE)
+    data = re.sub(r"\x20", "-", str(data), flags=re.IGNORECASE)
+    data = re.sub(r"\x2e", "-", str(data), flags=re.IGNORECASE)
 
-  data = re.sub(r"\x2d\x26\x2d", "-", str(data), flags=re.IGNORECASE)
+    data = re.sub(r"\x2d\x26\x2d", "-", str(data), flags=re.IGNORECASE)
 
-  data = re.sub(r"\x2d{2,}", "-", str(data), flags=re.IGNORECASE)
+    data = re.sub(r"\x2d{2,}", "-", str(data), flags=re.IGNORECASE)
   return data
 
 def writeFile(fullpath, contents):
