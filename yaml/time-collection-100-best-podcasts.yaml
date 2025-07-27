@@ -1,0 +1,413 @@
+global:
+  ownerName: Time
+  ownerEmail: info@time.com
+  url: https://time.com/
+  title: TIME
+
+issues:
+
+- name: The 100 Best Podcasts of All Time
+  opml: time-collections-the-100-best-podcasts-of-all-time-2025.opml
+  date: 2025-07-23
+  htmlUrl: https://time.com/collections/100-best-podcasts/
+  podcasts:
+
+  - title: 2 Dope Queens
+    htmlUrl: https://www.wnycstudios.org/podcasts/dopequeens
+    xmlUrl: https://feeds.simplecast.com/0gOGlZsI
+
+  - title: 30 for 30 Podcasts
+    htmlUrl: http://espnradio.espn.com/espnradio/index
+    xmlUrl: https://feeds.megaphone.fm/ESP5765452710
+
+  - title: 99% Invisible
+    htmlUrl: https://www.siriusxm.com/
+    xmlUrl: https://feeds.simplecast.com/BqbsxVfO
+
+  - title: Acquired
+    htmlUrl: https://acquired.fm/
+    xmlUrl: https://feeds.transistor.fm/acquired
+
+  - title: Armchair Expert with Dax Shepard
+    htmlUrl: https://wondery.com/shows/armchair-expert-with-dax-shepard/
+    xmlUrl: https://rss.art19.com/armchair-expert
+
+  - title: Articles of Interest
+    htmlUrl: https://play.prx.org/listen?uf=https%3A%2F%2Ffeed.articlesofinterest.club%2F
+    xmlUrl: https://feed.articlesofinterest.club/
+
+  - title: Bear Brook
+    htmlUrl: https://www.siriusxm.com/
+    xmlUrl: https://feeds.simplecast.com/RGpV1rjX
+
+  - title: Beautiful Stories From Anonymous People
+    htmlUrl: https://sites.libsyn.com/480264
+    xmlUrl: https://feeds.libsyn.com/480264/rss
+
+  - title: The Big Dig
+    htmlUrl: https://www.wgbh.org/podcasts/scratch-win
+    xmlUrl: https://publicfeeds.net/f/4614/the-big-dig/feed-rss.xml
+
+  - title: The Big Picture
+    htmlUrl: https://www.theringer.com/
+    xmlUrl: https://feeds.megaphone.fm/the-big-picture
+
+  - title: The Bill Simmons Podcast
+    htmlUrl: https://www.theringer.com/
+    xmlUrl: https://feeds.megaphone.fm/the-bill-simmons-podcast
+
+  - title: 'Binge Mode: Marvel'
+    htmlUrl: https://www.theringer.com/
+    xmlUrl: https://feeds.megaphone.fm/binge-mode
+
+  - title: Blank Check with Griffin & David
+    htmlUrl: https://feeds.megaphone.fm/blank-check
+    xmlUrl: https://podcasterwallet.com/?pcid=173706
+
+  - title: Bodega Boys
+    htmlUrl: https://soundcloud.com/bodega-sushi
+    xmlUrl: https://feeds.soundcloud.com/users/soundcloud:users:169774121/sounds.rss
+
+  - title: Bodies
+    htmlUrl: https://www.kcrw.com/culture/shows/bodies?utm_source=KCRW&utm_medium=RSS&utm_campaign=kcrw-show-rss
+    xmlUrl: https://feed.cdnstream1.com/zjb/feed/download/13/11/5b/13115b0f-63fb-44f7-9289-9dfde6512840.xml
+
+  - title: Call Her Daddy
+    htmlUrl: https://iamunwell.com/
+    xmlUrl: https://feeds.simplecast.com/mKn_QmLS
+
+  - title: Call Your Girlfriend
+    htmlUrl: https://www.callyourgirlfriend.com/episodes
+    xmlUrl: https://www.omnycontent.com/d/playlist/2a15ad0f-779b-4334-bfba-af1d00e28029/d729c59d-9a7c-4e3a-8e0d-af1d00e50f2d/8884db02-3309-4a58-9b6a-af1d00e50f44/podcast.rss
+
+  - title: Classy with Jonathan Menjivar
+    htmlUrl: http://pineapple.fm/
+    xmlUrl: https://feeds.megaphone.fm/classy
+
+  - title: 'Cocaine & Rhinestones: The History of Country Music'
+    htmlUrl: https://cocaineandrhinestones.com/
+    xmlUrl: https://anchor.fm/s/52444bf0/podcast/rss
+
+  - title: Code Switch
+    htmlUrl: https://www.npr.org/podcasts/510312/codeswitch
+    xmlUrl: https://feeds.npr.org/510312/podcast.xml
+
+  - title: Conan O’Brien Needs A Friend
+    htmlUrl: https://www.siriusxm.com/
+    xmlUrl: https://feeds.simplecast.com/dHoohVNH
+
+  - title: Criminal
+    htmlUrl: http://thisiscriminal.com/
+    xmlUrl: https://feeds.megaphone.fm/VMP7924981569
+
+  - title: The Daily
+    htmlUrl: https://www.nytimes.com/the-daily
+    xmlUrl: https://feeds.simplecast.com/Sl5CSM3S
+
+  - title: Dan Carlin's Hardcore History
+    htmlUrl: http://www.dancarlin.com/
+    xmlUrl: https://feeds.feedburner.com/dancarlin/history?format=xml
+
+  - title: Dead Eyes
+    htmlUrl: https://art19.com/shows/dead-eyes
+    xmlUrl: https://rss.art19.com/dead-eyes
+
+  - title: Dear Sugars
+    htmlUrl: https://www.wbur.org/podcasts/dearsugar
+    xmlUrl: https://rss.wbur.org/dearsugar/podcast
+
+  - title: Death, Sex & Money
+    htmlUrl: https://slate.com/podcasts/death-sex-money
+    xmlUrl: https://feeds.megaphone.fm/SLT2123367297
+
+  - title: Decoder Ring
+    htmlUrl: https://slate.com/podcasts/decoder-ring
+    xmlUrl: https://feeds.megaphone.fm/decoderring
+
+  - title: Dirty John
+    htmlUrl: https://dirty-john-413f7460.simplecast.com/
+    xmlUrl: https://feeds.simplecast.com/rUWxZcFU
+
+  - title: The Dream
+    htmlUrl: https://www.littleeverywhere.com/
+    xmlUrl: https://feeds.acast.com/public/shows/6658b69029c9180011547e68
+
+  - title: The Dropout
+    htmlUrl: https://www.abcaudio.com/podcasts/the-dropout
+    xmlUrl: https://feeds.libsyn.com/516868/rss
+
+  - title: Ear Hustle
+    htmlUrl: https://www.earhustlesq.com/
+    xmlUrl: https://feeds.earhustlesq.com/earhustlesq
+
+  - title: Embedded
+    htmlUrl: https://www.npr.org/podcasts/510311/embedded
+    xmlUrl: https://feeds.npr.org/510311/podcast.xml
+
+  - title: Everything is Alive
+    htmlUrl: http://www.everythingisalive.com/
+    xmlUrl: http://feeds.everythingisalive.com/everythingisalive
+
+  - title: The Ezra Klein Show
+    htmlUrl: https://www.nytimes.com/ezra-klein-podcast
+    xmlUrl: https://feeds.simplecast.com/82FI35Px
+
+  - title: Fiasco
+    htmlUrl: https://www.pushkin.fm/podcasts/fiasco
+    xmlUrl: https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/f47457d5-7299-4554-8037-b1f4013a7364/74be3893-ab46-4df4-9bfe-b1f4013aff4d/podcast.rss
+
+  - title: Fighting In The War Room
+    htmlUrl: https://fightinginthewarroom.com/
+    xmlUrl: https://fightinginthewarroom.com/feed/podcast
+
+  - title: Fresh Air
+    htmlUrl: https://www.npr.org/podcasts/381444908/fresh-air
+    xmlUrl: https://feeds.npr.org/381444908/podcast.xml
+
+  - title: Gilmore Guys
+    htmlUrl: https://headgum.com/gilmore-guys
+    xmlUrl: https://rss.art19.com/gilmore-guys
+
+  - title: Good Hang with Amy Poehler
+    htmlUrl: https://www.theringer.com/
+    xmlUrl: https://feeds.megaphone.fm/good-hang-with-amy-poehler
+
+  - title: Good Inside with Dr. Becky
+    htmlUrl: https://good-inside.simplecast.com/
+    xmlUrl: https://feeds.simplecast.com/Y5N0xWWZ
+
+  - title: The Habitat
+    htmlUrl: https://www.gimletmedia.com/the-habitat
+    xmlUrl: https://feeds.megaphone.fm/thehabitat
+
+  - title: Hard Fork
+    htmlUrl: https://www.nytimes.com/column/hard-fork
+    xmlUrl: https://feeds.simplecast.com/l2i9YnTd
+
+  - title: Heavyweight
+    htmlUrl: https://www.pushkin.fm/podcasts
+    xmlUrl: https://feeds.megaphone.fm/heavyweight-spot
+
+  - title: Home Cooking
+    htmlUrl: https://homecooking.show/
+    xmlUrl: http://feeds.feedburner.com/homecookingshow
+
+  - title: Homecoming
+    htmlUrl: https://www.gimletmedia.com/homecoming
+    xmlUrl: https://feeds.megaphone.fm/homecoming
+
+  - title: In Our Time
+    htmlUrl: http://www.bbc.co.uk/programmes/b006qykl
+    xmlUrl: https://podcasts.files.bbci.co.uk/b006qykl.rss
+
+  - title: In The Dark
+    htmlUrl: https://www.newyorker.com/inthedark
+    xmlUrl: https://publicfeeds.net/f/5770/in-the-dark
+
+  - title: Las Culturistas with Matt Rogers and Bowen Yang
+    htmlUrl: https://twitter.com/LasCulturistas
+    xmlUrl: https://omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/F6816727-C503-47AC-A7AC-AE2700391B1E/935C500F-8BB0-436B-BA7F-AE2700391B49/podcast.rss
+
+  - title: The Last Days of August
+    htmlUrl: https://www.audible.com/pd/The-Last-Days-of-August-Audiobook/
+    xmlUrl: https://thebutterflyeffect.libsyn.com/rss
+
+  - title: The Longest Shortest Time
+    htmlUrl: https://longestshortesttime.com/
+    xmlUrl: https://feeds.megaphone.fm/QCD4231325211
+
+  - title: Longform
+    htmlUrl: http://longform.org/
+    xmlUrl: https://feeds.megaphone.fm/VMP6079657536
+
+  - title: 'Making: Stories Without End'
+    htmlUrl: https://www.wbez.org/shows/making/71b8de57-b2be-4e03-8481-683258de3ec1
+    xmlUrl: https://wbez-rss.streamguys1.com/making/making.xml
+
+  - title: the memory palace
+    htmlUrl: http://thememorypalace.us/
+    xmlUrl: http://feeds.thememorypalace.us/thememorypalace
+
+  - title: Men In Blazers
+    htmlUrl: https://art19.com/shows/men-in-blazers
+    xmlUrl: https://rss.art19.com/men-in-blazers
+
+  - title: 'Headlong: Missing Richard Simmons'
+    htmlUrl: https://www.headlongpodcast.com/
+    xmlUrl: https://rss.art19.com/missing-richard-simmons
+
+  - title: MOONFACE
+    htmlUrl: https://overtones.fm/
+    xmlUrl: https://feeds.acast.com/public/shows/664f8e787c6b20001352489c
+
+  - title: More Perfect
+    htmlUrl: https://www.wnycstudios.org/podcasts/radiolabmoreperfect
+    xmlUrl: https://feeds.feedburner.com/moreperfect
+
+  - title: My Dad Wrote A Porno
+    htmlUrl: http://mydadwroteaporno.com/
+    xmlUrl: https://feeds.acast.com/public/shows/ee6fd316-9ce1-4f8a-ba2c-a4a4bf5643e4
+
+  - title: Nancy
+    htmlUrl: https://www.wnycstudios.org/podcasts/nancy
+    xmlUrl: https://feeds.feedburner.com/nancy-podcast
+
+  - title: New Heights with Jason & Travis Kelce
+    htmlUrl: http://hoo.be/newheightshow
+    xmlUrl: https://rss.art19.com/new-heights
+
+  - title: Nice White Parents
+    htmlUrl: https://nice-white-parents.simplecast.com/
+    xmlUrl: https://feeds.simplecast.com/Z4wHC1c2
+
+  - title: Normal Gossip
+    htmlUrl: http://defector.com/
+    xmlUrl: https://publicfeeds.net/f/3492/feed-rss.xml
+
+  - title: Ologies with Alie Ward
+    htmlUrl: https://www.siriusxm.com/
+    xmlUrl: https://feeds.simplecast.com/FO6kxYGj
+
+  - title: Pablo Torre Finds Out
+    htmlUrl: http://www.pablo.show/
+    xmlUrl: https://feeds.megaphone.fm/LBE1877691396
+
+  - title: Pivot
+    htmlUrl: http://nymag.com/pivot
+    xmlUrl: https://feeds.megaphone.fm/pivot
+
+  - title: Plain English with Derek Thompson
+    htmlUrl: https://www.theringer.com/
+    xmlUrl: https://feeds.megaphone.fm/plain-english
+
+  - title: Planet Money
+    htmlUrl: https://www.npr.org/podcasts/510289/planet-money
+    xmlUrl: https://feeds.npr.org/510289/podcast.xml
+
+  - title: The Prince
+    htmlUrl: https://www.economist.com/
+    xmlUrl: https://feeds.acast.com/public/shows/62cff2d9d455860013698a7f
+
+  - title: The Promise
+    htmlUrl: http://thepromise.wpln.org/
+    xmlUrl: http://feeds.feedburner.com/thepromisewpln
+
+  - title: Radiolab
+    htmlUrl: https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts
+    xmlUrl: https://feeds.feedburner.com/radiolab
+
+  - title: Reply All
+    htmlUrl: http://gimletmedia.com/shows/reply-all
+    xmlUrl: https://feeds.megaphone.fm/replyall
+
+  - title: The Retrievals
+    htmlUrl: https://nytimes.com/theretrievals
+    xmlUrl: https://feeds.simplecast.com/iAH8x82K
+
+  - title: Revisionist History
+    htmlUrl: http://revisionisthistory.com/
+    xmlUrl: https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/0e563f45-9d14-4ce8-8ef0-ae32006cd7e7/0d4cc74d-fff7-4b89-8818-ae32006cd7f0/podcast.rss
+
+  - title: Revolutions
+    htmlUrl: http://www.revolutionspodcast.com/
+    xmlUrl: https://revolutionspodcast.libsyn.com/rss
+
+  - title: The Rewatchables
+    htmlUrl: https://www.theringer.com/
+    xmlUrl: https://feeds.megaphone.fm/the-rewatchables
+
+  - title: S-Town
+    htmlUrl: https://stownpodcast.org/
+    xmlUrl: https://feeds.simplecast.com/CpvnpIaj
+
+  - title: Search Engine
+    htmlUrl: http://www.pjvogt.com/
+    xmlUrl: https://feeds.megaphone.fm/search-engine
+
+  - title: Serial
+    htmlUrl: https://serialpodcast.org/
+    xmlUrl: https://feeds.simplecast.com/xl36XBC2
+
+  - title: Slate Books
+    htmlUrl: https://slate.com/podcasts/audio-book-club
+    xmlUrl: https://feeds.megaphone.fm/slatesaudiobookclub
+
+  - title: Slow Burn
+    htmlUrl: https://slate.com/slowburn
+    xmlUrl: https://feeds.megaphone.fm/watergate
+
+  - title: Snap Judgment
+    htmlUrl: http://snapjudgment.org/
+    xmlUrl: https://snap.feed.snapjudgment.org/
+
+  - title: Sold a Story
+    htmlUrl: https://features.apmreports.org/sold-a-story/
+    xmlUrl: https://feeds.publicradio.org/public_feeds/sold-a-story
+
+  - title: Song Exploder
+    htmlUrl: http://www.songexploder.net/
+    xmlUrl: https://feed.songexploder.net/SongExploder
+
+  - title: The Sporkful
+    htmlUrl: https://www.siriusxm.com/
+    xmlUrl: https://feeds.simplecast.com/n91GPFY5
+
+  - title: Still Processing
+    htmlUrl: http://www.nytimes.com/podcasts/still-processing
+    xmlUrl: https://feeds.simplecast.com/YXhATe6k
+
+  - title: The Tennis Podcast
+    htmlUrl: http://www.tennispodcast.net/
+    xmlUrl: http://rss.acast.com/thetennispodcast
+
+  - title: This American Life
+    htmlUrl: https://www.thisamericanlife.org/
+    xmlUrl: https://www.thisamericanlife.org/podcast/rss.xml
+
+  - title: Throughline
+    htmlUrl: https://www.npr.org/podcasts/510333/throughline
+    xmlUrl: https://feeds.npr.org/510333/podcast.xml
+
+  - title: Time To Say Goodbye
+    htmlUrl: https://goodbye.substack.com/podcast
+    xmlUrl: https://api.substack.com/feed/podcast/38441.rss
+
+  - title: The Town with Matthew Belloni
+    htmlUrl: https://www.theringer.com/
+    xmlUrl: https://feeds.megaphone.fm/the-town-with-matthew-belloni
+
+  - title: Uncivil
+    htmlUrl: http://uncivil.show/
+    xmlUrl: https://feeds.megaphone.fm/uncivil
+
+  - title: Welcome to Night Vale
+    htmlUrl: http://welcometonightvale.com/
+    xmlUrl: https://feeds.megaphone.fm/SBP4591212513
+
+  - title: Where Should We Begin? with Esther Perel
+    htmlUrl: https://estherperel.com/podcast
+    xmlUrl: https://feeds.megaphone.fm/ep-wswb
+
+  - title: Who? Weekly
+    htmlUrl: http://www.whoweekly.us/
+    xmlUrl: https://feeds.megaphone.fm/who-weekly
+
+  - title: Wiser Than Me with Julia Louis-Dreyfus
+    htmlUrl: https://www.lemonadamedia.com/
+    xmlUrl: https://www.omnycontent.com/d/playlist/796469f9-ea34-46a2-8776-ad0f015d6beb/6bf95617-5ffc-4269-a957-afcc015a4d66/ca180b09-a8bc-4612-92fe-afcc015ae720/podcast.rss
+
+  - title: WTF with Marc Maron Podcast
+    htmlUrl: http://wtfpod.com/
+    xmlUrl: https://feeds.acast.com/public/shows/62a222737c02140013aa4c03
+
+  - title: You Didn't See Nothin
+    htmlUrl: https://art19.com/shows/you-didnt-see-nothin
+    xmlUrl: https://rss.art19.com/you-didnt-see-nothin
+
+  - title: You Must Remember This
+    htmlUrl: http://youmustrememberthispodcast.com/
+    xmlUrl: https://feeds.megaphone.fm/YMRT7068253588
+
+  - title: You're Wrong About
+    htmlUrl: https://www.buzzsprout.com/1112270
+    xmlUrl: https://feeds.buzzsprout.com/1112270.rss
