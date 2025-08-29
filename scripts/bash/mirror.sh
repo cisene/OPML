@@ -185,7 +185,6 @@ function MirrorOPML {
   removeTemp
 }
 
-
 MirrorOPML "http://www.cbc.ca/podcasts.opml" "cbc-ca-podcasts.opml"
 
 #MirrorOPML "http://edition.cnn.com/services/podcasting/CNN.opml" "cnn-edition.opml"
@@ -200,7 +199,7 @@ MirrorOPML "https://www.rtl.fr/podcasts.opml" "rtl-fr-podcasts.opml"
 
 MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
 
-MirrorOPML "https://www.ibm.com/ibm/syndication/podcasts/us/en/index.opml" "ibm-podcasts.opml"
+#MirrorOPML "https://www.ibm.com/ibm/syndication/podcasts/us/en/index.opml" "ibm-podcasts.opml"
 
 #MirrorOPML "https://stats.podcastindex.org/v4vmusic.opml" "podcastindex-org-value4value-music.opml"
 
@@ -219,7 +218,6 @@ MirrorOPML "http://ipodder.sourceforge.net/opml/ipodder.opml" "ipodder-sourcefor
 MirrorOPML "http://s3.amazonaws.com/radio2/communityReadingList.opml" "radio2-communityReadingList.opml"
 
 MirrorOPML "http://podcasts.divergence-fm.org/podcasts.opml" "divergence-fm-podcasts.opml"
-
 
 MirrorOPML "http://hosting.opml.org/petercook/CBC/podcasts/CanadaLive.opml" "petercook-cbc-podcasts-canadalive.opml"
 MirrorOPML "http://ladyofsituations.com/custom/people.opml" "ladyofsituations-custom-people.opml"
@@ -844,7 +842,6 @@ MirrorOPML "https://lists.pocketcasts.com/wondermedianetwork.opml" "pocketcasts-
 MirrorOPML "https://lists.pocketcasts.com/world-ufo-day-2023.opml" "pocketcasts-com-world-ufo-day-2023.opml"
 MirrorOPML "https://lists.pocketcasts.com/wunc.opml" "pocketcasts-com-wunc.opml"
 MirrorOPML "https://lists.pocketcasts.com/f008e82d-19f4-47d4-91d9-2b979fd41193.opml" "pocketcasts-com-f008e82d-19f4-47d4-91d9-2b979fd41193.opml"
-
 
 MirrorOPML "https://player.fm/en/featured/3d-printing.opml" "player-fm-en-featured-3d-printing.opml"
 MirrorOPML "https://player.fm/en/featured/90-day-fiance.opml" "player-fm-en-featured-90-day-fiance.opml"
