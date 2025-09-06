@@ -165,20 +165,20 @@ function addMirrorTag {
 function MirrorOPML {
   echo "Mirroring '$1' to '$2' ..."
   fetchToDisk "$1"
-  fixXMLDecl "temp.opml" "$2"
-  fixXMLStylesheet "temp.opml" "$2"
-  fixOPMLDecl "temp.opml" "$2"
-  fixXML "temp.opml" "$2"
+  #fixXMLDecl "temp.opml" "$2"
+  #fixXMLStylesheet "temp.opml" "$2"
+  #fixOPMLDecl "temp.opml" "$2"
+  #fixXML "temp.opml" "$2"
 
-  removeUTMTracking "temp.opml"
+  #removeUTMTracking "temp.opml"
 
-  fixCharacterAmpersand "temp.opml"
+  #fixCharacterAmpersand "temp.opml"
 
-  removeURLFragments "temp.opml"
-  removeStylesheet "temp.opml"
-  removeEmptyHtmlUrl "temp.opml"
+  #removeURLFragments "temp.opml"
+  #removeStylesheet "temp.opml"
+  #removeEmptyHtmlUrl "temp.opml"
 
-  fixCharacters "temp.opml" "$2"
+  #fixCharacters "temp.opml" "$2"
 
   delint "$2"
   addMirrorTag "$1" "$2"
@@ -242,7 +242,6 @@ MirrorOPML "https://welcometochina.com.au/wp-content/uploads/china-podcasts.opml
 MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
 MirrorOPML "https://www.apreche.net/~apreche/podcasts.opml" "apreche-podcasts.opml"
 MirrorOPML "https://www.ironnysh.com/assets/podcasts-subs.opml" "ironnysh-com-podcasts-subs.opml"
-#MirrorOPML "https://www.luisquintanilla.me/feed/podroll/index.opml" "luisquintanilla-me-podroll.opml"
 
 MirrorOPML "https://fyyd.de/user/altf4/collection/deutsch/opml" "fyyd-de-altf4-collection-deutsch.opml"
 MirrorOPML "https://fyyd.de/user/dirkprimbs/collection/azhempfehlungen/opml" "fyyd-de-dirkprimbs-empfehlungen-der-anerzaehlt-hoerer.opml"
