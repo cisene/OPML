@@ -153,13 +153,13 @@ function addMirrorTag {
   TIMESTAMP="$(date --iso-8601=seconds)Z"
 
   # OPML 1.0
-  sed -i "s|\x3copml\x20version\x3d\x221\x2e0\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/mirrored/$2 -->\n<opml version=\"1.0\">|gi" "$2"
+  sed -i "s|\x3copml\x20version\x3d\x221\x2e0\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/playerfm/$2 -->\n<opml version=\"1.0\">|gi" "$2"
 
   # OPML 1.1
-  sed -i "s|\x3copml\x20version\x3d\x221\x2e1\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/mirrored/$2 -->\n<opml version=\"1.1\">|gi" "$2"
+  sed -i "s|\x3copml\x20version\x3d\x221\x2e1\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/playerfm/$2 -->\n<opml version=\"1.1\">|gi" "$2"
 
   # OPML 2.0
-  sed -i "s|\x3copml\x20version\x3d\x222\x2e0\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/mirrored/$2 -->\n<opml version=\"2.0\">|gi" "$2"
+  sed -i "s|\x3copml\x20version\x3d\x222\x2e0\x22\x3e|<!-- Mirrored at ${TIMESTAMP} from $1 to https://b19.se/data/opml/playerfm/$2 -->\n<opml version=\"2.0\">|gi" "$2"
 }
 
 function MirrorOPML {
