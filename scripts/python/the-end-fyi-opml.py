@@ -147,6 +147,10 @@ def scrape():
           link_title not in ['RSS Feed', 'The latest articles published']
         and
           not re.search(r"^https\x3a\x2f\x2fwww\x2etheend\x2efyi", str(link_href), flags=re.IGNORECASE)
+        and
+          link_href != ""
+        and
+          link_href != None
         ):
           outline_inner = etree.Element("outline")
           outline_inner.set("text", str(link_title))
