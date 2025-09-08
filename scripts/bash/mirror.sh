@@ -329,3 +329,14 @@ MirrorOPML "https://raw.githubusercontent.com/vinhnx/podcasts/master/overcast.op
 MirrorOPML "https://raw.githubusercontent.com/yasuharu519/opml/master/main.opml" "yasuhary519-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/zhufengme/Chinese-Podcasts/master/Podcasts.opml" "zhufengme-chinese-podcasts.opml"
 
+MirrorOPML "https://podnews.net/opml/edison-top-50-podcasts-us-q225" "podnews-net-edison-top-50-podcasts-us-q225.opml"
+MirrorOPML "https://podnews.net/opml/political-awards-2025" "podnews-net-political-awards-2025.opml"
+MirrorOPML "https://podnews.net/opml/edison-podcast-metrics-q423-uk" "podnews-net-edison-podcast-metrics-q423-uk.opml"
+MirrorOPML "https://podnews.net/opml/apple-podcasts-top-shows-2024" "podnews-net-apple-podcasts-top-shows-2024.opml"
+MirrorOPML "https://podnews.net/opml/women-podcasters-awards" "podnews-net-wome-podcasters-awards-2025-winners.opml"
+MirrorOPML "https://podnews.net/opml/the-podcast-salon-v1" "podnews-net-the-podcast-salon-v1.opml"
+MirrorOPML "https://podnews.net/opml/publisher-podcast-awards-2025" "podnews-net-publisher-podcast-awards-2025.opml"
+MirrorOPML "https://podnews.net/opml/podcast-radio-business" "podnews-net-podcast-radio-business.opml"
+MirrorOPML "https://podnews.net/opml/webby-awards-2025-2" "podnews-net-webby-awards-2025.opml"
+MirrorOPML "https://podnews.net/opml/apple-best-so-far-aug-2025" "podnews-net-apple-best-so-far-aug-2025.opml"
+
