@@ -12,6 +12,15 @@ import re
 
 import xml.etree.ElementTree as ET
 
+from io import StringIO
+from lxml import etree
+
+def writeOPML(filepath, contents):
+  s = "\n".join(contents) + "\n"
+  with open(filepath, "w") as f:
+    f.write(contents)
+
+
 def readFile(filepath):
   result = None
   contents = None
@@ -221,20 +230,57 @@ def parseOPML(contents):
       opml_fullpath = f"./{opml_filename}.opml"
 
       # Done deriving filename, let's encode ..
-      opml_title = htmlEncode(opml_title)
+      #opml_title = htmlEncode(opml_title)
 
 
-      st = []
-      st.append(f"<?xml version=\"1.0\" encoding=\"UTF-8\"?>")
-      st.append(f"<opml version=\"1.1\">")
-      st.append(f"  <head>")
-      st.append(f"    <title>{opml_title}</title>")
-      st.append(f"    <dateCreated>{opml_dateCreated}</dateCreated>")
-      st.append(f"    <dateModified>{opml_dateModified}</dateModified>")
-      st.append(f"    <ownerName>BBC Audio &amp; Music</ownerName>")
-      st.append(f"    <ownerEmail/>")
-      st.append(f"  </head>")
-      st.append(f"  <body>")
+      #st = []
+      #st.append(f"<?xml version=\"1.0\" encoding=\"UTF-8\"?>")
+      #st.append(f"<opml version=\"1.1\">")
+      #st.append(f"  <head>")
+      #st.append(f"    <title>{opml_title}</title>")
+      #st.append(f"    <dateCreated>{opml_dateCreated}</dateCreated>")
+      #st.append(f"    <dateModified>{opml_dateModified}</dateModified>")
+      #st.append(f"    <ownerName>BBC Audio &amp; Music</ownerName>")
+      #st.append(f"    <ownerEmail/>")
+      #st.append(f"  </head>")
+      #st.append(f"  <body>")
+
+      # Open OPML
+      opml = etree.Element("opml", version = "1.1")
+
+      # Open Head
+      head = etree.SubElement(opml, "head")
+
+      # Handle Title
+      title = etree.Element("title")
+      title.text = str(opml_title)
+      head.append(title)
+
+      # dateCreated
+      dateCreated = etree.Element("dateCreated")
+      dateCreated.text = str(opml_dateCreated)
+      head.append(dateCreated)
+
+      # dateModified
+      dateModified = etree.Element("dateModified")
+      dateModified.text = str(opml_dateModified)
+      head.append(dateModified)
+
+      # ownerName
+      ownerName = etree.Element("ownerName")
+      ownerName.text = "BBC Audio & Music"
+      head.append(ownerName)
+
+      # ownerEmail
+      ownerEmail = etree.Element("ownerEmail")
+      ownerEmail.text = ""
+      head.append(ownerEmail)
+
+      # Close head
+      opml.append(head)
+
+      # Open body
+      body = etree.Element("body")
 
       for ol in inner_outline.findall('./outline'):
         ol_type = ol.get('type')
@@ -244,18 +290,34 @@ def parseOPML(contents):
         ol_description = htmlEncode(ol.get('description'))
         ol_xmlUrl = urlUpgrade(ol.get('xmlUrl'))
         ol_htmlUrl = urlUpgrade(ol.get('htmlUrl'))
-        st.append(f"    <outline type=\"{ol_type}\" version=\"{ol_version}\" language=\"{ol_language}\" xmlUrl=\"{ol_xmlUrl}\" htmlUrl=\"{ol_htmlUrl}\" text=\"{ol_text}\" description=\"{ol_description}\" />")
+        #st.append(f"    <outline type=\"{ol_type}\" version=\"{ol_version}\" language=\"{ol_language}\" xmlUrl=\"{ol_xmlUrl}\" htmlUrl=\"{ol_htmlUrl}\" text=\"{ol_text}\" description=\"{ol_description}\" />")
 
-      st.append(f"  </body>")
-      st.append(f"</opml>")
+        outline = etree.Element("outline")
+        outline.set("type", str(ol_type))
+        outline.set("version", str(ol_version))
+        outline.set("language", str(ol_language))
+        outline.set("xmlUrl", str(ol_xmlUrl))
+        outline.set("htmlUrl", str(ol_htmlUrl))
+        outline.set("text", str(ol_text))
+        outline.set("description", str(ol_description))
+        body.append(outline)
 
-      rendered = "\n".join(st)
+      #st.append(f"  </body>")
+      #st.append(f"</opml>")
+
+      # Close body
+      opml.append(body)
+
+      opml_contents = etree.tostring(opml, pretty_print=True, xml_declaration=True, encoding='UTF-8').decode()
+
+      print(f"Wrote {opml_filename} ..")
+      #rendered = "\n".join(st)
 
       if not os.path.exists(opml_fullpath):
-        writeFile(opml_fullpath, rendered)
+        writeOPML(opml_fullpath, opml_contents)
       else:
         os.remove(opml_fullpath)
-        writeFile(opml_fullpath, rendered)
+        writeOPML(opml_fullpath, opml_contents)
 
 
 def main():
