@@ -189,9 +189,9 @@ MirrorOPML "http://www.cbc.ca/podcasts.opml" "cbc-ca-podcasts.opml"
 
 #MirrorOPML "http://edition.cnn.com/services/podcasting/CNN.opml" "cnn-edition.opml"
 
-MirrorOPML "http://www.bbc.co.uk/podcasts.opml" "bbc-co-uk-podcasts.opml"
-MirrorOPML "http://news.bbc.co.uk/rss/feeds.opml" "bbc-co-uk-news-rss-feeds.opml"
-MirrorOPML "https://podcasts.files.bbci.co.uk/podcasts.opml" "bbci-co-uk-podcasts.opml"
+#MirrorOPML "http://www.bbc.co.uk/podcasts.opml" "bbc-co-uk-podcasts.opml"
+#MirrorOPML "http://news.bbc.co.uk/rss/feeds.opml" "bbc-co-uk-news-rss-feeds.opml"
+#MirrorOPML "https://podcasts.files.bbci.co.uk/podcasts.opml" "bbci-co-uk-podcasts.opml"
 
 MirrorOPML "http://www.gigadial.net/public/opml/" "gigadial-pod.opml"
 
