@@ -339,4 +339,4 @@ MirrorOPML "https://podnews.net/opml/publisher-podcast-awards-2025" "podnews-net
 MirrorOPML "https://podnews.net/opml/podcast-radio-business" "podnews-net-podcast-radio-business.opml"
 MirrorOPML "https://podnews.net/opml/webby-awards-2025-2" "podnews-net-webby-awards-2025.opml"
 MirrorOPML "https://podnews.net/opml/apple-best-so-far-aug-2025" "podnews-net-apple-best-so-far-aug-2025.opml"
-
+MirrorOPML "https://podnews.net/opml/british-podcast-awards" "podnews-net-british-podcast-awards.opml"
