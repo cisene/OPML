@@ -276,6 +276,8 @@ def main():
       if process_quiet == False:
         print(f"Deleted file {filepath_input} after processing")
 
+  print("")
+
 if __name__ == '__main__':
   main()
 
