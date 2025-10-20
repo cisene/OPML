@@ -259,10 +259,16 @@ def main():
     if process_quiet == False:
       print(f"Re-rendered contents")
 
-    writeOPML(filepath_output, filecontents_output)
+    if filecontents_output != None:
+      if len(filecontents_output) > 0:
+        writeOPML(filepath_output, filecontents_output)
 
-    if process_quiet == False:
-      print(f"Wrote {len(filecontents_output)} bytes to '{filepath_output}'")
+      if process_quiet == False:
+        print(f"Wrote {len(filecontents_output)} bytes to '{filepath_output}'")
+
+    else:
+      if process_quiet == False:
+        print(f"Zero length result")
 
     if file_delete == True:
       os.unlink(filepath_input)
