@@ -123,12 +123,49 @@ def transform(contents):
     r"\x2fcgi\x2dsys\x2fsuspendedpage\x2ecgi$",
   ]
 
-  if data.findall('.//body/outline/outline'):
-    output_body = etree.Element("body")
-    print("depth")
+  output_body = etree.Element("body")
 
+  if data.findall('.//body/outline/outline'):
+
+    output_outline = etree.Element("outline")
+
+    for base_outline in data.findall('.//body/outline/outline'):
+
+      xmlUrl = base_outline.get('xmlUrl')
+      if xmlUrl != None:
+
+        skip_this = False
+        for skipli in skip_links:
+          if re.search(skipli, str(xmlUrl), flags=re.IGNORECASE):
+            skip_this = True
+
+        if str(xmlUrl) not in xmlUrls and skip_this == False:
+          outline = etree.Element("outline")
+          xmlUrls.append(str(xmlUrl))
+
+          for attr in outline_attr:
+            if(
+              base_outline.get(attr) != None
+            and
+              not re.search(r"^None$", base_outline.get(attr), flags=re.IGNORECASE)
+            ):
+              outline.set(attr, str(base_outline.get(attr)))
+
+              # if attribute version is not set but attribute type are 'rss', set version to ''
+              if base_outline.get('type') == 'rss':
+                if base_outline.get('version') == None:
+                  outline.set('version', "RSS2")
+
+              # If attribute title is not set but are set in attribute text, copy
+              if base_outline.get('text') != None and base_outline.get('title') == None:
+                outline.set('title', str(base_outline.get('text')))
+                if output_version != "2.0":
+                  output_version = "2.0"
+
+          output_outline.append(outline)
+
+    output_body.append(output_outline)
   else:
-    output_body = etree.Element("body")
     for base_outline in data.findall('.//body/outline'):
 
       xmlUrl = base_outline.get('xmlUrl')
