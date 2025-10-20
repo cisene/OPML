@@ -182,7 +182,7 @@ function MirrorOPML {
 
 
   #delint "$2"
-  python3 ../python/rerender-opml.py -in "temp.opml" -out "$2" -d
+  python3 scripts/python/rerender-opml.py -in "temp.opml" -out "$2" -d
   #addMirrorTag "$1" "$2"
   #removeTemp
 }
