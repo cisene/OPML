@@ -180,9 +180,10 @@ function MirrorOPML {
 
   #fixCharacters "temp.opml" "$2"
 
-  delint "$2"
-  addMirrorTag "$1" "$2"
-  removeTemp
+  #delint "$2"
+  python3 scripts/python/rerender-opml.py -in "temp.opml" -out "$2" -d
+  #addMirrorTag "$1" "$2"
+  #removeTemp
 }
 
 MirrorOPML "https://player.fm/en/featured/3d-printing.opml" "player-fm-en-featured-3d-printing.opml"

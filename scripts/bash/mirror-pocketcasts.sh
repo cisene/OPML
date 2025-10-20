@@ -180,9 +180,10 @@ function MirrorOPML {
 
   #fixCharacters "temp.opml" "$2"
 
-  delint "$2"
-  addMirrorTag "$1" "$2"
-  removeTemp
+  #delint "$2"
+  python3 scripts/python/rerender-opml.py -in "temp.opml" -out "$2" -d
+  #addMirrorTag "$1" "$2"
+  #removeTemp
 }
 
 MirrorOPML "https://lists.pocketcasts.com/0052a17c-cb64-413f-8582-68cacbab641e.opml" "pocketcasts-com-0052a17c-cb64-413f-8582-68cacbab641e.opml"
