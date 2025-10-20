@@ -40,7 +40,7 @@ def writeFile(fullpath, contents):
     f.write(contents)
 
 def transform(contents):
-  #print(contents)
+  data = None
   try:
     data = ET.fromstring(contents.encode("utf-8"))
 
@@ -52,6 +52,9 @@ def transform(contents):
 
   except:
     pass
+
+  if data == None:
+    return None
 
   # Read version from input
   output_version = None
