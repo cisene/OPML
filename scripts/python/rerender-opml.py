@@ -53,8 +53,6 @@ def transform(contents):
   except:
     pass
 
-  #print(data.version)
-
   # Read version from input
   output_version = None
   for v in data.findall('./[@version]'):
@@ -133,36 +131,38 @@ def transform(contents):
     output_body = etree.Element("body")
     for base_outline in data.findall('.//body/outline'):
 
-      skip_this = False
-      for skipli in skip_links:
-        if re.search(skipli, base_outline.get('xmlUrl'), flags=re.IGNORECASE):
-          skip_this = True
+      xmlUrl = base_outline.get('xmlUrl')
+      if xmlUrl != None:
 
-      if str(base_outline.get('xmlUrl')) not in xmlUrls and skip_this == False:
-        outline = etree.Element("outline")
-        xmlUrls.append(str(base_outline.get('xmlUrl')))
+        skip_this = False
+        for skipli in skip_links:
+          if re.search(skipli, str(xmlUrl), flags=re.IGNORECASE):
+            skip_this = True
 
-        for attr in outline_attr:
-          #print(f"{attr} : '{base_outline.get(attr)}'")
-          if(
-            base_outline.get(attr) != None
-          and
-            not re.search(r"^None$", base_outline.get(attr), flags=re.IGNORECASE)
-          ):
-            outline.set(attr, str(base_outline.get(attr)))
+        if str(xmlUrl) not in xmlUrls and skip_this == False:
+          outline = etree.Element("outline")
+          xmlUrls.append(str(xmlUrl))
 
-            # if attribute version is not set but attribute type are 'rss', set version to ''
-            if base_outline.get('type') == 'rss':
-              if base_outline.get('version') == None:
-                outline.set('version', "RSS2")
+          for attr in outline_attr:
+            if(
+              base_outline.get(attr) != None
+            and
+              not re.search(r"^None$", base_outline.get(attr), flags=re.IGNORECASE)
+            ):
+              outline.set(attr, str(base_outline.get(attr)))
 
-            # If attribute title is not set but are set in attribute text, copy
-            if base_outline.get('text') != None and base_outline.get('title') == None:
-              outline.set('title', str(base_outline.get('text')))
-              if output_version != "2.0":
-                output_version = "2.0"
+              # if attribute version is not set but attribute type are 'rss', set version to ''
+              if base_outline.get('type') == 'rss':
+                if base_outline.get('version') == None:
+                  outline.set('version', "RSS2")
 
-        output_body.append(outline)
+              # If attribute title is not set but are set in attribute text, copy
+              if base_outline.get('text') != None and base_outline.get('title') == None:
+                outline.set('title', str(base_outline.get('text')))
+                if output_version != "2.0":
+                  output_version = "2.0"
+
+          output_body.append(outline)
 
   output.append(output_body)
 
@@ -170,12 +170,9 @@ def transform(contents):
     output.set("version", str(output_version))
 
   opml_contents = etree.tostring(output, pretty_print=True, xml_declaration=True, encoding='UTF-8').decode()
-  #print(opml_contents)
   return opml_contents
 
 def main():
-
-  #print(sys.argv)
 
   parser = argparse.ArgumentParser(
     prog='rerender-opml',
