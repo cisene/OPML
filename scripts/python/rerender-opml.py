@@ -115,7 +115,7 @@ def transform(contents):
     'language',
     'text',
     'title',
-    'xmlUrl',
+    #'xmlUrl',
     'htmlUrl',
     'created',
     'modified',
@@ -170,6 +170,8 @@ def transform(contents):
                 if output_version != "2.0":
                   output_version = "2.0"
 
+              outline.set('xmlUrl', str(xmlUrl))
+
           output_outline.append(outline)
 
     output_body.append(output_outline)
@@ -211,6 +213,9 @@ def transform(contents):
                 outline.set('title', str(base_outline.get('text')))
                 if output_version != "2.0":
                   output_version = "2.0"
+
+              outline.set('xmlUrl', str(xmlUrl))
+
 
           output_body.append(outline)
 
