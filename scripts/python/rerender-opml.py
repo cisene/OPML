@@ -135,6 +135,11 @@ def transform(contents):
     for base_outline in data.findall('.//body/outline/outline'):
 
       xmlUrl = base_outline.get('xmlUrl')
+      url = base_outline.get('url')
+
+      if (xmlUrl == None or len(xmlUrl) < 1) and (url != None and len(url) > 1):
+        xmlUrl = url
+
       if xmlUrl != None:
 
         skip_this = False
@@ -172,6 +177,11 @@ def transform(contents):
     for base_outline in data.findall('.//body/outline'):
 
       xmlUrl = base_outline.get('xmlUrl')
+      url = base_outline.get('url')
+
+      if (xmlUrl == None or len(xmlUrl) < 1) and (url != None and len(url) > 1):
+        xmlUrl = url
+
       if xmlUrl != None:
 
         skip_this = False
