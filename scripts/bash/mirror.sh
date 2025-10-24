@@ -189,21 +189,11 @@ function MirrorOPML {
 
 MirrorOPML "http://www.cbc.ca/podcasts.opml" "cbc-ca-podcasts.opml"
 
-#MirrorOPML "http://edition.cnn.com/services/podcasting/CNN.opml" "cnn-edition.opml"
-
-#MirrorOPML "http://www.bbc.co.uk/podcasts.opml" "bbc-co-uk-podcasts.opml"
-#MirrorOPML "http://news.bbc.co.uk/rss/feeds.opml" "bbc-co-uk-news-rss-feeds.opml"
-#MirrorOPML "https://podcasts.files.bbci.co.uk/podcasts.opml" "bbci-co-uk-podcasts.opml"
-
 MirrorOPML "http://www.gigadial.net/public/opml/" "gigadial-pod.opml"
 
 MirrorOPML "https://www.rtl.fr/podcasts.opml" "rtl-fr-podcasts.opml"
 
 MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
-
-#MirrorOPML "https://www.ibm.com/ibm/syndication/podcasts/us/en/index.opml" "ibm-podcasts.opml"
-
-#MirrorOPML "https://stats.podcastindex.org/v4vmusic.opml" "podcastindex-org-value4value-music.opml"
 
 MirrorOPML "https://feeds.twit.tv/twitfeeds.opml" "twit-tv-twitfeeds.opml"
 MirrorOPML "https://feeds.twit.tv/twitshows.opml" "twit-tv-twitshows.opml"
@@ -228,7 +218,6 @@ MirrorOPML "http://rasterweb.net/raster/feeds/wisconsin.opml" "rasterweb-net-wis
 MirrorOPML "http://rss.sina.com.cn/sina_all_opml.xml" "sina-com-cn-all.opml"
 MirrorOPML "http://www.marshallk.com/politicalaudio.aspx.xml" "marshalls-politicalaudio.opml"
 MirrorOPML "https://ainali.com/listening/feed.opml" "ainali-listening.opml"
-#MirrorOPML "https://chillr.de/wp-content/uploads/Podcast20150707.opml" "chillr-de-podcast20150707.opml"
 MirrorOPML "https://chrisabraham.com/opml/at_download/file" "chrisabreaham.opml"
 MirrorOPML "https://dave.sobr.org/enc/1662343807.433_polishpodcastdirectoryopml.xml" "podkasty-info-katalog-podkastow.opml"
 MirrorOPML "https://dhruv-sharma.ovh/files/podcasts.opml" "dhruv-sharma.opml"
@@ -251,9 +240,7 @@ MirrorOPML "https://fyyd.de/user/dirkprimbs/collection/podcastpodcasts/opml" "fy
 MirrorOPML "https://fyyd.de/user/eazy/collection/morning-podcast/opml" "fyyd-de-eazy-morning-podcast.opml"
 MirrorOPML "https://fyyd.de/user/eazy/collection/us-daily/opml" "fyyd-de-eazy-us-daily.opml"
 MirrorOPML "https://fyyd.de/user/emolotow/collection/f361eea6f2288b3b565324885c91290a/opml" "fyyd-de-emoltow-collection.opml"
-#MirrorOPML "https://fyyd.de/user/ferdicharms/collection/868d2e0900e4005aef08b7ca76f1057c/opml" "fyyd-de-ferdicharms-podcast-episoden.opml"
 MirrorOPML "https://fyyd.de/user/garneleh/collection/audiospass-fuer-kids-und-co/opml" "fyyd-de-garneleh-collection-audiospass-fuer-kids-und-co.opml"
-#MirrorOPML "https://fyyd.de/user/hoersuppe/collection/hoersuppe/opml" "fyyd-de-hoersuppe-hoersuppe.opml"
 MirrorOPML "https://fyyd.de/user/hoersuppe/collection/holgis-podcasts/opml" "fyyd-de-hoersuppe-holgis.opml"
 MirrorOPML "https://fyyd.de/user/iwmm/collection/77c5dd6f7db4444989918a5726b90255/opml" "fyyd-de-iwmm-soziale-arbeit.opml"
 MirrorOPML "https://fyyd.de/user/Maddin/collection/maddins-liebste-podcasts/opml" "fyyd-de-maddins-liebste-podcasts.opml"
@@ -261,8 +248,6 @@ MirrorOPML "https://fyyd.de/user/molldur/collection/echal23/opml" "fyyd-de-molld
 MirrorOPML "https://fyyd.de/user/palatinatemike/collection/4d2ca352af5091e2ee7863fa17f91f5e/opml" "fyyd-de-palatinatemike-meine-podcast-roll-12-2022.opml"
 MirrorOPML "https://fyyd.de/user/Podcastsumpf/collection/bc3b7767b3e4be2d6f129767808d9582/opml" "fyyd-de-im-podcastsumpf-die-auserwahlten.opml"
 MirrorOPML "https://fyyd.de/user/RikschaAndi/collection/1822f29e8fb27d595dacae3aa3366e7c/opml" "fyyd-de-sport-collection-for-rikschaandi.opml"
-#MirrorOPML "https://fyyd.de/user/shiller/collection/podstock2019/opml" "fyyd-de-shiller-podstock-2019.opml"
-#MirrorOPML "https://fyyd.de/user/thrommel/collection/71a74d21870cb8abc532b809ba36ca26/opml" "fyyd-de-thrommels-podcatcher.opml"
 
 MirrorOPML "https://gist.githubusercontent.com/2KAbhishek/2abf301bdb60c972457e5109fc99ed1c/raw/e13eeb8d821bdf2091e9fe0f46a5286bc3b2b19d/Podcasts.opml.xml" "2KAbhishek-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/abloch/8043591/raw/37344486529c74834fbc879955649b32bdb978ea/podcasts.opml" "abloch-podcasts.opml"
@@ -274,9 +259,7 @@ MirrorOPML "https://gist.githubusercontent.com/cledoux/1c1d0b772b275b4a23b26f71f
 MirrorOPML "https://gist.githubusercontent.com/coderabbi/e7a6b11971b52239ab676abf92517a79/raw/3dbaadf72ecc805d7ae7c771394d0dcfc3af39b4/coderabbi.opml" "coderabbi-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/DamianStanger/9606fcf3fb09cc0bd87f/raw/de6bbc5faf6a124e17a5567a7d7b96aafc84acfb/podcasts.opml" "damianstanger-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/empireshades/cfb7a0b0eb84ec90bf5dc99771a1f707/raw/f386cab2617f477c4eca2b397ed664b816855d24/my_podcasts.opml" "empireshades-podcasts.opml"
-#MirrorOPML "https://gist.githubusercontent.com/endorphin82/452ef97f91b5364b2e2b2efa52b5a9cf/raw/69ade652d225477e63d352c0626827e8bafe7f9d/podcasts.opml" "endorphine82-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/extratone/d63e7bb819eef1d5cb5991f83d6052d2/raw/09d0747fcbd51a7e9ab011a21cf8f3eecae7d603/podcasts.opml" "extratone-podcasts.opml"
-#MirrorOPML "https://gist.githubusercontent.com/fabienhinault/84ad5b0b791ab9aa97f149f9fe93a51a/raw/1ba2b314f106326772895e295b30312685ef294e/Podcasts.opml" "fabienhinault-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/farski/9340648/raw/628d0a962eaecc87504e7f77645f5ca542d76622/Podcasts.opml" "farski-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/fvonx/5cf40509f09bde1e8c35c5de239a9a0d/raw/74ae260357b71a4d76c342d5b3058c163616f4ca/podcasts.opml" "fvonx-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/GraemeF/7596315/raw/ebfe3357e26dc2f18af72f4947d9799df248bc34/Podcasts.opml" "graemef-podcasts.opml"
@@ -301,7 +284,6 @@ MirrorOPML "https://gist.githubusercontent.com/roytoo/eb8bd057385586b9cc30ce281a
 MirrorOPML "https://gist.githubusercontent.com/russellbeattie/5545671/raw/b2efdf05ec993780e7583d4d105a4a167c5e682e/google_reader_bundle_subs.opml" "russellbeattie-rss.opml"
 MirrorOPML "https://gist.githubusercontent.com/staxmanade/8365463/raw/9721d3fcdbe366bffe50e1498c254187c2ad40d1/Podcasts.opml" "staxmanade-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/tatsumoto-ren/1df342d5270680f3c9dca078a93298a4/raw/d885f6c2f6ba11076f1e7b5c930472925e050304/podcasts.opml" "tatsumoto-ren-podcasts.opml"
-#MirrorOPML "https://gist.githubusercontent.com/tequreq/68352436e07207e2fda619b8088adc7f/raw/3507c7ee0f63cc61d1b43551863f22357fe49af1/ok.opml" "tequreq-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/thcipriani/80c4eba876b1fab1fd390919c2c84c5f/raw/158fde50f78b90c9b1598d1a24ee6ca53b8b0177/podcasts.opml" "thcipriani-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/thomasknoll/6f0f17e1ef72c0ead6fb/raw/f506afe769657a467b8791656fd5d035e1a08308/gistfile1.txt" "thomasknoll-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/whatrocks/916d0108280e2af24e56d174d51b7634/raw/b735763cebdb79ed2d267e4836e005954e4f7d20/podcast.opml" "whatrocks-podcasts.opml"
@@ -309,7 +291,6 @@ MirrorOPML "https://gist.githubusercontent.com/x2q/5128073/raw/c99195b7f5895f5f8
 MirrorOPML "https://gist.githubusercontent.com/yclian/2c6cf879ed8e1c285151ee6fc43362ab/raw/d73efad10d074460196b047e7be50c38b9391a32/overcast.opml" "yclian-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/yorkxin/aa3439ce64de0e8d6d533de994196fff/raw/1cbd92a60ce9066abbdb2490d3c9c28548d0c7e0/Podcasts.opml" "yorkxin-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/alekseysidorov/zizulja/master/feeds01.opml" "alekseysidorov-zizulja-podcasts.opml"
-#MirrorOPML "https://raw.githubusercontent.com/Blake-/cyber-security-podcasts/main/cyber-security-podcasts.opml" "blake-cyber-security-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/Cj-Malone/Linux-Podcasts/master/feeds.opml" "cj-malone-linux-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/corenominal/podcasts-opml/main/gnome-podcasts-exported-shows.opml" "corenominal-gnome-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/EngineeringKiosk/GermanTechPodcasts/main/podcasts.opml" "engineeringkiosk-germantechpodcasts-podcasts.opml"
@@ -321,9 +302,6 @@ MirrorOPML "https://raw.githubusercontent.com/Nogamara/blaugust-opml/master/outp
 MirrorOPML "https://raw.githubusercontent.com/nurkiewicz/nurkiewicz.com/master/src/overcast.opml" "nurkiewicz-com-overcast-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/OpenScienceRadio/Open-Science-Radio-Shownotes/master/OSR021/Auszug_Wissenschaftspodcasts_MFR_2014-06-03.opml" "openscienceradio-20140603-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/podcast-data-lab/podcast-data-generator/main/data/podcasts_opml.xml" "podcast-data-lab-podcasts.opml"
-#MirrorOPML "https://raw.githubusercontent.com/sonirico/podcastmanager/master/podcasts.opml" "sonirico-podcastmanager-podcasts.opml"
-#MirrorOPML "https://raw.githubusercontent.com/sonirico/podcastmanager/master/podcasts_old_20160116.opml" "sonirico-podcastmanager-podcasts-old-20160116.opml"
-#MirrorOPML "https://raw.githubusercontent.com/sonirico/podcastmanager/master/Radio%20Podcast.opml" "sonirico-podcastmanager-radio-podcast.opml"
 MirrorOPML "https://raw.githubusercontent.com/taext/powercasts/master/podcasts_opml.xml" "taext-powercasts-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/topgold/listening/master/fm.opml" "topgold-fm-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/truecrimereview/truecrimepodcasts/master/true_crime_podcasts.opml" "truecrimereview-true-crime-podcasts.opml"
