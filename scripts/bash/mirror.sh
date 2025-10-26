@@ -308,6 +308,7 @@ MirrorOPML "https://raw.githubusercontent.com/truecrimereview/truecrimepodcasts/
 MirrorOPML "https://raw.githubusercontent.com/vinhnx/podcasts/master/overcast.opml" "vinhnx-podcasts-overcast.opml"
 MirrorOPML "https://raw.githubusercontent.com/yasuharu519/opml/master/main.opml" "yasuhary519-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/zhufengme/Chinese-Podcasts/master/Podcasts.opml" "zhufengme-chinese-podcasts.opml"
+MirrorOPML "https://raw.githubusercontent.com/cisene/op-podcasts/refs/heads/main/op-podcasts.opml" "cisene-op-podcasts.opml"
 
 MirrorOPML "https://podnews.net/opml/edison-top-50-podcasts-us-q225" "podnews-net-edison-top-50-podcasts-us-q225.opml"
 MirrorOPML "https://podnews.net/opml/political-awards-2025" "podnews-net-political-awards-2025.opml"

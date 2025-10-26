@@ -120,6 +120,7 @@ def transform(contents):
     'created',
     'modified',
     'description',
+    'imageUrl',
   ]
 
   skip_links = [
