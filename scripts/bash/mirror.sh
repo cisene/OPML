@@ -193,7 +193,7 @@ MirrorOPML "http://www.gigadial.net/public/opml/" "gigadial-pod.opml"
 
 MirrorOPML "https://www.rtl.fr/podcasts.opml" "rtl-fr-podcasts.opml"
 
-MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
+#MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
 
 MirrorOPML "https://feeds.twit.tv/twitfeeds.opml" "twit-tv-twitfeeds.opml"
 MirrorOPML "https://feeds.twit.tv/twitshows.opml" "twit-tv-twitshows.opml"
@@ -229,7 +229,7 @@ MirrorOPML "https://redecentralize.org/redigest/2022/kthxbye/redigest_feed_recom
 MirrorOPML "https://soenke-scharnhorst.de/files/overcast.opml" "soenke-scharnhorst-overcast.opml"
 MirrorOPML "https://typlog.com/podlist/opml.xml" "typlog-pod.opml"
 MirrorOPML "https://welcometochina.com.au/wp-content/uploads/china-podcasts.opml" "welcomtochina-china-podcasts.opml"
-MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
+#MirrorOPML "https://www.apapodcast.cz/podcast.opml" "apapodcast-cz-podcast.opml"
 MirrorOPML "https://www.apreche.net/~apreche/podcasts.opml" "apreche-podcasts.opml"
 MirrorOPML "https://www.ironnysh.com/assets/podcasts-subs.opml" "ironnysh-com-podcasts-subs.opml"
 
