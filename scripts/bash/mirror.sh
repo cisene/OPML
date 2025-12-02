@@ -189,7 +189,7 @@ function MirrorOPML {
 
 MirrorOPML "http://www.cbc.ca/podcasts.opml" "cbc-ca-podcasts.opml"
 
-MirrorOPML "http://www.gigadial.net/public/opml/" "gigadial-pod.opml"
+#MirrorOPML "http://www.gigadial.net/public/opml/" "gigadial-pod.opml"
 
 MirrorOPML "https://www.rtl.fr/podcasts.opml" "rtl-fr-podcasts.opml"
 
@@ -249,7 +249,7 @@ MirrorOPML "https://fyyd.de/user/palatinatemike/collection/4d2ca352af5091e2ee786
 MirrorOPML "https://fyyd.de/user/Podcastsumpf/collection/bc3b7767b3e4be2d6f129767808d9582/opml" "fyyd-de-im-podcastsumpf-die-auserwahlten.opml"
 MirrorOPML "https://fyyd.de/user/RikschaAndi/collection/1822f29e8fb27d595dacae3aa3366e7c/opml" "fyyd-de-sport-collection-for-rikschaandi.opml"
 
-MirrorOPML "https://gist.githubusercontent.com/2KAbhishek/2abf301bdb60c972457e5109fc99ed1c/raw/e13eeb8d821bdf2091e9fe0f46a5286bc3b2b19d/Podcasts.opml.xml" "2KAbhishek-podcasts.opml"
+#MirrorOPML "https://gist.githubusercontent.com/2KAbhishek/2abf301bdb60c972457e5109fc99ed1c/raw/e13eeb8d821bdf2091e9fe0f46a5286bc3b2b19d/Podcasts.opml.xml" "2KAbhishek-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/abloch/8043591/raw/37344486529c74834fbc879955649b32bdb978ea/podcasts.opml" "abloch-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/aerosol/c3ec8ab5dddb736758762119af8da6db/raw/3ca23f92cb3b3cabeb73955f7c09f4d39ba3e6c8/podcasts.opml" "aerosol-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/barrieselack/6164714/raw/8eefb665b812c8bffee881ea4604a5991c7d4823/podcasts.opml" "barrieselack-podcasts.opml"
