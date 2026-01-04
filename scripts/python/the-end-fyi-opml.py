@@ -32,7 +32,7 @@ BASE_URL = 'https://www.theend.fyi'
 OPML_OWNER_NAME  = 'The End'
 OPML_OWNER_EMAIL = 'updates@theend.fyi'
 
-CACHE_JSON = '../cache-links.json'
+CACHE_JSON = '../../cache-links.json'
 
 
 global DEBUG
@@ -296,7 +296,7 @@ def main():
     if "outlines" not in collection:
       collection['outlines'] = []
 
-    for show in sorted(collection['shows']):
+    for show in collection['shows']:
       
       if show in cache_links:
         podcast = cache_links[show]
@@ -315,7 +315,7 @@ def main():
 
     #exit(0)
 
-  cacheSave(CACHE_JSON, cache_links)
+  cacheSave(CACHE_JSON, sorted(cache_links))
 
   print("Done!")
 
