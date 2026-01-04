@@ -273,7 +273,8 @@ def main():
     filecontents_output = transform(filecontents_input)
 
     if process_quiet == False:
-      print(f"Re-rendered contents")
+      #print(f"Re-rendered contents")
+      pass
 
     if filecontents_output != None:
       if len(filecontents_output) > 0:
@@ -290,7 +291,8 @@ def main():
       os.unlink(filepath_input)
 
       if process_quiet == False:
-        print(f"Deleted file {filepath_input} after processing")
+        #print(f"Deleted file {filepath_input} after processing")
+        pass
 
   print("")
 
