@@ -41,14 +41,37 @@ global SESS
 global cache_links
 
 def cacheLoad(filepath):
+  data = None
   contents = None
-  with open(filepath, "r") as f:
-    contents = f.read()
-  return contents
+  if os.path.isfile(filepath):
+    fp = None
+    try:
+      fp = open(filepath)
+      contents = fp.read()
+      fp.close()
+    finally:
+      pass
+
+  if contents != None:
+    data = json.loads(contents)
+
+  return data
 
 def cacheSave(filepath, contents):
+  s = json.dumps(
+    contents,
+    skipkeys=False,
+    ensure_ascii=True,
+    check_circular=True,
+    allow_nan=True,
+    cls=None,
+    indent=2,
+    separators=None,
+    default=None,
+    sort_keys=False
+  )
   with open(filepath, "w") as f:
-    f.write(contents)
+    f.write(s)
 
 def stringFullTrim(data):
   data = re.sub(r"^\s{1,}", "", str(data), flags=re.IGNORECASE)
@@ -292,7 +315,7 @@ def main():
 
     #exit(0)
 
-  cacheSave(CACHE_JSON, json.dumps(cache_links))
+  cacheSave(CACHE_JSON, cache_links)
 
   print("Done!")
 
