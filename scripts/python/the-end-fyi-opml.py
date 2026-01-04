@@ -6,7 +6,7 @@ import sys
 import re
 #import time
 #import yaml
-#import json
+import json
 import requests
 import io
 import yaml
@@ -32,9 +32,23 @@ BASE_URL = 'https://www.theend.fyi'
 OPML_OWNER_NAME  = 'The End'
 OPML_OWNER_EMAIL = 'updates@theend.fyi'
 
+CACHE_JSON = '../cache-links.json'
+
+
 global DEBUG
 global SESS
 
+global cache_links
+
+def cacheLoad(filepath):
+  contents = None
+  with open(filepath, "r") as f:
+    contents = f.read()
+  return contents
+
+def cacheSave(filepath, contents):
+  with open(filepath, "w") as f:
+    f.write(contents)
 
 def stringFullTrim(data):
   data = re.sub(r"^\s{1,}", "", str(data), flags=re.IGNORECASE)
@@ -144,6 +158,8 @@ def buildOPML(collection):
 
 
 def scrapeShows(url):
+  global cache_links
+
   result = {}
   res = httpGET(url)
   if res.status_code == requests.codes.ok:
@@ -152,15 +168,11 @@ def scrapeShows(url):
 
     for h1 in soup.find_all('h1'):
       h1_text = stringFullTrim(h1.text)
-      if DEBUG == True:
-        print(f"\t\tFound header (h1) as '{h1_text}'")
       break
 
     for div in soup.find_all('div'):
       if div.has_attr('fs-copyclick-text'):
         div_text = stringFullTrim(div.text)
-        if DEBUG == True:
-          print(f"\t\tFound xmlURL: {div_text}")
         break
 
     for a in soup.find_all('a'):
@@ -169,8 +181,6 @@ def scrapeShows(url):
           a_class = a.get('class')
           if "link-block-31" in a_class:
             a_href = a.get('href')
-            if DEBUG == True:
-              print(f"\t\tFound htmlURL: {a_href}")
             break
 
     result = {
@@ -211,15 +221,11 @@ def scrapeCollections(url):
         if re.search(r"^https\x3a\x2f\x2fwww\x2etheend\x2efyi\x2fshows\x2f", str(a_href), flags=re.IGNORECASE):
           if str(a_href) not in collection['shows']:
             collection['shows'].append(str(a_href))
-            if DEBUG == True:
-              print(f"\tFound show link {a_href}")
 
         if re.search(r"^\x2fshows\x2f([a-z0-9\x25\x26\x2d]{1,})", str(a_href), flags=re.IGNORECASE):
           scrape_link = f"{BASE_URL}{a_href}"
           if str(scrape_link) not in collection['shows']:
             collection['shows'].append(str(scrape_link))
-            if DEBUG == True:
-              print(f"\tFound show link {scrape_link}")
 
   print(f"Found {len(collection['shows'])} Collection links ..\n")
   return collection
@@ -242,18 +248,22 @@ def scrapeIndex():
         scrape_link = f"{BASE_URL}{a_href}"
         if str(scrape_link) not in url_list:
           url_list.append(str(scrape_link))
-          if DEBUG == True:
-            print(f"\tFound Collection URL '{scrape_link}'")
 
   print(f"Found {len(url_list)} Collection links ..\n")
-  # Sort all extracted links to collections
   sorted(url_list)
   return url_list
 
 
 def main():
   global DEBUG
+  global cache_links
+
   DEBUG = True
+
+  cache_links = cacheLoad(CACHE_JSON)
+  if cache_links == None
+    cache_links = {}
+
   collections = scrapeIndex()
   time.sleep(5)
 
@@ -263,19 +273,25 @@ def main():
     if "outlines" not in collection:
       collection['outlines'] = []
 
-
     for show in sorted(collection['shows']):
-      podcast = scrapeShows(show)
+      if show in cache_links:
+        podcast = cache_links[show]
+      else:
+        podcast = scrapeShows(show)
+        if show not in cache_links:
+          cache_links[show] = podcast
+          
       if podcast != None:
         collection['outlines'].append(podcast)
 
-    #print(collection)
     opml = buildOPML(collection)
     if opml != None:
       opml_filename = f"../../{collection['filename']}"
       writeOPML(opml_filename, opml)
 
     #exit(0)
+
+  cacheSave(CACHE_JSON, json.dumps(cache_links))
 
   print("Done!")
 
