@@ -8,20 +8,18 @@ import re
 #import yaml
 #import json
 import requests
-#import time
 import io
 import yaml
 
 import os
 import sys
 import re
+import time
 
 from datetime import datetime
 
 from io import StringIO
-#from lxml import etree
 from lxml import etree
-#from xml.etree.ElementTree import XML, fromstring
 
 from bs4 import BeautifulSoup
 
@@ -31,7 +29,18 @@ from requests import Request, Session
 
 BASE_URL = 'https://www.theend.fyi'
 
+OPML_OWNER_NAME  = 'The End'
+OPML_OWNER_EMAIL = 'updates@theend.fyi'
+
+global DEBUG
 global SESS
+
+
+def stringFullTrim(data):
+  data = re.sub(r"^\s{1,}", "", str(data), flags=re.IGNORECASE)
+  data = re.sub(r"\s{1,}$", "", str(data), flags=re.IGNORECASE)
+  data = re.sub(r"\s{2,}", " ", str(data), flags=re.IGNORECASE)
+  return data
 
 def writeOPML(filepath, contents):
   s = "\n".join(contents) + "\n"
@@ -63,7 +72,7 @@ def httpGET(url):
   SESS = requests.Session()
 
   headers = {
-    'user-agent': 'OPML-scrape/#20250908 (@cisene@podcastindex.social)',
+    'user-agent': 'OPML-scrape/#20260104 (@cisene@podcastindex.social)',
   }
 
   SESS.headers = headers
@@ -72,108 +81,203 @@ def httpGET(url):
 
   return res
 
-def scrape():
+def buildOPML(collection):
+
+  # Create a new document
+  output = etree.Element("opml")
+
+  # Create head block
+  output_head = etree.Element("head")
+
+  output_title = etree.Element("title")
+  output_title.text = collection['title']
+  output_head.append(output_title)
+
+  output_url = etree.Element("url")
+  output_url.text = collection['link']
+  output_head.append(output_url)
+
+  #output_dateCreated = etree.Element("dateCreated")
+  #output_dateCreated.text = ""
+  #output_head.append(output_dateCreated)
+
+  #output_dateModified = etree.Element("dateModified")
+  #output_dateModified.text = ""
+  #output_head.append(output_dateModified)
+
+  output_ownerName = etree.Element("ownerName")
+  output_ownerName.text = OPML_OWNER_NAME
+  output_head.append(output_ownerName)
+
+  output_ownerEmail = etree.Element("ownerEmail")
+  output_ownerEmail.text = OPML_OWNER_EMAIL
+  output_head.append(output_ownerEmail)
+
+  output_ownerId = etree.Element("ownerId")
+  output_ownerId.text = "https://www.theend.fyi/creative/evo-terra"
+  output_head.append(output_ownerId)
+
+  # Close head block
+  output.append(output_head)
+
+  # Open body block
+  output_body = etree.Element("body")
+
+  for o in collection['outlines']:
+
+    output_body_outline = etree.Element("outline")
+    output_body_outline.set("type", "link")
+    output_body_outline.set("version", "RSS")
+
+    output_body_outline.set("title", o['title'])
+    output_body_outline.set("text", o['title'])
+    output_body_outline.set("htmlUrl", o['htmlUrl'])
+    output_body_outline.set("xmlUrl", o['xmlUrl'])
+
+    output_body.append(output_body_outline)
+
+  # Close body block
+  output.append(output_body)
+
+  opml_contents = etree.tostring(output, pretty_print=True, xml_declaration=True, encoding='UTF-8').decode()
+  return opml_contents
+
+
+def scrapeShows(url):
+  result = {}
+  res = httpGET(url)
+  if res.status_code == requests.codes.ok:
+    print(f"\tFetched '{url}' with status {res.status_code}")
+    soup = BeautifulSoup(res.text, "lxml")
+
+    for h1 in soup.find_all('h1'):
+      h1_text = stringFullTrim(h1.text)
+      if DEBUG == True:
+        print(f"\t\tFound header (h1) as '{h1_text}'")
+      break
+
+    for div in soup.find_all('div'):
+      if div.has_attr('fs-copyclick-text'):
+        div_text = stringFullTrim(div.text)
+        if DEBUG == True:
+          print(f"\t\tFound xmlURL: {div_text}")
+        break
+
+    for a in soup.find_all('a'):
+      if a.has_attr('class'):
+        if a.has_attr('target'):
+          a_class = a.get('class')
+          if "link-block-31" in a_class:
+            a_href = a.get('href')
+            if DEBUG == True:
+              print(f"\t\tFound htmlURL: {a_href}")
+            break
+
+    result = {
+      'text': str(h1_text),
+      'title': str(h1_text),
+      'htmlUrl': str(a_href),
+      'xmlUrl': str(div_text),
+    }
+
+  return result
+
+
+def scrapeCollections(url):
+  collection = {}
+  collection['title'] = None
+  collection['filename'] = None
+  collection['link'] = url
+  collection['shows'] = []
+  collection['outlines'] = []
+
+  res = httpGET(url)
+  if DEBUG == True:
+    print(f"Scraped collection at {url} with status {res.status_code}")
+
+  if res.status_code == requests.codes.ok:
+    soup = BeautifulSoup(res.text, "lxml")
+
+    for h1 in soup.find_all('h1'):
+      h1_text = stringFullTrim(h1.text)
+      collection['title'] = h1_text
+      collection['filename'] = makeOPMLfilename(h1_text)
+      break
+
+    for a in soup.find_all('a'):
+      a_href = a.get('href')
+      if a_href != "":
+        
+        if re.search(r"^https\x3a\x2f\x2fwww\x2etheend\x2efyi\x2fshows\x2f", str(a_href), flags=re.IGNORECASE):
+          if str(a_href) not in collection['shows']:
+            collection['shows'].append(str(a_href))
+            if DEBUG == True:
+              print(f"\tFound show link {a_href}")
+
+        if re.search(r"^\x2fshows\x2f([a-z0-9\x25\x26\x2d]{1,})", str(a_href), flags=re.IGNORECASE):
+          scrape_link = f"{BASE_URL}{a_href}"
+          if str(scrape_link) not in collection['shows']:
+            collection['shows'].append(str(scrape_link))
+            if DEBUG == True:
+              print(f"\tFound show link {scrape_link}")
+
+  print(f"Found {len(collection['shows'])} Collection links ..\n")
+  return collection
+
+def scrapeIndex():
   url_list = []
 
   # Get the index
   url = 'https://www.theend.fyi/collections'
   res = httpGET(url)
-  #print(res.text)
+  if DEBUG == True:
+    print(f"Fecthed Index page '{url}' with status {res.status_code}")
 
+  # Get the index
   if res.status_code == requests.codes.ok:
-    #print(res.status_code)
-
     soup = BeautifulSoup(res.text, "lxml")
-
     for a_link in soup.find_all('a'):
       a_href = a_link.get('href')
       if re.search(r"^\x2fcollection\x2f([a-z0-9\x2d]{1,})$", str(a_href), flags=re.IGNORECASE):
         scrape_link = f"{BASE_URL}{a_href}"
-        #print(scrape_link)
         if str(scrape_link) not in url_list:
           url_list.append(str(scrape_link))
-      else:
-        #print(f"Missed: '{a_href}'")
-        pass
+          if DEBUG == True:
+            print(f"\tFound Collection URL '{scrape_link}'")
 
+  print(f"Found {len(url_list)} Collection links ..\n")
+  # Sort all extracted links to collections
   sorted(url_list)
-  
-  for url in url_list:
-    print("")
-    print(url)
-    res = httpGET(url)
-
-    if res.status_code == requests.codes.ok:
-      #print(res.status_code)
-
-      # Open OPML
-      opml = etree.Element("opml", version = "1.0")
-
-      # Open Head
-      head = etree.SubElement(opml, "head")
-
-
-      # Drill html
-      soup = BeautifulSoup(res.text, "lxml")
-
-      # Find H1
-      for h1 in soup.find_all('h1'):
-        opml_title = h1.text
-
-      # Generate filename from title
-      opml_filename = makeOPMLfilename(opml_title)
-
-      # Handle Title
-      opml_title_text = f"RSS feeds for shows in the {opml_title} Collection on TheEnd.fyi"
-      title = etree.Element("title")
-      title.text = str(opml_title_text)
-      head.append(title)
-
-      opml.append(head)
-
-      body = etree.Element("body")
-
-      outline_outer = etree.Element("outline")
-      outline_outer.set("text", "Feeds")
-
-      # Get all links - RSS resources
-      for link in soup.find_all('link'):
-        link_href = link.get('href')
-        link_title = link.get('title')
-
-        if(
-          link_title != None
-        and
-          link_title not in ['RSS Feed', 'The latest articles published']
-        and
-          not re.search(r"^https\x3a\x2f\x2fwww\x2etheend\x2efyi", str(link_href), flags=re.IGNORECASE)
-        and
-          link_href != ""
-        and
-          link_href != None
-        ):
-          outline_inner = etree.Element("outline")
-          outline_inner.set("text", str(link_title))
-          outline_inner.set("title", str(link_title))
-          outline_inner.set("type", "rss")
-          outline_inner.set("xmlUrl", str(link_href))
-          outline_outer.append(outline_inner)
-
-      # Add outer outline to body
-      body.append(outline_outer)
-
-      # Close body
-      opml.append(body)
-
-      opml_contents = etree.tostring(opml, pretty_print=True, xml_declaration=True, encoding='UTF-8').decode()
-      writeOPML(f"./{opml_filename}", opml_contents)
-
-      print(f"Wrote {opml_filename} ..")
+  return url_list
 
 
 def main():
+  global DEBUG
+  DEBUG = True
+  collections = scrapeIndex()
+  time.sleep(5)
 
-  scrape()
+  for collection in collections:
+    collection = scrapeCollections(collection)
+
+    if "outlines" not in collection:
+      collection['outlines'] = []
+
+
+    for show in sorted(collection['shows']):
+      podcast = scrapeShows(show)
+      if podcast != None:
+        collection['outlines'].append(podcast)
+
+    #print(collection)
+    opml = buildOPML(collection)
+    if opml != None:
+      opml_filename = f"../../{collection['filename']}"
+      writeOPML(opml_filename, opml)
+
+    #exit(0)
+
+  print("Done!")
 
 
 
