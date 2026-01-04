@@ -250,7 +250,7 @@ def scrapeCollections(url):
           if str(scrape_link) not in collection['shows']:
             collection['shows'].append(str(scrape_link))
 
-  print(f"Found {len(collection['shows'])} Collection links ..\n")
+  print(f"Found {len(collection['shows'])} Show links ..\n")
   return collection
 
 def scrapeIndex():
@@ -288,7 +288,7 @@ def main():
     cache_links = {}
 
   collections = scrapeIndex()
-  time.sleep(5)
+  time.sleep(1)
 
   for collection in collections:
     collection = scrapeCollections(collection)
@@ -297,13 +297,15 @@ def main():
       collection['outlines'] = []
 
     for show in collection['shows']:
-      
-      if show in cache_links:
-        podcast = cache_links[show]
-      else:
-        podcast = scrapeShows(show)
-        if show not in cache_links:
-          cache_links[show] = podcast
+      podcast = None
+      if show != None:
+        if str(show) in cache_links:
+          podcast = cache_links[str(show)]
+          print(f"\tFetched '{show}' from cache")
+        else:
+          podcast = scrapeShows(show)
+          if str(show) not in cache_links:
+            cache_links[str(show)] = dict(podcast)
 
       if podcast != None:
         collection['outlines'].append(podcast)
@@ -312,11 +314,13 @@ def main():
     if opml != None:
       opml_filename = f"../../{collection['filename']}"
       writeOPML(opml_filename, opml)
-
+      print(f"Wrote {opml_filename}")
+      print("")
+      time.sleep(1)
     #exit(0)
 
-  cacheSave(CACHE_JSON, sorted(cache_links))
-
+  cacheSave(CACHE_JSON, cache_links)
+  print(f"Wrote {CACHE_JSON} ")
   print("Done!")
 
 
