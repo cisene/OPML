@@ -261,7 +261,7 @@ def main():
   DEBUG = True
 
   cache_links = cacheLoad(CACHE_JSON)
-  if cache_links == None
+  if cache_links == None:
     cache_links = {}
 
   collections = scrapeIndex()
@@ -274,13 +274,14 @@ def main():
       collection['outlines'] = []
 
     for show in sorted(collection['shows']):
+      
       if show in cache_links:
         podcast = cache_links[show]
       else:
         podcast = scrapeShows(show)
         if show not in cache_links:
           cache_links[show] = podcast
-          
+
       if podcast != None:
         collection['outlines'].append(podcast)
 
