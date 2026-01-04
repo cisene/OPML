@@ -31,6 +31,7 @@ BASE_URL = 'https://www.theend.fyi'
 
 OPML_OWNER_NAME  = 'The End'
 OPML_OWNER_EMAIL = 'updates@theend.fyi'
+OPML_TITLE_PREFIX = 'The End | Completed Audio Fiction Directory'
 
 CACHE_JSON = '../../cache-links.json'
 
@@ -233,7 +234,7 @@ def scrapeCollections(url):
 
     for h1 in soup.find_all('h1'):
       h1_text = stringFullTrim(h1.text)
-      collection['title'] = h1_text
+      collection['title'] = f"{OPML_TITLE_PREFIX} | {h1_text}"
       collection['filename'] = makeOPMLfilename(h1_text)
       break
 
