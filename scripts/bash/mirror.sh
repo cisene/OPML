@@ -209,7 +209,7 @@ MirrorOPML "http://ipodder.sourceforge.net/opml/ipodder.opml" "ipodder-sourcefor
 
 MirrorOPML "http://s3.amazonaws.com/radio2/communityReadingList.opml" "radio2-communityReadingList.opml"
 
-MirrorOPML "http://podcasts.divergence-fm.org/podcasts.opml" "divergence-fm-podcasts.opml"
+#MirrorOPML "http://podcasts.divergence-fm.org/podcasts.opml" "divergence-fm-podcasts.opml"
 
 #MirrorOPML "http://hosting.opml.org/petercook/CBC/podcasts/CanadaLive.opml" "petercook-cbc-podcasts-canadalive.opml"
 MirrorOPML "http://ladyofsituations.com/custom/people.opml" "ladyofsituations-custom-people.opml"
@@ -236,7 +236,7 @@ MirrorOPML "https://www.apreche.net/~apreche/podcasts.opml" "apreche-podcasts.op
 MirrorOPML "https://fyyd.de/user/altf4/collection/deutsch/opml" "fyyd-de-altf4-collection-deutsch.opml"
 MirrorOPML "https://fyyd.de/user/dirkprimbs/collection/azhempfehlungen/opml" "fyyd-de-dirkprimbs-empfehlungen-der-anerzaehlt-hoerer.opml"
 MirrorOPML "https://fyyd.de/user/dirkprimbs/collection/fotografiepodcasts/opml" "fyyd-de-dirkprimbs-collection-fotografiepodcasts.opml"
-MirrorOPML "https://fyyd.de/user/dirkprimbs/collection/podcastpodcasts/opml" "fyyd-de-dirkprimbs-collection-podcastpodcasts.opml"
+#MirrorOPML "https://fyyd.de/user/dirkprimbs/collection/podcastpodcasts/opml" "fyyd-de-dirkprimbs-collection-podcastpodcasts.opml"
 MirrorOPML "https://fyyd.de/user/eazy/collection/morning-podcast/opml" "fyyd-de-eazy-morning-podcast.opml"
 MirrorOPML "https://fyyd.de/user/eazy/collection/us-daily/opml" "fyyd-de-eazy-us-daily.opml"
 MirrorOPML "https://fyyd.de/user/emolotow/collection/f361eea6f2288b3b565324885c91290a/opml" "fyyd-de-emoltow-collection.opml"
@@ -271,7 +271,7 @@ MirrorOPML "https://gist.githubusercontent.com/jonschoning/6c3ad070f70bc55fe08b5
 MirrorOPML "https://gist.githubusercontent.com/kobusb/c48256a031ee8cadbdf26d6595d73eee/raw/7d855551365000f52a9da36bf75615b8698748fc/podcasts.opml" "kobusb-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/lerrua/399943/raw/76eb1921aabc492a36a0b8484de366053039c811/podcasts.opml" "lerrua-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/matoken/722ae6435e22fd8d7bd1/raw/249453df0f891e139690d873958cf04dec3bc046/podcast.opml" "matoken-podcasts.opml"
-MirrorOPML "https://gist.githubusercontent.com/mcepl/1699090/raw/8eefb665b812c8bffee881ea4604a5991c7d4823/podcasts.opml" "mcepl-podcasts.opml"
+#MirrorOPML "https://gist.githubusercontent.com/mcepl/1699090/raw/8eefb665b812c8bffee881ea4604a5991c7d4823/podcasts.opml" "mcepl-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/mrpnkt/2cea91307c6d9b96a68527d5841f8d38/raw/4f440ef8689a1ff08b93a6ddfba17086d3c2166d/security_podcasts.opml" "mrpnkt-security-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/OdinsHat/36855a2b4c76f8109428ba05e163e30e/raw/080b288682368dfc972ce2e4151c88393e9f37ae/castbox-opml-nov-19.xml" "OdinsHat-castbox-opml-nov-19-podcasts.opml"
 MirrorOPML "https://gist.githubusercontent.com/panuta/65902f092d4619fe0ed0/raw/354d75d67820869b321ceb0b8a791155c51483c7/gistfile1.txt" "panuta-podcasts.opml"

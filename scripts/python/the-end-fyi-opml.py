@@ -35,6 +35,7 @@ OPML_TITLE_PREFIX = 'The End | Completed Audio Fiction Directory'
 
 CACHE_JSON = '../../cache-links.json'
 
+# RSS feeds for shows in the Fictional & Alternative Histories Collection on TheEnd.fyi
 
 global DEBUG
 global SESS
