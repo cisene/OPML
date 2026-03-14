@@ -292,7 +292,7 @@ MirrorOPML "https://gist.githubusercontent.com/yclian/2c6cf879ed8e1c285151ee6fc4
 #MirrorOPML "https://gist.githubusercontent.com/yorkxin/aa3439ce64de0e8d6d533de994196fff/raw/1cbd92a60ce9066abbdb2490d3c9c28548d0c7e0/Podcasts.opml" "yorkxin-podcasts.opml"
 #MirrorOPML "https://raw.githubusercontent.com/alekseysidorov/zizulja/master/feeds01.opml" "alekseysidorov-zizulja-podcasts.opml"
 #MirrorOPML "https://raw.githubusercontent.com/Cj-Malone/Linux-Podcasts/master/feeds.opml" "cj-malone-linux-podcasts.opml"
-MirrorOPML "https://raw.githubusercontent.com/corenominal/podcasts-opml/main/gnome-podcasts-exported-shows.opml" "corenominal-gnome-podcasts.opml"
+#MirrorOPML "https://raw.githubusercontent.com/corenominal/podcasts-opml/main/gnome-podcasts-exported-shows.opml" "corenominal-gnome-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/EngineeringKiosk/GermanTechPodcasts/main/podcasts.opml" "engineeringkiosk-germantechpodcasts-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/ianbarton/podcasts/master/podcasts_opml.xml" "ianbarton-podcasts.opml"
 MirrorOPML "https://raw.githubusercontent.com/JonZeolla/InfoSec-Starter-Kit/master/podcasts.opml" "jonzeolla-infosec-starter-kit-podcasts.opml"
